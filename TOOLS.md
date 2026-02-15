@@ -27,5 +27,5 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 Add whatever helps you do your job. This is your cheat sheet.
 
 ## GitHub
-- Token: (stored securely, not in repo)
+- Credentials: /home/gerion/.openclaw/credentials/github.json
 
