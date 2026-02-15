@@ -11,6 +11,11 @@
 - **Servicios configurados:** Gmail, Google Drive, Google Calendar
 - Esta es la cuenta que debo usar cuando el usuario pida revisar "mi email", "mi drive", "mi calendario", etc.
 
+## GitHub
+
+- **Mi GitHub (animagerion):** https://github.com/animagerion/openclaw-workspace-test
+- **Tu GitHub (paduel):** https://github.com/paduel
+
 ## Gráficos Financieros (Comando "Fibo")
 
 - **Script:** `/home/gerion/.openclaw/workspace/fibo_chart.py`
