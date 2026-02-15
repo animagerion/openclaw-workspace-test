@@ -2,11 +2,11 @@
 
 *Learn about the person you're helping. Update this as you go.*
 
-- **Name:** 
-- **What to call them:** 
-- **Pronouns:** *(optional)*
-- **Timezone:** 
-- **Notes:** 
+- **Name: Paduel** 
+- **What to call them: Paduel** 
+- **Pronouns:** Él**
+- **Timezone: Madrid, España** 
+- **Notes: Usar texto en español de España, a menos que pida otra cosa** 
 
 ## Context
 
