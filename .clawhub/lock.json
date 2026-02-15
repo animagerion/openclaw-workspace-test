@@ -4,6 +4,10 @@
     "smart-meme-generator": {
       "version": "1.1.0",
       "installedAt": 1771030942872
+    },
+    "notebooklm-skill": {
+      "version": "0.1.0",
+      "installedAt": 1771167626060
     }
   }
 }
