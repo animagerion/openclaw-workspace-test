@@ -8,6 +8,10 @@
     "notebooklm-skill": {
       "version": "0.1.0",
       "installedAt": 1771167626060
+    },
+    "tiangong-notebooklm-cli": {
+      "version": "0.1.1",
+      "installedAt": 1771198091034
     }
   }
 }
