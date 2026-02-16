@@ -1,2 +1,27 @@
 /.openclaw/credentials/
 patchright/
+
+# Entornos virtuales y dependencias
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Archivos multimedia grandes
+*.mp3
+*.mp4
+*.wav
+*.mov
+*.avi
+
+# Recordings
+recordings/
+*.webm
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
