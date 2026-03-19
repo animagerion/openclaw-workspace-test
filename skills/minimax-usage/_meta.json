@@ -1,0 +1,7 @@
+{
+  "name": "minimax-usage",
+  "version": "1.0.0",
+  "description": "Consulta el uso de tokens del plan MiniMax en la ventana de 5 horas",
+  "author": "OpenClaw Workspace",
+  "created": "2026-03-19"
+}
