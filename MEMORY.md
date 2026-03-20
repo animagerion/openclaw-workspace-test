@@ -5,11 +5,13 @@
 - **Nombre:** Paduel
 - **Idioma:** Dirigirse siempre en español de España
 
-## Cuenta de Google
+## Cuenta de Google (Agente)
 
-- **Email principal:** animagerion@gmail.com
-- **Servicios configurados:** Gmail, Google Drive, Google Calendar
-- Esta es la cuenta que debo usar cuando el usuario pida revisar "mi email", "mi drive", "mi calendario", etc.
+- **Email:** animagerion@gmail.com
+- **Tipo:** Cuenta dedicada para el agente (NO es la cuenta personal de Paduel)
+- **Uso:** Es la cuenta que debo usar cuando Paduel diga "mi email", "mi drive", "mi calendario", etc.
+- **Credenciales gogcli:** Configuradas en ~/.config/gogcli/ y ~/.config/gog/
+- **Token guardado** con GOG_KEYRING_PASSWORD="gerion-gog-2026"
 
 ## GitHub
 
