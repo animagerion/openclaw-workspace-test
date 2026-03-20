@@ -29,3 +29,10 @@ Add whatever helps you do your job. This is your cheat sheet.
 ## GitHub
 - Credentials: /home/gerion/.openclaw/credentials/github.json
 
+## MiniMax Token Usage
+- Skill: `/home/gerion/.openclaw/workspace/skills/minimax-usage/`
+- Script: `check_usage.sh` - Consulta uso de tokens del plan MiniMax
+- Uso: `/home/gerion/.openclaw/workspace/skills/minimax-usage/check_usage.sh`
+- API key: Obtenida automáticamente de `auth-profiles.json`
+- Endpoint: `https://platform.minimax.io/v1/api/openplatform/coding_plan/remains`
+
