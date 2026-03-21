@@ -1,94 +1,88 @@
 ---
 name: catastro
-description: Consulta datos catastrales de España por dirección. Genera informe en Google Docs.
+description: Consulta datos catastrales de España por dirección usando la API oficial del Catastro. Genera informe en Google Docs.
 ---
 
 # Catastro CLI — Datos Catastrales de España
 
-Consulta información catastral de inmuebles usando la dirección.
+Consulta información catastral de inmuebles usando la **API oficial del Catastro** (ovc.catastro.meh.es).
 
 ## Ubicación
 
 CLI: `/home/gerion/.local/bin/catastro` (o `catastro` si ~/.local/bin está en PATH)
 Script: `/home/gerion/.openclaw/workspace/scripts/catastro_cli.py`
 
-## API Keys
-
-La API oficial del Catastro (SOAP) es compleja. Recomendamos **catastro-api.es** (API REST):
-- Web: https://catastro-api.es/
-- Registro gratuito con trial
-- API Key necesaria
-
 ## Uso del CLI
 
 ### Comando básico
 
 ```bash
-catastro <provincia> <municipio> <calle> [opciones]
+catastro <provincia> <municipio> <calle> [numero]
 ```
 
 ### Ejemplos
 
 ```bash
 # Consulta básica
-catastro Cadiz Rota "Calle Real"
+catastro Cadiz Rota "Marina" 1
+catastro Sevilla Sevilla "Plaza España" 5
 
-# Con número
-catastro Cadiz Rota "Calle Real" --numero 12
-
-# Completo
-catastro Cadiz Rota "Avenida de la Marina" -n 5 -b 1 -e A -p 2
-
-# Salida JSON
-catastro Sevilla Sevilla "Plaza España" -n 5 --json
+# Con tipo de vía específico (opcional)
+catastro Cadiz Rota "Marina" 1 --sigla CL
 ```
 
 ### Opciones
 
 | Opción | Descripción |
 |--------|-------------|
-| `-n, --numero` | Número de la vivienda |
-| `-b, --bloque` | Bloque o portal |
+| `<provincia>` | Nombre de la provincia |
+| `<municipio>` | Nombre del municipio |
+| `<calle>` | Nombre de la calle (sin tipo, ej "Marina", no "CL Marina") |
+| `[numero]` | Número del inmueble (opcional pero obligatorio si se especifica) |
+| `-s, --sigla` | Tipo de vía: CL (Calle), AV (Avenida), PZ (Plaza), CR (Carretera), etc. |
+| `-j, --json` | Salida en JSON |
+| `-b, --bloque` | Bloque |
 | `-e, --escalera` | Escalera |
 | `-p, --planta` | Planta |
 | `--puerta` | Puerta |
-| `-j, --json` | Salida en JSON |
-| `-k, --komens` | Mostrar comentarios adicionales |
 
-## API Keys
+## API Oficial
 
-Para usar la API de catastro-api.es:
+Usa los **Servicios Web Libres** del Catastro:
+- URL: `https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCallejero.asmx/`
+- **No requiere certificado ni API key**
+- **Gratuito** para datos no protegidos
+- Más info: https://www.catastro.hacienda.gob.es/ws/Webservices_Libres.pdf
 
-1. Regístrate en https://catastro-api.es/
-2. Obtén tu API Key
-3. Configura en TOOLS.md:
+## Datos que devuelve
 
-```
-## Catastro API
-- catastro-api.es API Key: <tu-key>
-```
+- Referencia Catastral
+- Dirección completa
+- Tipo de alta catastral
+- Localización (escalera, planta, puerta)
+- Superficie (m²)
 
-## Google Docs
+## Limitaciones
 
-Para generar informe en Google Docs:
+- **Datos protegidos** (titulares, valor catastral) requieren certificado digital o Cl@ve
+- Solo devuelve datos **no protegidos**
+- Para datos completos, usar la Sede Electrónica del Catastro con certificado
+
+## Ejemplo de uso con Google Docs
 
 ```python
-# Crear documento con datos catastrales
-gog docs create "Informe Catastral - <direccion>"
-gog docs write <doc_id> --file <fichero_markdown> --append
+# Generar informe catastral
+result = subprocess.run(['catastro', 'Cadiz', 'Rota', 'Marina', '1'], capture_output=True, text=True)
+informe = result.stdout
+
+# Subir a Google Docs
+gog docs create "Informe Catastral - Rota"
+gog docs write <doc_id> --file informe.md --append
 gog docs share <doc_id> --email paduel@gmail.com --role reader
 ```
 
-## Plataformas alternativas
-
-| Plataforma | Notas |
-|------------|-------|
-| **catastro-api.es** | REST, JSON, API Key, trial gratis |
-| **Goolzoom** | API REST para catastral |
-| **Oficial (SOAP)** | Compleja, requiere certificado digital |
-
 ## Notas
 
-- Sin API Key, el CLI muestra la dirección construida pero no puede consultar datos reales
-- Los servicios web oficiales requieren identificación digital (Cl@ve o certificado)
-- Algunas consultas están protegidas (datos de titulares requieren autorización)
+- El CLI determina automáticamente el tipo de vía consultando el callejero
+- Si la búsqueda falla, probar con `--sigla CL` (u otro tipo)
+- Los datos son de la Dirección General del Catastro (España)
