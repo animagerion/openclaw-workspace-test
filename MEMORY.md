@@ -24,6 +24,15 @@
 - **Mi GitHub (animagerion):** https://github.com/animagerion/openclaw-workspace-test
 - **Tu GitHub (paduel):** https://github.com/paduel
 
+## Catastro CLI
+
+- **CLI:** `/home/gerion/.local/bin/catastro`
+- **Skill:** `skills/catastro/SKILL.md`
+- **Uso:** `catastro <provincia> <municipio> <calle> [numero]`
+- **API:** Oficial del Catastro (ovc.catastro.meh.es) — gratuita, sin certificado
+- **Devuelve:** Referencia catastral, dirección, uso, superficie construida, año, distribución por plantas
+- **No devuelve:** Superficie del solar (campo `finca` no viene en producción)
+
 ## Gráficos Financieros (Comando "Fibo")
 
 - **Script:** `/home/gerion/.openclaw/workspace/fibo_chart.py`
