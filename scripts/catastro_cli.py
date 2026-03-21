@@ -136,11 +136,13 @@ def consultar_direccion(provincia, municipio, calle, numero=None, bloque=None, e
                     nv = dir_info.get('nv', '').upper()
                     if nv and (nv == nombre_via or nombre_via in nv or nv in nombre_via):
                         tipo_via = dir_info.get('tv', '')
+                        nombre_via = nv  # Usar el nombre completo de la calle
                         break
                     # También buscar sin el tipo (ej "MARINA" en "CL MARINA")
                     nombre_simple = nombre_via.replace('CL ', '').replace('AV ', '').replace('PZ ', '').replace('CR ', '')
                     if nombre_simple in nv or nv in nombre_simple:
                         tipo_via = dir_info.get('tv', '')
+                        nombre_via = nv  # Usar el nombre completo de la calle
                         break
             except:
                 pass
@@ -187,7 +189,27 @@ def formatear_resultado(datos):
     
     consulta = datos.get('consulta_dnp', {})
     control = consulta.get('control', {})
+    
+    # Handle different response structures
+    # Structure 1: Multiple results (lrcdnp.rcdnp)
+    # Structure 2: Single result with details (bico.bi)
     resultados = consulta.get('lrcdnp', {}).get('rcdnp', [])
+    
+    if not resultados:
+        # Try alternative structure (bico)
+        bico = consulta.get('bico', {})
+        if bico:
+            bi = bico.get('bi', {})
+            if bi:
+                resultados = [bi]
+        else:
+            # Check for error
+            lerr = consulta.get('lerr', {})
+            if lerr:
+                err = lerr.get('err', {})
+                if err:
+                    output.append(f"\nError del Catastro: {err.get('des', 'Desconocido')}")
+                    return "\n".join(output)
     
     if not resultados:
         output.append("\nNo se han encontrado resultados.")
@@ -202,48 +224,50 @@ def formatear_resultado(datos):
         resultados = [resultados]
     
     for i, inmueble in enumerate(resultados, 1):
-        rc = inmueble.get('rc', {})
+        # Handle two possible structures: idbi (from bico) and rc (from lrcdnp)
+        idbi = inmueble.get('idbi', {})
+        rc = idbi.get('rc', {}) if idbi else inmueble.get('rc', {})
         dt = inmueble.get('dt', {})
+        debi = inmueble.get('debi', {})
         
         # Reference cadastral
         ref_catastral = f"{rc.get('pc1', '')}{rc.get('pc2', '')}"
         output.append(f"--- Inmueble {i} ---")
-        output.append(f"  Referencia Catastral: {ref_catastral}")
+        if ref_catastral and ref_catastral != 'None':
+            output.append(f"  Referencia Catastral: {ref_catastral}")
         
-        # Location
-        nm = dt.get('nm', '')
-        np_ = dt.get('np', '')
-        locs = dt.get('locs', {})
+        # Full address
+        ldt = inmueble.get('ldt', '')
+        if ldt:
+            output.append(f"  Dirección completa: {ldt}")
+        else:
+            # Build from parts
+            nm = dt.get('nm', '')
+            np_ = dt.get('np', '')
+            locs = dt.get('locs', {})
+            
+            if isinstance(locs, dict):
+                lous = locs.get('lous', {})
+                if isinstance(lous, dict):
+                    ourb = lous.get('lourb', {})
+                    if isinstance(ourb, dict):
+                        dir_info = ourb.get('dir', {})
+                        tv = dir_info.get('tv', '')
+                        nv = dir_info.get('nv', '')
+                        pnp = dir_info.get('pnp', '')
+                        output.append(f"  Dirección: {tv} {nv}, {pnp}")
         
-        # Handle different location structures
-        if isinstance(locs, dict):
-            # Urban property
-            lous = locs.get('lous', {})
-            if isinstance(lous, dict):
-                ourb = lous.get('lourb', {})
-                if isinstance(ourb, dict):
-                    dir_info = ourb.get('dir', {})
-                    tv = dir_info.get('tv', '')
-                    nv = dir_info.get('nv', '')
-                    pnp = dir_info.get('pnp', '')
-                    snp = dir_info.get('snp', '')
-                    td = dir_info.get('td', '')
-                    
-                    output.append(f"  Dirección: {tv} {nv}, {pnp}")
-                    if td:
-                        output.append(f"  Tipo alta: {td}")
-                    
-                    loint = ourb.get('loint', {})
-                    if loint:
-                        es = loint.get('es', '')
-                        pt = loint.get('pt', '')
-                        pu = loint.get('pu', '')
-                        output.append(f"  Local: Esc={es}, Pt={pt}, Pu={pu}")
-                    
-                    dp = ourb.get('dp', '')
-                    dm = ourb.get('dm', '')
-                    if dp:
-                        output.append(f"  Superficie: {dp} m²")
+        # Use type
+        if debi:
+            uso = debi.get('luso', '')
+            if uso:
+                output.append(f"  Uso: {uso}")
+            sfc = debi.get('sfc', '')
+            if sfc:
+                output.append(f"  Superficie construida: {sfc} m²")
+            ant = debi.get('ant', '')
+            if ant:
+                output.append(f"  Año construcción: {ant}")
         
         output.append("")
     
