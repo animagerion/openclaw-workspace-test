@@ -1,93 +1,254 @@
 #!/usr/bin/env python3
 """
 CLI para consultar datos catastrales de España por dirección.
-Usa los servicios web oficiales de la Sede Electrónica del Catastro.
+Usa los servicios web oficiales de la Sede Electrónica del Catastro (ovc.catastro.meh.es)
 
 Uso:
-    catastro <direccion> [provincia]
-    catastro "Calle Real 12" Cadiz
-    catastro "Plaza España 5" "Sevilla"
+    catastro <provincia> <municipio> <calle> [numero]
+    catastro Cadiz Rota "Calle Marina" 1
 """
 
 import os
 import sys
 import argparse
 import requests
+import xmltodict
 import json
 from urllib.parse import quote
 
-BASE_URL = "https://www.sedecatastro.gob.es"
+BASE_URL = "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCallejero.asmx"
 
-def buscar_callejero(provincia, municipio, calle=None, numero=None):
+
+def listar_tipos_via():
+    """Lista los tipos de vía disponibles."""
+    return {
+        'CL': 'Calle',
+        'AV': 'Avenida',
+        'PZ': 'Plaza',
+        'CR': 'Carretera',
+        'CS': 'Camino',
+        'PS': 'Paseo',
+        'GL': 'Glorieta',
+        'BO': 'Bloque',
+        'UR': 'Urbanización',
+        'PQ': 'Parque',
+        'JG': 'Jardín',
+        'AP': 'Apartamentos',
+        'PJ': 'Pasaje',
+        'PO': 'Partido',
+        'DS': 'Diseminado',
+        'SN': 'Sin especificar',
+        'NC': 'Sin nombre catastral',
+        'VI': 'Vía',
+        'RE': 'Residencial',
+        'AU': 'Aurora',
+        'CI': 'Cinta',
+        'CO': 'Cuesta',
+        'CY': 'Cañada',
+        'CH': 'Chalet',
+        'ED': 'Edificio',
+        'EN': 'Entrada',
+        'ES': 'Estación',
+        'FC': 'Ferrocarril',
+        'GB': 'Glorieta',
+        'HY': 'Huerta',
+        'IS': 'Isla',
+        'LG': 'Largo',
+        'ML': 'Muelle',
+        'MZ': 'Manzana',
+        'OP': 'Operación',
+        'PR': 'Prolongación',
+        'PT': 'Portales',
+        'RB': 'Rambla',
+        'RD': 'Ronda',
+        'RZ': 'Raíz',
+        'SB': 'Subida',
+        'SD': 'Senda',
+        'SL': 'Solar',
+        'TN': 'Terreno',
+        'TR': 'Travesía',
+        'VB': 'Variante',
+    }
+
+
+def obtener_tipo_via(provincia, municipio, calle):
     """
-    Busca en el callejero catastral.
-    Returns dict con información de parcelas encontradas.
+    Obtiene el tipo de vía buscando en el callejero.
+    Returns dict con tipo_via y nombre_via normalizados.
     """
     params = {
-        'provincia': provincia.upper(),
-        'municipio': municipio.upper(),
-    }
-    if calle:
-        params['calle'] = calle
-    if numero:
-        params['numero'] = numero
-    
-    url = f"{BASE_URL}/calie/cyc/buscar/"
-    # This is a simplified approach - the actual API has complex SOAP/REST endpoints
-    
-    # Use the public CPV (Callejero de Pendientes Virtual)
-    # Alternative: use the direct webservice
-    return params
-
-def consultar_por_direccion(direccion, provincia=None, municipio=None):
-    """
-    Consulta datos catastrales usando la dirección proporcionada.
-    Usa el servicio de coordenadas y reference catastral.
-    """
-    # Clean address
-    direccion = direccion.strip()
-    
-    # Build query - try the simple search endpoint first
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (compatible; Gerion-CLI/1.0)',
-        'Accept': 'application/json, text/plain, */*',
+        'Provincia': provincia.upper(),
+        'Municipio': municipio.upper(),
+        'TipoVia': '',
+        'NombreVia': calle.upper() if calle else '',
     }
     
-    # Method 1: Use the SEC18 endpoint for address search
-    url = f"{BASE_URL}/SEC18/AccSecuenciaCriteriosBusqueda/BDCO/Portals/Paginas_Seccions/Descarga/ApartadoDescargas.aspx"
+    headers = {'User-Agent': 'Mozilla/5.0'}
     
-    # Method 2: Use the actual REST endpoint
-    # The catastro API uses a complex SOAP-based system
-    # For simplicity, we'll use a direct HTTP approach
+    url = f"{BASE_URL}/ConsultaVia"
     
+    try:
+        response = requests.get(url, params=params, headers=headers, timeout=15)
+        if response.status_code == 200:
+            data = xmltodict.parse(response.content, process_namespaces=False)
+            return data
+    except:
+        pass
     return None
 
-def consultar_rc(referencia_catastral):
+
+def consultar_direccion(provincia, municipio, calle, numero=None, bloque=None, escalera=None, planta=None, puerta=None, sigla=None):
     """
-    Consulta datos de una parcela por su referencia catastral.
+    Consulta datos catastrales por dirección usando la API oficial del Catastro.
+    
+    Args:
+        provincia: Nombre de la provincia (ej: CADIZ, SEVILLA)
+        municipio: Nombre del municipio (ej: ROTA, JEREZ)
+        calle: Nombre de la calle
+        numero: Número del inmueble (opcional)
+        bloque, escalera, planta, puerta: Datos adicionales
+        sigla: Tipo de vía (ej: CL, AV, PZ). Si no se especifica, se busca automáticamente.
+    
+    Returns:
+        dict con los datos catastrales
     """
-    # This would use the actual RC (Reference Catastral)
-    pass
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (compatible; Gerion-CLI/1.0)',
+        'Accept': 'application/xml',
+    }
+    
+    # Si no nos dan el tipo de vía, buscar en el callejero
+    tipo_via = sigla or ''
+    nombre_via = calle.upper()
+    
+    if not sigla:
+        # Buscar la calle para obtener el tipo de vía
+        resultado_busqueda = obtener_tipo_via(provincia, municipio, calle)
+        if resultado_busqueda:
+            try:
+                calles = resultado_busqueda.get('consulta_callejero', {}).get('callejero', {}).get('calle', [])
+                if isinstance(calles, dict):
+                    calles = [calles]
+                
+                # Buscar coincidencia exacta o parcial
+                for c in calles:
+                    dir_info = c.get('dir', {})
+                    nv = dir_info.get('nv', '').upper()
+                    if nv and (nv == nombre_via or nombre_via in nv or nv in nombre_via):
+                        tipo_via = dir_info.get('tv', '')
+                        break
+                    # También buscar sin el tipo (ej "MARINA" en "CL MARINA")
+                    nombre_simple = nombre_via.replace('CL ', '').replace('AV ', '').replace('PZ ', '').replace('CR ', '')
+                    if nombre_simple in nv or nv in nombre_simple:
+                        tipo_via = dir_info.get('tv', '')
+                        break
+            except:
+                pass
+    
+    params = {
+        'Provincia': provincia.upper(),
+        'Municipio': municipio.upper(),
+        'Sigla': tipo_via,
+        'Calle': nombre_via,
+        'Numero': str(numero) if numero else '',
+        'Bloque': bloque or '',
+        'Escalera': escalera or '',
+        'Planta': planta or '',
+        'Puerta': puerta or '',
+    }
+    
+    url = f"{BASE_URL}/Consulta_DNPLOC"
+    
+    try:
+        response = requests.get(url, params=params, headers=headers, timeout=30)
+        
+        if response.status_code == 200:
+            data = xmltodict.parse(response.content, process_namespaces=False)
+            return data
+        else:
+            return {'error': f'HTTP {response.status_code}', 'detail': response.text[:500]}
+            
+    except Exception as e:
+        return {'error': str(e)}
+
 
 def formatear_resultado(datos):
     """Formatea los datos catastrales para mostrar."""
     output = []
     output.append("=" * 60)
-    output.append("DATOS CATASTRALES")
+    output.append("CONSULTA CATASTRAL POR DIRECCIÓN")
     output.append("=" * 60)
     
-    if not datos:
-        return "\n".join(output) + "\n\nNo se han encontrado datos. Verifica la dirección."
+    if 'error' in datos:
+        output.append(f"\nERROR: {datos['error']}")
+        if 'detail' in datos:
+            output.append(f"Detalle: {datos['detail']}")
+        return "\n".join(output)
     
-    for key, value in datos.items():
-        if isinstance(value, dict):
-            output.append(f"\n{key}:")
-            for k, v in value.items():
-                output.append(f"  - {k}: {v}")
-        else:
-            output.append(f"{key}: {value}")
+    consulta = datos.get('consulta_dnp', {})
+    control = consulta.get('control', {})
+    resultados = consulta.get('lrcdnp', {}).get('rcdnp', [])
+    
+    if not resultados:
+        output.append("\nNo se han encontrado resultados.")
+        return "\n".join(output)
+    
+    num_resultados = control.get('cudnp', len(resultados))
+    output.append(f"\n Inmuebles encontrados: {num_resultados}")
+    output.append("")
+    
+    # Handle single result (dict) vs multiple results (list)
+    if isinstance(resultados, dict):
+        resultados = [resultados]
+    
+    for i, inmueble in enumerate(resultados, 1):
+        rc = inmueble.get('rc', {})
+        dt = inmueble.get('dt', {})
+        
+        # Reference cadastral
+        ref_catastral = f"{rc.get('pc1', '')}{rc.get('pc2', '')}"
+        output.append(f"--- Inmueble {i} ---")
+        output.append(f"  Referencia Catastral: {ref_catastral}")
+        
+        # Location
+        nm = dt.get('nm', '')
+        np_ = dt.get('np', '')
+        locs = dt.get('locs', {})
+        
+        # Handle different location structures
+        if isinstance(locs, dict):
+            # Urban property
+            lous = locs.get('lous', {})
+            if isinstance(lous, dict):
+                ourb = lous.get('lourb', {})
+                if isinstance(ourb, dict):
+                    dir_info = ourb.get('dir', {})
+                    tv = dir_info.get('tv', '')
+                    nv = dir_info.get('nv', '')
+                    pnp = dir_info.get('pnp', '')
+                    snp = dir_info.get('snp', '')
+                    td = dir_info.get('td', '')
+                    
+                    output.append(f"  Dirección: {tv} {nv}, {pnp}")
+                    if td:
+                        output.append(f"  Tipo alta: {td}")
+                    
+                    loint = ourb.get('loint', {})
+                    if loint:
+                        es = loint.get('es', '')
+                        pt = loint.get('pt', '')
+                        pu = loint.get('pu', '')
+                        output.append(f"  Local: Esc={es}, Pt={pt}, Pu={pu}")
+                    
+                    dp = ourb.get('dp', '')
+                    dm = ourb.get('dm', '')
+                    if dp:
+                        output.append(f"  Superficie: {dp} m²")
+        
+        output.append("")
     
     return "\n".join(output)
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -95,117 +256,47 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='''
 Ejemplos:
-  catastro "Calle Real 12" Cadiz Rota
-  catastro "Plaza España 5" Sevilla
-  catastro "Avenida de la Constitucion 1" Malaga
+  catastro Cadiz Rota "Calle Marina" 1
+  catastro Sevilla Sevilla "Plaza España" 5
+  catastro Malaga Malaga "Avenida de la Constitucion" 1
 
-Nota: Se necesita conexion a internet para consultar el catastro.
+Nota: Usa los servicios web oficiales del Catastro (ovc.catastro.meh.es)
         '''
     )
     
-    # Use nargs='+' for address parts so we can handle multi-word addresses
     parser.add_argument('provincia', help='Provincia (ej: Cadiz, Sevilla, Malaga)')
     parser.add_argument('municipio', help='Municipio (ej: Rota, Jerez, Sevilla)')
     parser.add_argument('calle', help='Nombre de la calle')
-    parser.add_argument('--numero', '-n', help='Número de la vivienda (opcional)')
-    parser.add_argument('--bloque', '-b', help='Bloque o portal (opcional)')
-    parser.add_argument('--escalera', '-e', help='Escalera (opcional)')
-    parser.add_argument('--planta', '-p', help='Planta (opcional)')
-    parser.add_argument('--puerta', help='Puerta (opcional)')
-    parser.add_argument('--komens', '-k', action='store_true', help='Muestra más detalles')
+    parser.add_argument('numero', nargs='?', help='Número de la vivienda')
+    parser.add_argument('--bloque', '-b', help='Bloque')
+    parser.add_argument('--escalera', '-e', help='Escalera')
+    parser.add_argument('--planta', '-p', help='Planta')
+    parser.add_argument('--puerta', help='Puerta')
+    parser.add_argument('--sigla', '-s', help='Tipo de via (CL, AV, PZ, CR, etc.)')
     parser.add_argument('--json', '-j', action='store_true', help='Salida en JSON')
     
     args = parser.parse_args()
     
-    # Build the address for query
-    direccion_parts = [args.calle]
-    if args.numero:
-        direccion_parts.append(f" {args.numero}")
-    if args.bloque:
-        direccion_parts.append(f" Bloque {args.bloque}")
-    if args.escalera:
-        direccion_parts.append(f" Esc {args.escalera}")
-    if args.planta:
-        direccion_parts.append(f" {args.planta}")
-    if args.puerta:
-        direccion_parts.append(f" {args.puerta}")
-    
-    direccion = "".join(direccion_parts).strip()
-    
-    print(f"Buscando: {direccion}")
+    print(f"Consultando: {args.calle} {args.numero or ''}")
     print(f"Municipio: {args.municipio}, {args.provincia}")
     print()
     
-    # Try the catastro search API
-    result = buscar_direccion_catastro(args.provincia, args.municipio, direccion)
+    datos = consultar_direccion(
+        args.provincia,
+        args.municipio,
+        args.calle,
+        args.numero,
+        args.bloque,
+        args.escalera,
+        args.planta,
+        args.puerta,
+        args.sigla
+    )
     
     if args.json:
-        print(json.dumps(result, indent=2, ensure_ascii=False))
+        print(json.dumps(datos, indent=2, ensure_ascii=False))
     else:
-        print(formatear_resultado(result))
-
-
-def buscar_direccion_catastro(provincia, municipio, direccion):
-    """
-    Busca una dirección en el catastro usando los servicios web.
-    """
-    try:
-        # Build the query for the catastro CPV (Callejero de Predios Virtual)
-        # URL encoding for the address
-        prov = provincia.upper()
-        mun = municipio.upper()
-        cal = direccion.upper()
-        
-        # The official endpoint uses a complex form-based search
-        # Let's try the REST-like endpoint
-        url = f"https://www.sedecatastro.gob.es/ACCESIBILIDAD/WS/BuscarCatastro.asmx/Provincia"
-        
-        # Try the actual CPV search endpoint
-        # Based on the official documentation
-        params = {
-            'Provincia': prov,
-            'Municipio': mun,
-            'NombreVia': cal,
-        }
-        
-        # Try the CPV service
-        try:
-            response = requests.get(
-                "https://www.catastro.hacienda.gob.es/ws/rest/servicios/callejero",
-                params=params,
-                headers={
-                    'Accept': 'application/json',
-                    'User-Agent': 'Gerion-CLI/1.0'
-                },
-                timeout=15
-            )
-            
-            if response.status_code == 200:
-                try:
-                    data = response.json()
-                    return data
-                except:
-                    # Try XML
-                    return {'raw': response.text[:1000]}
-        except Exception as e:
-            pass
-        
-        # Fallback: return basic info about what we searched
-        return {
-            'provincia': prov,
-            'municipio': mun,
-            'direccion_buscada': cal,
-            'nota': 'API directa no disponible. Usar la web del catastro para verificar.',
-            'enlace': f'https://www.sedecatastro.gob.es/calie/cyc/buscar/?provincia={quote(prov)}&municipio={quote(mun)}&calle={quote(cal)}'
-        }
-        
-    except Exception as e:
-        return {
-            'error': str(e),
-            'provincia': provincia,
-            'municipio': municipio,
-            'direccion': direccion
-        }
+        print(formatear_resultado(datos))
 
 
 if __name__ == '__main__':
