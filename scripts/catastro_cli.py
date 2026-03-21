@@ -190,26 +190,28 @@ def formatear_resultado(datos):
     consulta = datos.get('consulta_dnp', {})
     control = consulta.get('control', {})
     
+    # Check for errors first
+    lerr = consulta.get('lerr', {})
+    if lerr:
+        err = lerr.get('err', {})
+        if err:
+            output.append(f"\nError del Catastro: {err.get('des', 'Desconocido')}")
+            return "\n".join(output)
+    
     # Handle different response structures
-    # Structure 1: Multiple results (lrcdnp.rcdnp)
-    # Structure 2: Single result with details (bico.bi)
+    # Structure 1: Multiple results (lrcdnp.rcdnp) - list
+    # Structure 2: Single result with details (bico.bi) - dict
+    bico = consulta.get('bico', {})
     resultados = consulta.get('lrcdnp', {}).get('rcdnp', [])
     
-    if not resultados:
-        # Try alternative structure (bico)
-        bico = consulta.get('bico', {})
-        if bico:
-            bi = bico.get('bi', {})
-            if bi:
-                resultados = [bi]
-        else:
-            # Check for error
-            lerr = consulta.get('lerr', {})
-            if lerr:
-                err = lerr.get('err', {})
-                if err:
-                    output.append(f"\nError del Catastro: {err.get('des', 'Desconocido')}")
-                    return "\n".join(output)
+    if isinstance(resultados, dict):
+        resultados = [resultados]
+    
+    # If no results in lrcdnp, try bico structure
+    if not resultados and bico:
+        bi = bico.get('bi', {})
+        if bi:
+            resultados = [bi]
     
     if not resultados:
         output.append("\nNo se han encontrado resultados.")
@@ -219,19 +221,12 @@ def formatear_resultado(datos):
     output.append(f"\n Inmuebles encontrados: {num_resultados}")
     output.append("")
     
-    # Handle single result (dict) vs multiple results (list)
-    if isinstance(resultados, dict):
-        resultados = [resultados]
-    
     for i, inmueble in enumerate(resultados, 1):
-        # Handle two possible structures: idbi (from bico) and rc (from lrcdnp)
+        # Reference cadastral
         idbi = inmueble.get('idbi', {})
         rc = idbi.get('rc', {}) if idbi else inmueble.get('rc', {})
-        dt = inmueble.get('dt', {})
-        debi = inmueble.get('debi', {})
-        
-        # Reference cadastral
         ref_catastral = f"{rc.get('pc1', '')}{rc.get('pc2', '')}"
+        
         output.append(f"--- Inmueble {i} ---")
         if ref_catastral and ref_catastral != 'None':
             output.append(f"  Referencia Catastral: {ref_catastral}")
@@ -240,34 +235,35 @@ def formatear_resultado(datos):
         ldt = inmueble.get('ldt', '')
         if ldt:
             output.append(f"  Dirección completa: {ldt}")
-        else:
-            # Build from parts
-            nm = dt.get('nm', '')
-            np_ = dt.get('np', '')
-            locs = dt.get('locs', {})
-            
-            if isinstance(locs, dict):
-                lous = locs.get('lous', {})
-                if isinstance(lous, dict):
-                    ourb = lous.get('lourb', {})
-                    if isinstance(ourb, dict):
-                        dir_info = ourb.get('dir', {})
-                        tv = dir_info.get('tv', '')
-                        nv = dir_info.get('nv', '')
-                        pnp = dir_info.get('pnp', '')
-                        output.append(f"  Dirección: {tv} {nv}, {pnp}")
         
-        # Use type
+        # Building data (debi)
+        debi = inmueble.get('debi', {})
         if debi:
             uso = debi.get('luso', '')
             if uso:
                 output.append(f"  Uso: {uso}")
             sfc = debi.get('sfc', '')
             if sfc:
-                output.append(f"  Superficie construida: {sfc} m²")
+                output.append(f"  Superficie construida total: {sfc} m²")
             ant = debi.get('ant', '')
             if ant:
                 output.append(f"  Año construcción: {ant}")
+        
+        # Constructions (lcons) - they are at bico level, not inside each inmueble
+        if i == 1:  # Only show constructions for the first (and usually only) result
+            lcons = bico.get('lcons', {})
+            if lcons:
+                cons_list = lcons.get('cons', [])
+                if cons_list:
+                    output.append("")
+                    output.append("  Distribución por plantas:")
+                    # Normalize to list
+                    if isinstance(cons_list, dict):
+                        cons_list = [cons_list]
+                    for cons in cons_list:
+                        tipo = cons.get('lcd', 'N/A')
+                        stl = cons.get('dfcons', {}).get('stl', 'N/A')
+                        output.append(f"    - {tipo}: {stl} m²")
         
         output.append("")
     
