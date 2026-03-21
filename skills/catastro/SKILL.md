@@ -1,88 +1,83 @@
 ---
 name: catastro
-description: Consulta datos catastrales de España por dirección usando la API oficial del Catastro. Genera informe en Google Docs.
+description: Consulta datos catastrales de España por dirección. Genera informes y los sube a Google Docs.
 ---
 
-# Catastro CLI — Datos Catastrales de España
+# Catastro — Datos Catastrales de España
 
-Consulta información catastral de inmuebles usando la **API oficial del Catastro** (ovc.catastro.meh.es).
+Consulta información catastral de inmuebles usando la API oficial del Catastro (ovc.catastro.meh.es). No requiere certificado ni API key — es gratuito para datos no protegidos.
 
 ## Ubicación
 
-CLI: `/home/gerion/.local/bin/catastro` (o `catastro` si ~/.local/bin está en PATH)
+CLI: `/home/gerion/.local/bin/catastro`
 Script: `/home/gerion/.openclaw/workspace/scripts/catastro_cli.py`
 
-## Uso del CLI
-
-### Comando básico
+## Uso rápido
 
 ```bash
 catastro <provincia> <municipio> <calle> [numero]
 ```
 
-### Ejemplos
+## Ejemplos
 
 ```bash
 # Consulta básica
+catastro Sevilla Utrera "Forcadell" 8
 catastro Cadiz Rota "Marina" 1
-catastro Sevilla Sevilla "Plaza España" 5
 
-# Con tipo de vía específico (opcional)
-catastro Cadiz Rota "Marina" 1 --sigla CL
+# Con параметры опциональные
+catastro Sevilla "Gorri" 14 --sigla CL
+catastro Cadiz Rota "Playa" 5 --json
 ```
-
-### Opciones
-
-| Opción | Descripción |
-|--------|-------------|
-| `<provincia>` | Nombre de la provincia |
-| `<municipio>` | Nombre del municipio |
-| `<calle>` | Nombre de la calle (sin tipo, ej "Marina", no "CL Marina") |
-| `[numero]` | Número del inmueble (opcional pero obligatorio si se especifica) |
-| `-s, --sigla` | Tipo de vía: CL (Calle), AV (Avenida), PZ (Plaza), CR (Carretera), etc. |
-| `-j, --json` | Salida en JSON |
-| `-b, --bloque` | Bloque |
-| `-e, --escalera` | Escalera |
-| `-p, --planta` | Planta |
-| `--puerta` | Puerta |
-
-## API Oficial
-
-Usa los **Servicios Web Libres** del Catastro:
-- URL: `https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCallejero.asmx/`
-- **No requiere certificado ni API key**
-- **Gratuito** para datos no protegidos
-- Más info: https://www.catastro.hacienda.gob.es/ws/Webservices_Libres.pdf
 
 ## Datos que devuelve
 
-- Referencia Catastral
-- Dirección completa
-- Tipo de alta catastral
-- Localización (escalera, planta, puerta)
-- Superficie (m²)
+- **Referencia Catastral** (20 caracteres)
+- **Dirección completa**
+- **Uso** (Residencial, Almacén, etc.)
+- **Superficie construida total** (m²)
+- **Año de construcción**
+- **Distribución por plantas** (cada uso con sus m²)
 
-## Limitaciones
+## Campos que NO devuelve la API gratuita
 
-- **Datos protegidos** (titulares, valor catastral) requieren certificado digital o Cl@ve
-- Solo devuelve datos **no protegidos**
-- Para datos completos, usar la Sede Electrónica del Catastro con certificado
+La API devuelve `bico` pero NO incluye el campo `finca` con `<ss>` (superficie del solar). Esto es así aunque la documentación lo menciona — el servidor en producción no lo está devolviendo actualmente. Para ese dato se necesita:
+- Acceso con certificado digital o Cl@ve
+- API de terceros (catastro-api.es)
 
-## Ejemplo de uso con Google Docs
+## Para generar informe y subir a Google Docs
 
 ```python
-# Generar informe catastral
-result = subprocess.run(['catastro', 'Cadiz', 'Rota', 'Marina', '1'], capture_output=True, text=True)
+# 1. Ejecutar consulta
+result = subprocess.run(
+    ['catastro', 'Sevilla', 'Utrera', 'Forcadell', '8'],
+    capture_output=True, text=True
+)
 informe = result.stdout
 
-# Subir a Google Docs
-gog docs create "Informe Catastral - Rota"
-gog docs write <doc_id> --file informe.md --append
-gog docs share <doc_id> --email paduel@gmail.com --role reader
+# 2. Crear documento en Google Docs
+subprocess.run(['gog', 'docs', 'create', 'Informe Catastral - Forcadell 8'])
+
+# 3. Escribir contenido
+subprocess.run(['gog', 'docs', 'write', '<DOC_ID>', '--file', '/tmp/informe.txt', '--append'])
+
+# 4. Compartir
+subprocess.run(['gog', 'docs', 'share', '<DOC_ID>', '--email', 'paduel@gmail.com', '--role', 'reader'])
 ```
 
-## Notas
+## Enviar por email con adjunto gráfico
 
-- El CLI determina automáticamente el tipo de vía consultando el callejero
-- Si la búsqueda falla, probar con `--sigla CL` (u otro tipo)
-- Los datos son de la Dirección General del Catastro (España)
+```python
+# Generar gráfico si es un ticker financiero
+# Subir a Drive
+subprocess.run(['gog', 'drive', 'upload', '/tmp/grafico.png', '--name', 'grafico.png'])
+# Adjuntar en email
+subprocess.run(['gog', 'mail', 'send', '--to', 'paduel@gmail.com', '--subject', '...', '--attach', '/tmp/grafico.png'])
+```
+
+## Notas técnicas
+
+- API: `https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCallejero.asmx`
+- Métodos disponibles: Consulta_DNPLOC, Consulta_DNPRC, Consulta_DNPPP, ConsultaVia
+- La búsqueda de calle ajusta automáticamente el nombre al encontrar coincidencias en el callejero
+- Si el número no existe, devuelve lista de candidatos
