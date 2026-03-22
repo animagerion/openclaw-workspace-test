@@ -289,10 +289,11 @@ def main():
     parser.add_argument('--sigla', '-s', help='Tipo de vía')
     parser.add_argument('--bloque', '-b', help='Bloque')
     parser.add_argument('--escalera', '-e', help='Escalera / Portal')
-    parser.add_argument('--planta', '-p', help='Planta')
+    parser.add_argument('--planta', help='Planta')
     parser.add_argument('--puerta', '-u', help='Puerta')
     parser.add_argument('--json', '-j', action='store_true', help='Salida JSON')
-    parser.add_argument('--plano', action='store_true', help='Descarga el plano de la parcela')
+    parser.add_argument('--plano', action='store_true', default=True, help='Descarga el plano de la parcela (por defecto True)')
+    parser.add_argument('--basic', action='store_true', help='Solo consulta API rápida, sin web scraping ni plano')
     
     args = parser.parse_args()
     
@@ -314,16 +315,17 @@ def main():
     if rc_data:
         print(f"Referencia catastral: {rc_data['rc_completa']}")
         
-        # 3. Scraping de la web
-        print("Extrayendo datos de sedecatastro.gob.es...")
-        datos_web = scraping_sedecatastro(rc_data)
+        # 3. Scraping de la web (skip if --basic)
+        datos_web = None
+        if not args.basic:
+            print("Extrayendo datos de sedecatastro.gob.es...")
+            datos_web = scraping_sedecatastro(rc_data)
         
-        # 4. Descargar plano si se pide
+        # 4. Descargar plano si se pide (skip if --basic)
         plano_path = None
-        if args.plano:
+        if args.plano and not args.basic:
             print("Descargando plano de la parcela...")
             plano_path = descargar_plano_parcela(rc_data)
-            if plano_path:
                 # Copiar a workspace para poder enviar por Telegram
                 import shutil
                 import os
