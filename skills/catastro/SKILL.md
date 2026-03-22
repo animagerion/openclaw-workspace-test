@@ -23,13 +23,20 @@ Consulta rápida vía API oficial.
 
 ### catastro_full (completo - API + web scraping + plano)
 ```bash
-catastro_full <provincia> <municipio> <calle> [numero]
-catastro_full <provincia> <municipio> <calle> [numero] --plano  # descarga plano de la parcela
+catastro_full <provincia> <municipio> <calle> [numero] [opciones]
+catastro_full Cadiz Rota "Racillo" 19 --bloque 2 --escalera 5 --planta 3 --puerta A --plano
 ```
-Extrae también de sedecatastro.gob.es:
+Opciones:
+- `--plano` — descarga el plano de la parcela (PNG 120x120px)
+- `--bloque`, `-b` — número de bloque
+- `--escalera`, `-e` — escalera / portal
+- `--planta`, `-p` — planta
+- `--puerta`, `-u` — puerta
+
+Extrae de sedecatastro.gob.es:
 - Superficie de la parcela (gráfica) ← dato que la API no devuelve
 - Construcciones detalladas desde la web
-- **Plano de la parcela** (imagen PNG 120x120px) si se usa `--plano`
+- **Plano de la parcela** (PNG 120x120px) si se usa `--plano`
 
 ## Ejemplos
 
