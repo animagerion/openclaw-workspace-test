@@ -313,11 +313,17 @@ def main():
         datos_web = scraping_sedecatastro(rc_data)
         
         # 4. Descargar plano si se pide
+        plano_path = None
         if args.plano:
             print("Descargando plano de la parcela...")
             plano_path = descargar_plano_parcela(rc_data)
             if plano_path:
-                print(f"Plano descargado: {plano_path}")
+                # Copiar a workspace para poder enviar por Telegram
+                import shutil
+                import os
+                workspace_path = os.path.expanduser('~/.openclaw/workspace/parcela_catastro.png')
+                shutil.copy(plano_path, workspace_path)
+                print(f"Plano descargado: {workspace_path}")
             else:
                 print("No se pudo descargar el plano")
         
