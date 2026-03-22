@@ -21,13 +21,15 @@ catastro <provincia> <municipio> <calle> [numero]
 ```
 Consulta rápida vía API oficial.
 
-### catastro_full (completo - API + web scraping)
+### catastro_full (completo - API + web scraping + plano)
 ```bash
 catastro_full <provincia> <municipio> <calle> [numero]
+catastro_full <provincia> <municipio> <calle> [numero] --plano  # descarga plano de la parcela
 ```
 Extrae también de sedecatastro.gob.es:
 - Superficie de la parcela (gráfica) ← dato que la API no devuelve
 - Construcciones detalladas desde la web
+- **Plano de la parcela** (imagen PNG 120x120px) si se usa `--plano`
 
 ## Ejemplos
 
