@@ -26,12 +26,13 @@
 
 ## Catastro CLI
 
-- **CLI:** `/home/gerion/.local/bin/catastro`
+- **CLI básico:** `/home/gerion/.local/bin/catastro` (API, rápido)
+- **CLI completo:** `/home/gerion/.local/bin/catastro_full` (API + scraping web, incluye parcela)
 - **Skill:** `skills/catastro/SKILL.md`
-- **Uso:** `catastro <provincia> <municipio> <calle> [numero]`
+- **Uso:** `catastro_full <provincia> <municipio> <calle> [numero]`
 - **API:** Oficial del Catastro (ovc.catastro.meh.es) — gratuita, sin certificado
-- **Devuelve:** Referencia catastral, dirección, uso, superficie construida, año, distribución por plantas
-- **No devuelve:** Superficie del solar (campo `finca` no viene en producción)
+- **Scraping:** sedecatastro.gob.es para superficie parcela y construcciones detalladas
+- **Devuelve:** Todo + **superficie parcela** (dato que la API no da)
 
 ## Gráficos Financieros (Comando "Fibo")
 
