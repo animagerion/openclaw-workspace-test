@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Semana Santa Utrera 2026//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Semana Santa Utrera 2026
+X-WR-TIMEZONE:Europe/Madrid
+X-WR-CALDESC:Programa de procesiones y actos de Semana Santa en Utrera 2026
+BEGIN:VEVENT
+UID:🕯️SALIDA:Borriquita-20260413-1100@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260413T110000
+DTEND:20260413T113000
+SUMMARY:🕯️ SALIDA: Borriquita
+LOCATION:Capilla de la Santísima Trinidad
+DESCRIPTION:Hermandad: Fervorosa, Ilustre y Antigua Hermandad del Rosario de la Stma. Trinidad y Cofradía de Nazarenos del Stmo. Cristo de los Afligidos, Ntro. Padre Jesús en su Entrada Triunfal en Jerusalén y Ntra. Sra. de los Desamparados\nSede: Capilla de la Santísima Trinidad\n\nItinerario:\n• Cristo de los Afligidos (11:15 h)\n• Virgen de la Cabeza (11:30 h)\n• Fernanda y Bernarda (11:45 h)\n• Fuente Vieja – Sevilla (12:00 h)\n• Álvarez Quintero (12:15 h)\n• Ayuntamiento (12:30 h)\n• Clemente de la Cuadra (12:45 h)\n• Carrera Oficial (12:50 h)\n• Perafán de Ribera – La Plaza (13:15 h)\n• Catalina de Pérez (13:30 h)\n• Virgen del Rocío (13:45 h)\n• Cristo de los Afligidos (14:00 h)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:📍Borriquita-CarreraOficial-20260413-1250@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260413T125000
+DTEND:20260413T130500
+SUMMARY:📍 Borriquita - Carrera Oficial
+LOCATION:Carrera Oficial, Utrera
+DESCRIPTION:Borriquita pasa por la Carrera Oficial
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:🏠RECOGIDA:Borriquita-20260413-1415@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260413T141500
+DTEND:20260413T144500
+SUMMARY:🏠 RECOGIDA: Borriquita
+LOCATION:Capilla de la Santísima Trinidad
+DESCRIPTION:La Hermandad Borriquita regresa a su sede
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:🕯️SALIDA:OraciónenelHuerto-20260413-1730@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260413T173000
+DTEND:20260413T180000
+SUMMARY:🕯️ SALIDA: Oración en el Huerto
+LOCATION:Capilla de San Bartolomé
+DESCRIPTION:Hermandad: Hermandad Ntro. P. Jesús Nazareno - Sagrada Oración de Ntro Señor Jesucristo en el huerto\nSede: Capilla de San Bartolomé\n\nItinerario:\n• Álvarez Hazañas – Preciosa (17:45 h)\n• Menéndez Pelayo – Mota (18:00 h)\n• Parroquia de Santa María (18:15 h)\n• Rodrigo Caro – Paseo de Ribera (18:30 h)\n• Parroquia de Santiago (18:45 h)\n• Carrera Oficial (19:05 h)\n• Clemente de la Cuadra (19:15 h)\n• Ramón y Cajal (19:30 h)\n• Sevilla (19:45 h)\n• Santiago Montoto (20:00 h)\n• Doctor Pastor (20:15 h)\n• Forcadell – Partera (20:30 h)\n• Clemente de la Cuadra (20:45 h)\n• Ayuntamiento (21:00 h)\n• Clemente de la Cuadra (21:15 h)\n• Virgen de Consolación (21:30 h)\n• San Juan Bosco (21:45 h)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:📍OraciónenelHuerto-CarreraOficial-20260413-1905@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260413T190500
+DTEND:20260413T192000
+SUMMARY:📍 Oración en el Huerto - Carrera Oficial
+LOCATION:Carrera Oficial, Utrera
+DESCRIPTION:Oración en el Huerto pasa por la Carrera Oficial
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:🏠RECOGIDA:OraciónenelHuerto-20260413-2200@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260413T220000
+DTEND:20260413T223000
+SUMMARY:🏠 RECOGIDA: Oración en el Huerto
+LOCATION:Capilla de San Bartolomé
+DESCRIPTION:La Hermandad Oración en el Huerto regresa a su sede
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:🕯️SALIDA:QuintaAngustia-20260413-1900@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260413T190000
+DTEND:20260413T193000
+SUMMARY:🕯️ SALIDA: Quinta Angustia
+LOCATION:Parroquia de Santa María
+DESCRIPTION:Hermandad: Quinta Angustia\nSede: Parroquia de Santa María\n\nItinerario:\n• Porche de Santa María (19:15 h)\n• Rodrigo Caro (19:30 h)\n• La Plaza (19:45 h)\n• Plaza Enrique de la Cuadra (20:00 h)\n• Monumento Santa Ángela (20:15 h)\n• Catalina de Perea (20:30 h)\n• Parroquia de Santiago (20:45 h)\n• Ponce de León (21:00 h)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:🕯️SALIDA:RedentorCautivo-20260417-0940@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260417T094000
+DTEND:20260417T101000
+SUMMARY:🕯️ SALIDA: Redentor Cautivo
+LOCATION:Parroquia de Santiago el Mayor
+DESCRIPTION:Hermandad: Pontificia e Ilustre Hermandad Sacramental de la Inmaculada Concepción y Ánimas Benditas y Cofradía de Nazarenos del Stmo. Cristo de Santiago, Ntro. Padre Jesús Redentor Cautivo y Ntra. Sra. de las Lágrimas\nSede: Parroquia de Santiago el Mayor
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:🕯️SALIDA:Vera-Cruz-20260417-1930@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260417T193000
+DTEND:20260417T200000
+SUMMARY:🕯️ SALIDA: Vera-Cruz
+LOCATION:None
+DESCRIPTION:Hermandad: Vera-Cruz\nSede: None\n\nItinerario:\n• Sta. María (20:20 h)\n• Santiago (22:55 h)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:🕯️SALIDA:LosMilagros-20260418-2230@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260418T223000
+DTEND:20260418T230000
+SUMMARY:🕯️ SALIDA: Los Milagros
+LOCATION:Parroquia de Santa María
+DESCRIPTION:Hermandad: Hermandad del Cristo de los Milagros - Santísimo Cristo de los Milagros\nSede: Parroquia de Santa María\n\nItinerario:\n• Santiago (23:45 h)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:🕯️SALIDA:SantoEntierro-20260418-1915@utrera2026
+DTSTAMP:20260322T142515Z
+DTSTART:20260418T191500
+DTEND:20260418T194500
+SUMMARY:🕯️ SALIDA: Santo Entierro
+LOCATION:None
+DESCRIPTION:Hermandad: Santo Entierro\nSede: None\n\nItinerario:\n• Sta. María (19:50 h)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
