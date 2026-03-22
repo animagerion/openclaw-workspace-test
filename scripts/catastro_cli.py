@@ -263,7 +263,21 @@ def formatear_resultado(datos):
                     for cons in cons_list:
                         tipo = cons.get('lcd', 'N/A')
                         stl = cons.get('dfcons', {}).get('stl', 'N/A')
-                        output.append(f"    - {tipo}: {stl} m²")
+                        # Get floor/plant info from loint
+                        loint = cons.get('dt', {}).get('lourb', {}).get('loint', {})
+                        es = loint.get('es', '')  # escalera
+                        pt = loint.get('pt', '')  # planta
+                        pu = loint.get('pu', '')  # puerta
+                        
+                        # Format floor label
+                        if pt == '00' or pt == '00':
+                            planta = 'Bajo'
+                        elif pt.startswith('0'):
+                            planta = f'Planta {pt.lstrip("0")}'
+                        else:
+                            planta = f'Planta {pt}' if pt else '?'
+                        
+                        output.append(f"    - {planta} (Esc={es}, Pt={pt}, Pu={pu}): {tipo} {stl} m²")
         
         output.append("")
     
