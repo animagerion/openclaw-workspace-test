@@ -326,6 +326,7 @@ def main():
         if args.plano and not args.basic:
             print("Descargando plano de la parcela...")
             plano_path = descargar_plano_parcela(rc_data)
+            if plano_path:
                 # Copiar a workspace para poder enviar por Telegram
                 import shutil
                 import os
