@@ -171,6 +171,40 @@ def scraping_sedecatastro(rc_data):
         return {'error': str(e)}
 
 
+def descargar_plano_parcela(rc_data, output_path='/tmp/parcela.png'):
+    """Descarga el plano de la parcela desde sedecatastro.gob.es.
+    
+    URL: https://www1.sedecatastro.gob.es/Cartografia/GeneraGraficoParcela.aspx
+    Solo funciona a baja resolución (120x120px).
+    """
+    if not rc_data:
+        return None
+    
+    del_code = rc_data['del']
+    mun_code = rc_data['mun']
+    # Refcat es pc1 + pc2 (parcela sin sufijos de bien inmueble)
+    refcat = f"{rc_data['pc1']}{rc_data['pc2']}"  # 3991007TG5139S
+    
+    url = f"https://www1.sedecatastro.gob.es/Cartografia/GeneraGraficoParcela.aspx"
+    params = {
+        'del': del_code,
+        'mun': mun_code,
+        'refcat': refcat,
+        'AnchoPixels': 120,
+        'AltoPixels': 120,
+    }
+    
+    try:
+        r = requests.get(url, params=params, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
+        if r.status_code == 200 and 'image' in r.headers.get('content-type', ''):
+            with open(output_path, 'wb') as f:
+                f.write(r.content)
+            return output_path
+    except:
+        pass
+    return None
+
+
 def formatear_resultado(datos_api, datos_web=None):
     """Formatea el resultado completo."""
     output = []
@@ -201,6 +235,10 @@ def formatear_resultado(datos_api, datos_web=None):
     output.append(f"   Uso: {debi.get('luso', 'N/A')}")
     output.append(f"   Superficie construida: {debi.get('sfc', 'N/A')} m²")
     output.append(f"   Año construcción: {debi.get('ant', 'N/A')}")
+    
+    # Superficie parcela (de web)
+    if datos_web and datos_web.get('superficie_parcela'):
+        output.append(f"   Superficie parcela: {datos_web['superficie_parcela']} m²")
     
     # Construcciones de la API
     lcons = bico.get('lcons', {}).get('cons', [])
@@ -250,6 +288,7 @@ def main():
     parser.add_argument('numero', nargs='?', help='Número')
     parser.add_argument('--sigla', '-s', help='Tipo de vía')
     parser.add_argument('--json', '-j', action='store_true', help='Salida JSON')
+    parser.add_argument('--plano', '-p', action='store_true', help='Descarga el plano de la parcela')
     
     args = parser.parse_args()
     
@@ -273,7 +312,16 @@ def main():
         print("Extrayendo datos de sedecatastro.gob.es...")
         datos_web = scraping_sedecatastro(rc_data)
         
-        # 4. Mostrar resultado
+        # 4. Descargar plano si se pide
+        if args.plano:
+            print("Descargando plano de la parcela...")
+            plano_path = descargar_plano_parcela(rc_data)
+            if plano_path:
+                print(f"Plano descargado: {plano_path}")
+            else:
+                print("No se pudo descargar el plano")
+        
+        # 5. Mostrar resultado
         print(formatear_resultado(datos_api, datos_web))
     else:
         print("No se pudo extraer la referencia catastral")
