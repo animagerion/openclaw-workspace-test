@@ -51,17 +51,17 @@ def consultar_api(provincia, municipio, calle, numero=None, bloque=None, escaler
         except:
             pass
     
-    # Consulta principal
+    # Consulta principal con todos los parámetros
     params = {
         'Provincia': provincia.upper(),
         'Municipio': municipio.upper(),
         'Sigla': tipo_via,
         'Calle': nombre_via,
         'Numero': str(numero) if numero else '',
-        'Bloque': bloque or '',
-        'Escalera': escalera or '',
-        'Planta': planta or '',
-        'Puerta': puerta or '',
+        'Bloque': str(bloque) if bloque else '',
+        'Escalera': str(escalera) if escalera else '',
+        'Planta': str(planta) if planta else '',
+        'Puerta': str(puerta) if puerta else '',
     }
     
     r = requests.get(f"{BASE_URL}/Consulta_DNPLOC", params=params, headers={'User-Agent': 'Mozilla/5.0'}, timeout=30)
@@ -105,7 +105,7 @@ def extraer_ref_catastral(datos_api):
         return None
 
 
-def scraping_sedecatastro(rc_data):
+def scraping_sedecatastro(rc_data, timeout=15):
     """Hace scraping de la web de Sedecatastro para obtener datos extra."""
     if not rc_data:
         return None
@@ -118,7 +118,7 @@ def scraping_sedecatastro(rc_data):
     url = f"{SEDE_URL}/CYCBienInmueble/OVCConCiud.aspx?UrbRus=U&RefC={ref_completa}&esBice=&RCBice1=&RCBice2=&DenoBice=&from=OVCBusqueda&pest=rc&RCCompleta={ref_completa}&final=&del={del_code}&mun={mun_code}"
     
     try:
-        r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=30)
+        r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=timeout)
         html = r.text
         
         datos = {}
@@ -287,8 +287,12 @@ def main():
     parser.add_argument('calle', help='Nombre de la calle')
     parser.add_argument('numero', nargs='?', help='Número')
     parser.add_argument('--sigla', '-s', help='Tipo de vía')
+    parser.add_argument('--bloque', '-b', help='Bloque')
+    parser.add_argument('--escalera', '-e', help='Escalera / Portal')
+    parser.add_argument('--planta', '-p', help='Planta')
+    parser.add_argument('--puerta', '-u', help='Puerta')
     parser.add_argument('--json', '-j', action='store_true', help='Salida JSON')
-    parser.add_argument('--plano', '-p', action='store_true', help='Descarga el plano de la parcela')
+    parser.add_argument('--plano', action='store_true', help='Descarga el plano de la parcela')
     
     args = parser.parse_args()
     
@@ -297,7 +301,9 @@ def main():
     print("...")
     
     # 1. Consulta API
-    datos_api = consultar_api(args.provincia, args.municipio, args.calle, args.numero, sigla=args.sigla)
+    datos_api = consultar_api(args.provincia, args.municipio, args.calle, args.numero, 
+                             bloque=args.bloque, escalera=args.escalera, 
+                             planta=args.planta, puerta=args.puerta, sigla=args.sigla)
     
     if not datos_api:
         print("Error en la consulta API")
