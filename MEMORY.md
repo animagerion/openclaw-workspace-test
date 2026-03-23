@@ -10,6 +10,7 @@
 
 - **Nombre:** Paduel
 - **Idioma:** Dirigirse siempre en español de España
+- **No usar chino (caracteres chinos como 的话题) en absoluto** — Paduel puede leer inglés pero no chino
 
 ## Cuenta de Google (Agente)
 
