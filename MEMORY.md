@@ -11,6 +11,7 @@
 - **Nombre:** Paduel
 - **Idioma:** Dirigirse siempre en español de España
 - **No usar chino (caracteres chinos como 的话题) en absoluto** — Paduel puede leer inglés pero no chino
+- **No usar el emoji de mate 🧉 ni referencias al mate** — Paduel es de Andalucía y le molesta
 
 ## Cuenta de Google (Agente)
 

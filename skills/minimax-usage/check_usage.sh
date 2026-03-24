@@ -2,8 +2,9 @@
 # MiniMax Plan Usage Checker
 # 
 # Campos de la API:
-# - current_interval_total_count: Límite de llamadas por ventana
-# - current_interval_usage_count: Llamadas RESTANTES (disponibles) - NO son las usadas
+# - current_interval_total_count: Límite de llamadas por ventana de 5h
+# - current_interval_usage_count: Número de llamadas DISPONIBLES ( restantes) en la ventana actual
+#   ¡OJO! El nombre "usage" es confuso: NO son las usadas, son las QUE QUEDAN
 # - remains_time: Tiempo restante para reinicio de ventana
 
 AUTH_FILE="/home/gerion/.openclaw/agents/main/agent/auth-profiles.json"
@@ -66,10 +67,13 @@ start_time = datetime.fromtimestamp(model['start_time'] / 1000)
 end_time = datetime.fromtimestamp(model['end_time'] / 1000)
 
 # === SEMANAL ===
-total_weekly = model['current_weekly_total_count']
-remaining_weekly = model['current_weekly_usage_count']  # = disponibles directamente
-used_weekly = total_weekly - remaining_weekly
-pct_used_weekly = (used_weekly / total_weekly) * 100
+# ¡OJO! Los campos semanales están swapados respecto a su nombre:
+# - current_weekly_usage_count = LÍMITE semanal (no usage, es el total)
+# - current_weekly_total_count = USADO esta semana (no total, es lo consumido)
+total_weekly = model['current_weekly_usage_count']
+used_weekly = model['current_weekly_total_count']
+remaining_weekly = total_weekly - used_weekly
+pct_used_weekly = (used_weekly / total_weekly) * 100 if total_weekly > 0 else 0
 
 week_start = datetime.fromtimestamp(model['weekly_start_time'] / 1000)
 week_end = datetime.fromtimestamp(model['weekly_end_time'] / 1000)
@@ -93,9 +97,12 @@ print()
 
 # Semanal
 print("📅 Ventana semanal:")
-print(f"   Límite:       {total_weekly:,} llamadas")
-print(f"   Usadas:       {used_weekly:,} llamadas ({pct_used_weekly:.1f}%)")
-print(f"   Disponibles:  {remaining_weekly:,} llamadas")
+if total_weekly > 0:
+    print(f"   Límite:       {total_weekly:,} llamadas")
+    print(f"   Usadas:       {used_weekly:,} llamadas ({pct_used_weekly:.1f}%)")
+    print(f"   Disponibles:  {remaining_weekly:,} llamadas")
+else:
+    print("   Ilimitado")
 print()
 print(f"   Inicio:       {week_start.strftime('%d-%m-%Y %H:%M UTC')}")
 print(f"   Fin:          {week_end.strftime('%d-%m-%Y %H:%M UTC')}")
@@ -113,14 +120,17 @@ else:
     print(f"✅ Ventana 5h OK")
 
 # Alertas semanal
-if remaining_weekly < 100:
-    print("🚨 CRÍTICO: ¡¡Menos de 100 llamadas semanales restantes!!")
-elif remaining_weekly < 500:
-    print("🚨 ALERTA: Llamadas semanales muy bajas")
-elif pct_used_weekly >= 95:
-    print("⚠️  AVISO: 95%+ de la semana consumida")
+if total_weekly > 0:
+    if remaining_weekly < 100:
+        print("🚨 CRÍTICO: ¡¡Menos de 100 llamadas semanales restantes!!")
+    elif remaining_weekly < 500:
+        print("🚨 ALERTA: Llamadas semanales muy bajas")
+    elif pct_used_weekly >= 95:
+        print("⚠️  AVISO: 95%+ de la semana consumida")
+    else:
+        print(f"✅ Semana OK")
 else:
-    print(f"✅ Semana OK")
+    print("✅ Sin límite semanal")
 
 print("=" * 50)
 PYEOF
