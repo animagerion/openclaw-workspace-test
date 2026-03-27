@@ -13,8 +13,8 @@ if [ ! -f "$DIGEST_FILE" ]; then
     exit 1
 fi
 
-echo "📤 Subiendo digest a Drive..."
-RESULT=$(GOG_KEYRING_PASSWORD="$GOG_KEYRING_PASSWORD" gog drive upload "$DIGEST_FILE" --account animagerion@gmail.com --no-input 2>&1)
+echo "📤 Subiendo digest a Drive (carpeta: AI Weekly Digest)..."
+RESULT=$(GOG_KEYRING_PASSWORD="$GOG_KEYRING_PASSWORD" gog drive upload "$DIGEST_FILE" --parent "$DRIVE_FOLDER_ID" --account animagerion@gmail.com --no-input 2>&1)
 echo "$RESULT"
 
 FILE_ID=$(echo "$RESULT" | grep -oP 'id\s+\K\S+' | head -1)
