@@ -18,6 +18,11 @@ Things like:
 - Preferred voice: "AlvaroNeutral" (Edge TTS, español)
 - Channel: telegram (para formato correcto)
 
+### Zonas Horarias
+
+- **HORA ESPAÑOLA por defecto**: Europe/Madrid (UTC+1 invierno / UTC+2 verano)
+- Cuando se mencione una hora sin especificar zona, siempre es hora española
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
