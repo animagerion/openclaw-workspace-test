@@ -26,6 +26,23 @@
 - **Mi GitHub (animagerion):** https://github.com/animagerion/openclaw-workspace-test
 - **Tu GitHub (paduel):** https://github.com/paduel
 
+## MiniMax
+
+- **Modelo actual:** MiniMax M2.7
+- **Plan:** 1.500 llamadas por ventana de 5h (rolling), semanal ilimitado
+- **API endpoint:** `https://platform.minimax.io/v1/api/openplatform/coding_plan/remains`
+- **API key:** en `auth-profiles.json` → `profiles.minimax:default.key`
+- **Skill:** `skills/minimax-usage/check_usage.sh`
+- **Búsqueda web:** No funciona — no hay Brave API key configurada
+
+## Crons activos
+
+- **08:00** — Agenda diaria (hoy + mañana) → Telegram
+- **09:00** — Santos diarios
+- **Cada 30 min** — Check Gmail (solo notifica si hay nuevos)
+- **Cada 6h** — Auto-commit workspace (solo si hay cambios)
+- **Clima Utrera 07:30** — Deshabilitada (timeout por falta de credits)
+
 ## Catastro CLI
 
 - **CLI básico:** `/home/gerion/.local/bin/catastro` (API, rápido)
@@ -35,6 +52,7 @@
 - **API:** Oficial del Catastro (ovc.catastro.meh.es) — gratuita, sin certificado
 - **Scraping:** sedecatastro.gob.es para superficie parcela y construcciones detalladas
 - **Devuelve:** Todo + **superficie parcela** (dato que la API no da)
+- **Bug conocido:** Provincia Córdoba (code 14) da 500 en ConsultaMunicipio. Usar "CORDOBA" sin acento
 
 ## Gráficos Financieros (Comando "Fibo")
 
