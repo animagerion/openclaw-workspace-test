@@ -1,0 +1,11 @@
+Lanza a un subagente para hacer una investigación de cómo podríamos utilizar agentes OpenCloud
+o otra plataforma similar para ayudar en las tareas de una empresa de tasación de viviendas
+en España.
+Las tareas principales deberían ser valoración aproximada de inmuebles por solicitud de un
+cliente, es decir, no llega a ser una tasación tan solo una valoración aproximada.
+Ayuda o soporte a la tasación oficial del tasador con elaboración de informes, recopilación
+de información previa o cualquier otra cosa que veamos que podemos hacer.
+Y la tercera, revisiones de valores catastrales para presentar reclamaciones por temas de
+impuestos.
+Investigá, busca información y prepara un proyecto o un plan donde detalle lo que se
+podría hacer y las plataformas, herramientas y recursos que pudiéramos necesitar.
