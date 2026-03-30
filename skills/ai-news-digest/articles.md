@@ -1,4 +1,4 @@
-# AI News Digest — 2026-03-28
+# AI News Digest — 2026-03-29
 
 ## Fuentes
 - Hacker News (AI)
@@ -10,128 +10,113 @@
 
 ---
 
-### 1. [When the bill comes due: the economics of AI coding tools](https://daniakash.com/blog/when-the-bill-comes-due)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://daniakash.com/blog/when-the-bill-comes-due">https://daniakash.com/blog/when-the-bill-comes-due</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47557651">https://news.ycombinator.com/item?id=47557651</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 1. [Bob Dylan opened a new Patreon page to share AI content](https://www.patreon.com/cw/BobDylan180)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://www.patreon.com/cw/BobDylan180">https://www.patreon.com/cw/BobDylan180</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47566008">https://news.ycombinator.com/item?id=47566008</a></p> <p>Points: 2</p> <p># Comments: 1</p>
 
 ---
-### 2. [Did Paul Conyngham use AI to develop a cancer treatment for his dog?](https://hedonicescalator.substack.com/p/did-paul-conyngham-really-use-ai)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://hedonicescalator.substack.com/p/did-paul-conyngham-really-use-ai">https://hedonicescalator.substack.com/p/did-paul-conyngham-really-use-ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47557403">https://news.ycombinator.com/item?id=47557403</
+### 2. [Pluribus – MCP and REST memory layer for AI agents (durable, shared, enforced)](https://github.com/johnnyjoy/pluribus)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://github.com/johnnyjoy/pluribus">https://github.com/johnnyjoy/pluribus</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565981">https://news.ycombinator.com/item?id=47565981</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 3. [Show HN: Canary – Monitor any URL for changes, get AI-powered intelligence](https://news.ycombinator.com/item?id=47557235)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Canary watches any URL and alerts you when something changes — competitor pricing, API endpoints, docs, job boards, status pages. Changes are scored 1-10 by signal strength and summarised by AI. Built solo. Landing page live today. Automated crawler running on GitHub Actions posting real detected
+### 3. [AI Won't Fix Your Org Chart](https://pragmatist.nl/ai-wont-fix-your-org-chart/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://pragmatist.nl/ai-wont-fix-your-org-chart/">https://pragmatist.nl/ai-wont-fix-your-org-chart/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565961">https://news.ycombinator.com/item?id=47565961</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 4. [Show HN: Free.ai](https://free.ai/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://free.ai/">https://free.ai/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47557226">https://news.ycombinator.com/item?id=47557226</a></p> <p>Points: 3</p> <p># Comments: 2</p>
+### 4. [Gestalt – AI PC builder that compares Amazon vs. eBay prices in real time](https://github.com/Xydra01/Gestalt)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://github.com/Xydra01/Gestalt">https://github.com/Xydra01/Gestalt</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565867">https://news.ycombinator.com/item?id=47565867</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 5. [The first 40 months of the AI era](https://lzon.ca/posts/other/thoughts-ai-era/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://lzon.ca/posts/other/thoughts-ai-era/">https://lzon.ca/posts/other/thoughts-ai-era/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47557185">https://news.ycombinator.com/item?id=47557185</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 5. [Show HN: DeepRepo – AI architecture diagrams from GitHub repos](https://deeprepo.dev)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://deeprepo.dev">https://deeprepo.dev</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565798">https://news.ycombinator.com/item?id=47565798</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 6. [Further human + AI + proof assistant work on Knuth's "Claude Cycles" problem](https://twitter.com/BoWang87/status/2037648937453232504)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p><i>Knuth Claude's Cycles note update: problem now fully solved, by LLMs</i> - <a href="https://news.ycombinator.com/item?id=47306926">https://news.ycombinator.com/item?id=47306926</a> - March 2026 (2 comments)<p><a href="https://chatgpt.com/share/69aaab4b-888c-8003-9a02-d1df80f9c791" rel="nofollo
+### 6. [AI Is Not About to Become Sentient](https://quillette.com/2026/03/27/ai-is-not-about-to-become-sentient-moltbook-openclaw/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://quillette.com/2026/03/27/ai-is-not-about-to-become-sentient-moltbook-openclaw/">https://quillette.com/2026/03/27/ai-is-not-about-to-become-sentient-moltbook-openclaw/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565666">https://news.ycombi
 
 ---
-### 7. [Show HN: A minimal terminal time tracker with AI analysis](https://github.com/ksketo/timectl)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://github.com/ksketo/timectl">https://github.com/ksketo/timectl</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47557110">https://news.ycombinator.com/item?id=47557110</a></p> <p>Points: 2</p> <p># Comments: 2</p>
+### 7. [Show HN: AgentLens – Chrome DevTools for AI Agents (open-source, self-hosted)](https://github.com/tranhoangtu-it/agentlens)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://github.com/tranhoangtu-it/agentlens">https://github.com/tranhoangtu-it/agentlens</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565649">https://news.ycombinator.com/item?id=47565649</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 8. [AI wrote a scientific paper that passed peer review](https://www.scientificamerican.com/article/ai-wrote-a-scientific-paper-that-passed-peer-review/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://www.scientificamerican.com/article/ai-wrote-a-scientific-paper-that-passed-peer-review/">https://www.scientificamerican.com/article/ai-wrote-a-scientific-paper-that-passed-peer-review/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47556435">h
+### 8. [AI software for smart glasses wins £1M prize for helping people with dementia](https://www.theguardian.com/society/2026/mar/18/ai-smart-glasses-1m-prize-technology-dementia)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://www.theguardian.com/society/2026/mar/18/ai-smart-glasses-1m-prize-technology-dementia">https://www.theguardian.com/society/2026/mar/18/ai-smart-glasses-1m-prize-technology-dementia</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565507">https
 
 ---
-### 9. [Controlling Lego Trains with AI and Larger Implications](https://hkelkar.com/2026/01/02/controlling-lego-trains-with-ai-larger-implications/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://hkelkar.com/2026/01/02/controlling-lego-trains-with-ai-larger-implications/">https://hkelkar.com/2026/01/02/controlling-lego-trains-with-ai-larger-implications/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47556428">https://news.ycombinator.
+### 9. [An open-source tool for designing homes using AI](https://github.com/bayllama/homemaker)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://github.com/bayllama/homemaker">https://github.com/bayllama/homemaker</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565387">https://news.ycombinator.com/item?id=47565387</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 10. [Soverign AI Agent Accountability](https://at1c.com/2026/03/din-identity-soverign-ai-agent-accountability)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://at1c.com/2026/03/din-identity-soverign-ai-agent-accountability">https://at1c.com/2026/03/din-identity-soverign-ai-agent-accountability</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47556355">https://news.ycombinator.com/item?id=47556355</a></
+### 10. [Behind the Curtain: AI's looming cyber nightmare](https://www.axios.com/2026/03/29/claude-mythos-anthropic-cyberattack-ai-agents)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://www.axios.com/2026/03/29/claude-mythos-anthropic-cyberattack-ai-agents">https://www.axios.com/2026/03/29/claude-mythos-anthropic-cyberattack-ai-agents</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47565314">https://news.ycombinator.com/item?i
 
 ---
-### 11. [Show HN: Web game, an AI decides if you would survive in a survival situation](https://youwillnotsurvive.com/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Hello HN, I made this website where you are given a unique survival scenario made by AI and you have to describe what you would do. The AI then decides if you would live or not. If you progress every round gets exponentially harder. Round 1 is a house fire, by round 6 you're fighting a kraken. I 
+### 11. [Show HN: Escape the Room, bounded AI stats game](https://github.com/AymanJabr/Escape-the-room-AI-stats-game)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>The idea of this project is to have something between Renpy-like games, and AI-flavour games like SillyTavern. The end feel, should be more akin to a Dnd-game, where a game-master has crafted an adventure for you, and you can't just go "And then I kill the evil darklord with a slap, find the drag
 
 ---
-### 12. [Show HN: A prompt that builds the most capable AI agent system](https://github.com/fainir/most-capable-agent-system-prompt)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://github.com/fainir/most-capable-agent-system-prompt">https://github.com/fainir/most-capable-agent-system-prompt</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47556347">https://news.ycombinator.com/item?id=47556347</a></p> <p>Points: 12</p> <p>
+### 12. [Show HN: Pglens – 27 read-only PostgreSQL tools for AI agents via MCP](https://github.com/janbjorge/pglens)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://github.com/janbjorge/pglens">https://github.com/janbjorge/pglens</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47564620">https://news.ycombinator.com/item?id=47564620</a></p> <p>Points: 2</p> <p># Comments: 2</p>
 
 ---
-### 13. [Towards end-to-end automation of AI research](https://www.nature.com/articles/s41586-026-10265-5)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://www.nature.com/articles/s41586-026-10265-5">https://www.nature.com/articles/s41586-026-10265-5</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47556293">https://news.ycombinator.com/item?id=47556293</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 13. [MarCognity-AI – Epistemic failure rates in LLMs across 8 domains](https://github.com/elly99-AI/MarCognity-AI)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://github.com/elly99-AI/MarCognity-AI">https://github.com/elly99-AI/MarCognity-AI</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47564422">https://news.ycombinator.com/item?id=47564422</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 14. [SafeSkill – We scanned 10K AI skills for code exploits and prompt injection](https://safeskill.dev)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://safeskill.dev">https://safeskill.dev</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47556257">https://news.ycombinator.com/item?id=47556257</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 14. [The open context engine for AI agents](https://github.com/Canner/wren-engine)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://github.com/Canner/wren-engine">https://github.com/Canner/wren-engine</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47564334">https://news.ycombinator.com/item?id=47564334</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 15. [Wikipedia bans AI-generated content in its online encyclopedia](https://www.theguardian.com/technology/2026/mar/27/wikipedia-bans-ai)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-28
-- **Resumen:** <p>Article URL: <a href="https://www.theguardian.com/technology/2026/mar/27/wikipedia-bans-ai">https://www.theguardian.com/technology/2026/mar/27/wikipedia-bans-ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47556116">https://news.ycombinator.com/item?id=47556116</a></p> <
+### 15. [AI-Native Community Platform Designed for Fire Island Pines](https://fireislandpines.app)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-03-29
+- **Resumen:** <p>Article URL: <a href="https://fireislandpines.app">https://fireislandpines.app</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47564283">https://news.ycombinator.com/item?id=47564283</a></p> <p>Points: 2</p> <p># Comments: 1</p>
 
 ---
-### 16. [Elon Musk’s last co-founder reportedly leaves xAI](https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/)
+### 16. [Sora’s shutdown could be a reality check moment for AI video](https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-29
+- **Resumen:** Is this just normal corporate strategy, or are we about to see a broader pullback on AI-generated video?
+
+---
+### 17. [Bluesky leans into AI with Attie, an app for building custom feeds](https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-28
+- **Resumen:** Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.
+
+---
+### 18. [Stanford study outlines dangers of asking AI chatbots for personal advice](https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-28
+- **Resumen:** While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.
+
+---
+### 19. [Elon Musk’s last co-founder reportedly leaves xAI](https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-28
 - **Resumen:** All but two of Musk's 11 xAI co-founders departed before this week.
 
 ---
-### 17. [Anthropic’s Claude popularity with paying consumers is skyrocketing](https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/)
+### 20. [Anthropic’s Claude popularity with paying consumers is skyrocketing](https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-28
 - **Resumen:** Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.
 
 ---
-### 18. [Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO](https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/)
+### 21. [Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO](https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-27
 - **Resumen:** Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.
 
 ---
-### 19. [Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO](https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/)
+### 22. [Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO](https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-27
 - **Resumen:** SK hynix’s potential U.S. listing could raise $10-$14 billion to help it build more capacity, encourage others to follow, and end the 'RAMmageddon' memory shortage.
-
----
-### 20. [VCs are betting billions on AI’s next wave, so why is OpenAI killing Sora?](https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-27
-- **Resumen:** When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby anyway, but as AI infrastructure stretches further into the real world, the real world is starting t
-
----
-### 21. [OpenAI shuts down Sora while Meta gets shut out in court](https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-27
-- **Resumen:** When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby anyway, but as AI infrastructure stretches further into the real world, the real world is starting t
-
----
-### 22. [David Sacks is done as AI czar — here’s what he’s doing instead](https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-27
-- **Resumen:** Sacks will be much further from the power center in Washington than since the outset of this second Trump administration.
-
----
-### 23. [Anthropic wins injunction against Trump administration over Defense Department saga](https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-27
-- **Resumen:** A federal judge has ordered that the Trump administration rescind recent restrictions it placed on the AI company.
-
----
-### 24. [You can now transfer your chats and personal information from other chatbots directly into Gemini](https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-26
-- **Resumen:** Google is launching "switching tools" that, just as it sounds, will make it easier for users of other chatbots to switch to Gemini.
-
----
-### 25. [Wikipedia cracks down on the use of AI in article writing](https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-26
-- **Resumen:** The site, whose policies are subject to change, has struggled with the issue of AI-generated writing.
 
 ---
