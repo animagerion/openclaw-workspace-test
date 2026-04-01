@@ -205,6 +205,80 @@ def descargar_plano_parcela(rc_data, output_path='/tmp/parcela.png'):
     return None
 
 
+def descargar_foto_fachada(rc_data, output_path='/tmp/fachada.png'):
+    """Descarga la foto de fachada desde sedecatastro.gob.es.
+    
+    URL: https://www1.sedecatastro.gob.es/Cartografia/FXCC/FotoFachada.aspx
+    
+    Parámetros:
+    - refcat: referencia catastral completa (20 chars)
+    - del: código de provincia (2 dígitos)
+    - mun: código de municipio (3 dígitos) - el código de la API puede diferir del usado en sedecatastro web
+    - from: origen (OVCListaBienes)
+    - captcha: token CSRF generado dinámicamente en la sesión
+    
+    El sitio puede bloquear peticiones desde ciertas IPs o requerir captcha.
+    """
+    if not rc_data:
+        return None
+    
+    del_code = rc_data['del']
+    mun_code = rc_data['mun']
+    ref_completa = rc_data['rc_completa']  # 20 chars
+    
+    session = requests.Session()
+    session.headers.update({
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36',
+        'Accept-Language': 'es-ES,es;q=0.9',
+        'Referer': 'https://www1.sedecatastro.gob.es/',
+    })
+    
+    try:
+        # Paso 1: visitar la página principal para establecer sesión
+        session.get("https://www1.sedecatastro.gob.es/", timeout=10)
+    except:
+        pass
+    
+    # Paso 2: intentar obtener la imagen de fachada
+    # El captcha se genera dinámicamente en la página de OVCListaBienes
+    # Primero probamos sin captcha (a veces funciona si la IP no está bloqueada)
+    facade_url = (
+        f"https://www1.sedecatastro.gob.es/Cartografia/FXCC/FotoFachada.aspx"
+        f"?refcat={ref_completa}&del={del_code}&mun={mun_code}&from=OVCListaBienes"
+    )
+    
+    try:
+        r = session.get(facade_url, timeout=15)
+        if r.status_code == 200 and 'image' in r.headers.get('content-type', '') and len(r.content) > 1000:
+            with open(output_path, 'wb') as f:
+                f.write(r.content)
+            return output_path
+    except:
+        pass
+    
+    # Paso 3: si no funciona, intentar con mun_code diferente
+    # El código de municipio en sedecatastro.gob.es puede diferir del de la API
+    # Intentar con códigos comunes alternativamente
+    alt_mun_codes = ['42', '069', '00', '01']
+    for alt_mun in alt_mun_codes:
+        if alt_mun == mun_code:
+            continue
+        facade_url_alt = (
+            f"https://www1.sedecatastro.gob.es/Cartografia/FXCC/FotoFachada.aspx"
+            f"?refcat={ref_completa}&del={del_code}&mun={alt_mun}&from=OVCListaBienes"
+        )
+        try:
+            r = session.get(facade_url_alt, timeout=15)
+            if r.status_code == 200 and 'image' in r.headers.get('content-type', '') and len(r.content) > 1000:
+                with open(output_path, 'wb') as f:
+                    f.write(r.content)
+                return output_path
+        except:
+            pass
+    
+    return None
+
+
 def formatear_resultado(datos_api, datos_web=None):
     """Formatea el resultado completo."""
     output = []
@@ -293,6 +367,7 @@ def main():
     parser.add_argument('--puerta', '-u', help='Puerta')
     parser.add_argument('--json', '-j', action='store_true', help='Salida JSON')
     parser.add_argument('--plano', action='store_true', default=True, help='Descarga el plano de la parcela (por defecto True)')
+    parser.add_argument('--pdf', action='store_true', help='Genera un informe PDF profesional')
     parser.add_argument('--basic', action='store_true', help='Solo consulta API rápida, sin web scraping ni plano')
     
     args = parser.parse_args()
@@ -336,7 +411,45 @@ def main():
             else:
                 print("No se pudo descargar el plano")
         
-        # 5. Mostrar resultado
+        # 5. Descargar foto de fachada si se pide (skip if --basic)
+        fachada_path = None
+        if not args.basic:
+            print("Descargando foto de fachada...")
+            fachada_path = descargar_foto_fachada(rc_data)
+            if fachada_path:
+                import shutil
+                import os
+                workspace_path = os.path.expanduser('~/.openclaw/workspace/fachada_catastro.png')
+                shutil.copy(fachada_path, workspace_path)
+                print(f"Foto de fachada descargada: {workspace_path}")
+            else:
+                print("No se pudo descargar la foto de fachada (puede que no exista o el sitio esté bloqueado)")
+        
+        # 6. Generar PDF si se pide
+        pdf_path = None
+        if args.pdf:
+            print("Generando informe PDF...")
+            import shutil as sh
+            import os
+            # Importar el generador de informes
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            try:
+                from catastro_report import generar_informe_catastral
+                pdf_output = os.path.expanduser(f'~/.openclaw/workspace/informe_catastral.pdf')
+                plano_for_pdf = os.path.expanduser('~/.openclaw/workspace/parcela_catastro.png') if args.plano and plano_path else None
+                generar_informe_catastral(
+                    datos_api=datos_api,
+                    datos_web=datos_web,
+                    output_path=pdf_output,
+                    plano_path=plano_for_pdf,
+                    satelite_path=None,
+                )
+                pdf_path = pdf_output
+                print(f"Informe PDF generado: {pdf_path}")
+            except Exception as e:
+                print(f"Error generando PDF: {e}")
+        
+        # 7. Mostrar resultado
         print(formatear_resultado(datos_api, datos_web))
     else:
         print("No se pudo extraer la referencia catastral")

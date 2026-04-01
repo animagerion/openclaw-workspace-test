@@ -5,13 +5,36 @@ description: Consulta datos catastrales de España por dirección. Genera inform
 
 # Catastro — Datos Catastrales de España
 
-Consulta información catastral de inmuebles usando la API oficial del Catastro (ovc.catastro.meh.es) y scraping de sedecatastro.gob.es. No requiere certificado ni API key.
+**Siempre que el usuario pida una consulta catastral, seguir esta secuencia completa:**
+
+1. Ejecutar `catastro_full` con la dirección proporcionada (con `--pdf` para generar informe)
+2. Mostrar todos los datos catastrales obtenidos (ref. catastral, dirección, uso, superficie construida, año construcción, distribución por plantas, superficie de la parcela)
+3. Enviar el **plano de la parcela** (ya lo descarga `catastro_full`)
+4. **Intentar descargar la foto de fachada** (ver sección dedicada más abajo)
+5. Si se usó `--pdf`, enviar también el **PDF generado** por Telegram
+6. Enviar la foto de fachada si se obtuvo correctamente
+
+**Nunca** enviar solo los datos en texto. Siempre incluir plano y, si se puede, el PDF.
 
 ## Ubicación
 
 - CLI básico: `/home/gerion/.local/bin/catastro` (API, rápido)
-- CLI completo: `/home/gerion/.local/bin/catastro_full` (API + web, incluye parcela)
-- Scripts: `/home/gerion/.openclaw/workspace/scripts/catastro_cli.py` y `catastro_full.py`
+- CLI completo: `/home/gerion/.local/bin/catastro_full` (API + web, incluye parcela y plano)
+- Scripts: `/home/gerion/.openclaw/workspace/scripts/catastro_cli.py`, `catastro_full.py` y `catastro_report.py`
+- Generador PDF: `catastro_report.py` — genera informes PDF profesionales con ReportLab
+
+## Uso estándar
+
+```bash
+# Ejecutar catastro_full y mostrar resultado (con PDF)
+catastro_full <provincia> <municipio> <calle> [numero] --pdf
+
+# Ejemplo
+catastro_full SEVILLA Utrera "Donaires" 8 --pdf
+catastro_full CORDOBA Montilla "Juan Colin" 29 --pdf
+```
+
+**Nota:** Provincia "Córdoba" debe pasarse como `CORDOBA` (sin acento) para evitar error 500 en la API.
 
 ## Dos versiones
 
@@ -24,34 +47,45 @@ Consulta rápida vía API oficial.
 ### catastro_full (completo - API + web scraping + plano)
 ```bash
 catastro_full <provincia> <municipio> <calle> [numero] [opciones]
-catastro_full Cadiz Rota "Racillo" 19 --bloque 2 --escalera 5 --planta 3 --puerta A --plano
 ```
+Descarga automáticamente el plano de la parcela a:
+`/home/gerion/.openclaw/workspace/parcela_catastro.png`
+
 Opciones:
 - `--plano` — descarga el plano de la parcela (PNG 120x120px)
+- `--pdf` — genera un informe PDF profesional con todos los datos
 - `--bloque`, `-b` — número de bloque
 - `--escalera`, `-e` — escalera / portal
 - `--planta`, `-p` — planta
 - `--puerta`, `-u` — puerta
 
-Extrae de sedecatastro.gob.es:
-- Superficie de la parcela (gráfica) ← dato que la API no devuelve
-- Construcciones detalladas desde la web
-- **Plano de la parcela** (PNG 120x120px) si se usa `--plano`
+## Foto de fachada
 
-## Ejemplos
+Sedecatastro.gob.es puede tener una foto de fachada para algunos inmuebles.
 
-```bash
-# Básico (API rápida)
-catastro Sevilla Utrera "Forcadell" 8
-catastro Cadiz Rota "Marina" 1
+**Endpoint:** `https://www1.sedecatastro.gob.es/Cartografia/FXCC/FotoFachada.aspx?refc=<REF>&del=<DEL>&mun=<MUN>`
 
-# Completo (con parcela)
-catastro_full Sevilla Utrera "Gorri" 14
-catastro_full Sevilla "Via Marciala" 34
+Necesita sesión con cookies de la página principal. Para descargarla:
 
-# Con parámetros
-catastro Sevilla "Gorri" 14 --sigla CL
+```python
+import requests
+
+refc = "5613526UG5651S0001GO"  # Referencia catastral completa
+del_code = "14"  # Códigoprovincia (2 dígitos)
+mun_code = "069"  # Código municipio (3 dígitos)
+
+s = requests.Session()
+s.get(f"https://www1.sedecatastro.gob.es/CYCBienInmueble/OVCConCiud.aspx?UrbRus=U&RefC={refc}&del={del_code}&mun={mun_code}", headers={'User-Agent': 'Mozilla/5.0'})
+r = s.get(f"https://www1.sedecatastro.gob.es/Cartografia/FXCC/FotoFachada.aspx?refc={refc}&del={del_code}&mun={mun_code}", headers={'User-Agent': 'Mozilla/5.0'})
+if r.status_code == 200 and len(r.content) > 100:
+    with open('/tmp/fachada.png', 'wb') as f:
+        f.write(r.content)
 ```
+
+**Limitaciones de la foto de fachada:**
+- No todos los inmuebles tienen foto disponible
+- El endpoint puede devolver contenido vacío (0 bytes)
+- Si falla, no bloquear la consulta — continuar sin la foto
 
 ## Datos que devuelve
 
@@ -65,11 +99,9 @@ catastro Sevilla "Gorri" 14 --sigla CL
 | Distribución por plantas | API |
 | **Superficie de la parcela** | Web scraping ← |
 | Construcciones detalladas | Web scraping |
-
-## Limitaciones
-
-- Los datos protegidos (titularidad, valor catastral) requieren certificado digital o Cl@ve
-- El scraping web depende de que la estructura HTML no cambie
+| **Plano de la parcela** | Web scraping (PNG) |
+| **Foto de fachada** | Web scraping (si disponible) |
+| **Informe PDF** | Generado con ReportLab (con `--pdf`) |
 
 ## Integración con Google Docs
 
