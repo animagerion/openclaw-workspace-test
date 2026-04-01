@@ -87,6 +87,33 @@ if r.status_code == 200 and len(r.content) > 100:
 - El endpoint puede devolver contenido vacío (0 bytes)
 - Si falla, no bloquear la consulta — continuar sin la foto
 
+## Valoración Inmobiliaria (estimación de precio)
+
+Script: `/home/gerion/.openclaw/workspace/scripts/valuation_scraper.py`
+
+Usa Idealista para obtener precio €/m² de una zona y lo multiplica por la superficie construida (catastral).
+
+```bash
+# Por dirección
+python3 valuation_scraper.py "Calle Donaires 8, Utrera" 348
+
+# Por coordenadas
+python3 valuation_scraper.py --lat 37.1852 --lon -5.7799 150
+
+# Por código postal
+python3 valuation_scraper.py --postal 41710 200
+```
+
+**Funcionamiento:**
+1. Intenta hacer scraping de Idealista.es para obtener precio €/m² en la zona
+2. Si Idealista bloquea (DataDome), usa media INE regional por provincia como fallback
+3. Calcula: valor = precio/m² × superficie
+4. Devuelve rango: conservador (−10%%), media, optimista (+10%%)
+
+**Fallback (cuando Idealista bloquea):** Usa tabla de precios medios por provincia/municipio basados en datos INE 2024-2025.
+
+**Cache:** Los resultados se guardan en `/tmp/idealista_cache.json` para evitar re-scraping.
+
 ## Datos que devuelve
 
 | Dato | Fuente |
