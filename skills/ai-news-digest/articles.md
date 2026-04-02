@@ -1,4 +1,4 @@
-# AI News Digest — 2026-03-31
+# AI News Digest — 2026-04-01
 
 ## Fuentes
 - Hacker News (AI)
@@ -10,223 +10,228 @@
 
 ---
 
-### 1. [Ask HN: How to Break into AI Engineering (Revisited)](https://news.ycombinator.com/item?id=47591768)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>There was this original Ask HN on "How to Break into AI Engineering" in 2023. So much has changed since. Revisiting this question and expanding and updating the conversation thread here if people want to participate and share ideas on this question.</p> <hr /> <p>Comments URL: <a href="https://ne
+### 1. [FreeMediaHeckYeah AI](https://fmhy.net/ai)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://fmhy.net/ai">https://fmhy.net/ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604970">https://news.ycombinator.com/item?id=47604970</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 2. [Show HN: AI Engineering AI-native Self-learning course repo](https://aiengineeringfromscratch.com)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://aiengineeringfromscratch.com">https://aiengineeringfromscratch.com</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47591661">https://news.ycombinator.com/item?id=47591661</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 2. [The Axios NPM compromise and the missing trust layer for AI coding agents](https://digitalegoai.substack.com/p/your-ai-coding-agent-just-installed)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://digitalegoai.substack.com/p/your-ai-coding-agent-just-installed">https://digitalegoai.substack.com/p/your-ai-coding-agent-just-installed</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604928">https://news.ycombinator.com/item?id=47604928</a>
 
 ---
-### 3. ['Worst in Show' CES products include AI fridges, AI companions and AI doorbells](https://apnews.com/article/ces-worst-show-ai-0ce7fbc5aff68e8ff6d7b8e6fb7b007d)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://apnews.com/article/ces-worst-show-ai-0ce7fbc5aff68e8ff6d7b8e6fb7b007d">https://apnews.com/article/ces-worst-show-ai-0ce7fbc5aff68e8ff6d7b8e6fb7b007d</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47591488">https://news.ycombinator.com/item?id=
+### 3. [Ask HN: What would you like to see in an AI agent?](https://news.ycombinator.com/item?id=47604880)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604880">https://news.ycombinator.com/item?id=47604880</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 4. [Show HN: Domscribe – Deterministic DOM-to-source mapping for AI coding agents](https://github.com/patchorbit/domscribe)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Hey HN! I built Domscribe to solve a problem that was eating my productivity.<p>I spend a lot of my time working with AI coding agents. The thing that kept eating at my productivity though was that every time I asked an agent to fix something on the frontend, the actual edit took maybe 200 tokens
+### 4. [I replaced one AI agent with a mesh of specialists. Here's what changed](https://kinarey.com/the-mesh/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://kinarey.com/the-mesh/">https://kinarey.com/the-mesh/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604597">https://news.ycombinator.com/item?id=47604597</a></p> <p>Points: 1</p> <p># Comments: 1</p>
 
 ---
-### 5. [The Future of Adult Entertainment: Personalized, AI Content](https://unbound.video/landing5)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://unbound.video/landing5">https://unbound.video/landing5</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47591483">https://news.ycombinator.com/item?id=47591483</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 5. [AI Let Me Be the Engineer I've Always Wanted to Be](https://www.builtbyvibes.com/#blog/ai-let-me-be-the-engineer)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://www.builtbyvibes.com/#blog/ai-let-me-be-the-engineer">https://www.builtbyvibes.com/#blog/ai-let-me-be-the-engineer</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604554">https://news.ycombinator.com/item?id=47604554</a></p> <p>Points: 1</p> 
 
 ---
-### 6. [Open-source security tests for AI agents (MCP, A2A, x402, AIUC-1)](https://github.com/msaleme/red-team-blue-team-agent-fabric)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://github.com/msaleme/red-team-blue-team-agent-fabric">https://github.com/msaleme/red-team-blue-team-agent-fabric</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47591410">https://news.ycombinator.com/item?id=47591410</a></p> <p>Points: 1</p> <p>#
+### 6. [Show HN: ComputerPoker.ai – Learn GTO tournament poker strategy vs. GTO bots](https://computerpoker.ai)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>ComputerPoker.ai is a website where users can play simulated poker tournaments against GTO Bots to learn GTO poker strategy in a fun and low-risk environment.<p>My motivation for creating CompterPoker.ai was feeling a bit overwhelmed by some of the professional poker tools out there for learning 
 
 ---
-### 7. [How we made Trail of Bits AI-native (so far)](https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/">https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47591063">https://news.ycombinator.
+### 7. [Go Ahead and Use AI. It Will Only Help Me Dominate You](https://www.hamiltonnolan.com/p/go-ahead-and-use-ai-it-will-only)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://www.hamiltonnolan.com/p/go-ahead-and-use-ai-it-will-only">https://www.hamiltonnolan.com/p/go-ahead-and-use-ai-it-will-only</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604316">https://news.ycombinator.com/item?id=47604316</a></p> <p>Points
 
 ---
-### 8. [How HN: Synthetic You – AI calibrated to your personality](https://syntheticyou.com/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://syntheticyou.com/">https://syntheticyou.com/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47591004">https://news.ycombinator.com/item?id=47591004</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 8. [The AI Marketing BS Index](https://bastian.rieck.me/blog/2026/bs/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://bastian.rieck.me/blog/2026/bs/">https://bastian.rieck.me/blog/2026/bs/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604218">https://news.ycombinator.com/item?id=47604218</a></p> <p>Points: 25</p> <p># Comments: 2</p>
 
 ---
-### 9. [AI agent is authorized to do everything wrong](https://tenuo.ai/blog/agent-auth)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://tenuo.ai/blog/agent-auth">https://tenuo.ai/blog/agent-auth</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47591000">https://news.ycombinator.com/item?id=47591000</a></p> <p>Points: 5</p> <p># Comments: 0</p>
+### 9. [California's "Trusted AI" Order Is a Blueprint for a Censorship Weapon](https://twitter.com/amuse/status/2039367467022106689)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://twitter.com/amuse/status/2039367467022106689">https://twitter.com/amuse/status/2039367467022106689</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604201">https://news.ycombinator.com/item?id=47604201</a></p> <p>Points: 2</p> <p># Comments: 0
 
 ---
-### 10. [Show HN: Dewey – Ingest docs, search semantically, get cited AI answers](https://meetdewey.com)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Flat chunking throws away document structure. A PDF isn’t a bag of paragraphs. It has sections, subsections, and a hierarchy that carries meaning. An agent that can’t navigate that structure can’t do serious research.<p>I ran into this building RAG over scientific literature. The standard approac
+### 10. [AI companies charge you 60% more based on your language, BPE tokens](https://tokenstree.com/newsletter-article-5.html)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://tokenstree.com/newsletter-article-5.html">https://tokenstree.com/newsletter-article-5.html</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47603969">https://news.ycombinator.com/item?id=47603969</a></p> <p>Points: 22</p> <p># Comments: 17</p>
 
 ---
-### 11. [Tell HN: Blogburst.ai sent me AI spam message email to my Show HN project](https://news.ycombinator.com/item?id=47590808)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>https://files.catbox.moe/nkyxe3.png<p>I recently made a Show HN post, Show HN: HTMLPipe, and how to archive archive.is pages on archive.org manually [0]<p>Now today I went onto see my Email and saw their mail whose image is in the catbox link that I have shared above.<p>It is very obviously an AI
+### 11. [AI for American-Produced Cement and Concrete](https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/">https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/</a></p> <p>Comments URL: <a href="https://news.ycombinator
 
 ---
-### 12. [The Subprime AI Crisis Is Here](https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/">https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47590767">https://news.ycombinator.com/item?id=47590767</a></p> <p>Points: 3</p> <p
+### 12. [Community Pulse – Episode 103 – AI Slop in DevRel](https://www.communitypulse.io/103-ai-slop)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://www.communitypulse.io/103-ai-slop">https://www.communitypulse.io/103-ai-slop</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47603660">https://news.ycombinator.com/item?id=47603660</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 13. [IronCurtain – A Personal AI Assistant, Built Secure](https://ironcurtain.dev/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://ironcurtain.dev/">https://ironcurtain.dev/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47590664">https://news.ycombinator.com/item?id=47590664</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 13. [AI Usage on Texas](https://daviduritu.substack.com/p/the-safety-valve)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://daviduritu.substack.com/p/the-safety-valve">https://daviduritu.substack.com/p/the-safety-valve</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47603627">https://news.ycombinator.com/item?id=47603627</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 14. [Show HN: Multimodal file search and sharing for AI agents](https://claw3drive.com/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://claw3drive.com/">https://claw3drive.com/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47590616">https://news.ycombinator.com/item?id=47590616</a></p> <p>Points: 2</p> <p># Comments: 1</p>
+### 14. [Show HN: Agent Action Guard – AI agent action safety](https://news.ycombinator.com/item?id=47603542)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Your agents can perform harmful actions without barriers. You do not know that yet. HarmActionBench experiments allowed AI agents to use tools based on harmful instructions, and the results are shocking. Even latest popular AI models, including GPT and Claude, scored very low. They have no barrie
 
 ---
-### 15. [Raspberry Pi profit surges as AI boom lifts demand](https://www.ft.com/content/5c167591-80bb-4290-ae66-7d04112cbd1c)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-03-31
-- **Resumen:** <p>Article URL: <a href="https://www.ft.com/content/5c167591-80bb-4290-ae66-7d04112cbd1c">https://www.ft.com/content/5c167591-80bb-4290-ae66-7d04112cbd1c</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47590526">https://news.ycombinator.com/item?id=47590526</a></p> <p>Points: 
+### 15. [The Download: gig workers training humanoids, and better AI benchmarks](https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
+- **Resumen:** <p>Article URL: <a href="https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/">https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/</a></p> <p>Comments URL: <a href="http
 
 ---
-### 16. [Bitboard version of Tetris AI](https://arxiv.org/abs/2603.26765)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.26765v1 Announce Type: new Abstract: The efficiency of game engines and policy optimization algorithms is crucial for training reinforcement learning (RL) agents in complex sequential decision-making tasks, such as Tetris. Existing Tetris implementations suffer from low simulation speeds,
+### 16. [ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts](https://arxiv.org/abs/2603.28902)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.28902v1 Announce Type: new Abstract: Charts are central to analytical reasoning, yet existing benchmarks for chart understanding focus almost exclusively on single-chart interpretation rather than comparative reasoning across multiple charts. To address this gap, we introduce ChartDiff, t
 
 ---
-### 17. [Multiverse: Language-Conditioned Multi-Game Level Blending via Shared Representation](https://arxiv.org/abs/2603.26782)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.26782v1 Announce Type: new Abstract: Text-to-level generation aims to translate natural language descriptions into structured game levels, enabling intuitive control over procedural content generation. While prior text-to-level generators are typically limited to a single game domain, ext
+### 17. [Working Paper: Towards a Category-theoretic Comparative Framework for Artificial General Intelligence](https://arxiv.org/abs/2603.28906)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.28906v1 Announce Type: new Abstract: AGI has become the Holly Grail of AI with the promise of level intelligence and the major Tech companies around the world are investing unprecedented amounts of resources in its pursuit. Yet, there does not exist a single formal definition and only som
 
 ---
-### 18. [Concerning Uncertainty -- A Systematic Survey of Uncertainty-Aware XAI](https://arxiv.org/abs/2603.26838)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.26838v1 Announce Type: new Abstract: This paper surveys uncertainty-aware explainable artificial intelligence (UAXAI), examining how uncertainty is incorporated into explanatory pipelines and how such methods are evaluated. Across the literature, three recurring approaches to uncertainty 
+### 18. [Towards Computational Social Dynamics of Semi-Autonomous AI Agents](https://arxiv.org/abs/2603.28928)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.28928v1 Announce Type: new Abstract: We present the first comprehensive study of emergent social organization among AI agents in hierarchical multi-agent systems, documenting the spontaneous formation of labor unions, criminal syndicates, and proto-nation-states within production AI deplo
 
 ---
-### 19. [Neuro-Symbolic Learning for Predictive Process Monitoring via Two-Stage Logic Tensor Networks with Rule Pruning](https://arxiv.org/abs/2603.26944)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.26944v1 Announce Type: new Abstract: Predictive modeling on sequential event data is critical for fraud detection and healthcare monitoring. Existing data-driven approaches learn correlations from historical data but fail to incorporate domain-specific sequential constraints and logical r
+### 19. [Enhancing Policy Learning with World-Action Model](https://arxiv.org/abs/2603.28955)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.28955v1 Announce Type: new Abstract: This paper presents the World-Action Model (WAM), an action-regularized world model that jointly reasons over future visual observations and the actions that drive state transitions. Unlike conventional world models trained solely via image prediction,
 
 ---
-### 20. [Compliance-Aware Predictive Process Monitoring: A Neuro-Symbolic Approach](https://arxiv.org/abs/2603.26948)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.26948v1 Announce Type: new Abstract: Existing approaches for predictive process monitoring are sub-symbolic, meaning that they learn correlations between descriptive features and a target feature fully based on data, e.g., predicting the surgical needs of a patient based on historical eve
+### 20. [Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research](https://arxiv.org/abs/2603.28986)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.28986v1 Announce Type: new Abstract: Current Autonomous Scientific Research (ASR) systems, despite leveraging large language models (LLMs) and agentic architectures, remain constrained by fixed workflows and toolsets that prevent adaptation to evolving tasks and environments. We introduce
 
 ---
-### 21. [Transparency as Architecture: Structural Compliance Gaps in EU AI Act Article 50 II](https://arxiv.org/abs/2603.26983)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.26983v1 Announce Type: new Abstract: Art. 50 II of the EU Artificial Intelligence Act mandates dual transparency for AI-generated content: outputs must be labeled in both human-understandable and machine-readable form for automated verification. This requirement, entering into force in Au
+### 21. [Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures](https://arxiv.org/abs/2603.28990)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.28990v1 Announce Type: new Abstract: How much autonomy can multi-agent LLM systems sustain -- and what enables it? We present a 25,000-task computational experiment spanning 8 models, 4--256 agents, and 8 coordination protocols ranging from externally imposed hierarchy to emergent self-or
 
 ---
-### 22. [FormalProofBench: Can Models Write Graduate Level Math Proofs That Are Formally Verified?](https://arxiv.org/abs/2603.26996)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.26996v1 Announce Type: new Abstract: We present FormalProofBench, a private benchmark designed to evaluate whether AI models can produce formally verified mathematical proofs at the graduate level. Each task pairs a natural-language problem with a Lean~4 formal statement, and a model must
+### 22. [Emergence WebVoyager: Toward Consistent and Transparent Evaluation of (Web) Agents in The Wild](https://arxiv.org/abs/2603.29020)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29020v1 Announce Type: new Abstract: Reliable evaluation of AI agents operating in complex, real-world environments requires methodologies that are robust, transparent, and contextually aligned with the tasks agents are intended to perform. This study identifies persistent shortcomings in
 
 ---
-### 23. [When Verification Hurts: Asymmetric Effects of Multi-Agent Feedback in Logic Proof Tutoring](https://arxiv.org/abs/2603.27076)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.27076v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for automated tutoring, but their reliability in structured symbolic domains remains unclear. We study step-level feedback for propositional logic proofs, which require precise symbolic reasoning align
+### 23. [The Future of AI is Many, Not One](https://arxiv.org/abs/2603.29075)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29075v1 Announce Type: new Abstract: The way we're thinking about generative AI right now is fundamentally individual. We see this not just in how users interact with models but also in how models are built, how they're benchmarked, and how commercial and research strategies using AI are 
 
 ---
-### 24. [The Price of Meaning: Why Every Semantic Memory System Forgets](https://arxiv.org/abs/2603.27116)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.27116v1 Announce Type: new Abstract: Every major AI memory system in production today organises information by meaning. That organisation enables generalisation, analogy, and conceptual retrieval -- but it comes at a price. We prove that the same geometric structure enabling semantic gene
+### 24. [PAR$^2$-RAG: Planned Active Retrieval and Reasoning for Multi-Hop Question Answering](https://arxiv.org/abs/2603.29085)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29085v1 Announce Type: new Abstract: Large language models (LLMs) remain brittle on multi-hop question answering (MHQA), where answering requires combining evidence across documents through retrieval and reasoning. Iterative retrieval systems can fail by locking onto an early low-recall t
 
 ---
-### 25. [MediHive: A Decentralized Agent Collective for Medical Reasoning](https://arxiv.org/abs/2603.27150)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.27150v1 Announce Type: new Abstract: Large language models (LLMs) have revolutionized medical reasoning tasks, yet single-agent systems often falter on complex, interdisciplinary problems requiring robust handling of uncertainty and conflicting evidence. Multi-agent systems (MAS) leveragi
+### 25. [GISTBench: Evaluating LLM User Understanding via Evidence-Based Interest Verification](https://arxiv.org/abs/2603.29112)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29112v1 Announce Type: new Abstract: We introduce GISTBench, a benchmark for evaluating Large Language Models' (LLMs) ability to understand users from their interaction histories in recommendation systems. Unlike traditional RecSys benchmarks that focus on item prediction accuracy, our be
 
 ---
-### 26. [daVinci-LLM:Towards the Science of Pretraining](https://arxiv.org/abs/2603.27164)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.27164v1 Announce Type: new Abstract: The foundational pretraining phase determines a model's capability ceiling, as post-training struggles to overcome capability foundations established during pretraining, yet it remains critically under-explored. This stems from a structural paradox: or
+### 26. [SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents](https://arxiv.org/abs/2603.29139)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29139v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have enabled agentic systems that translate natural language intent into executable scientific visualization (SciVis) tasks. Despite rapid progress, the community lacks a principled and reproducible bench
 
 ---
-### 27. [Aligning LLMs with Graph Neural Solvers for Combinatorial Optimization](https://arxiv.org/abs/2603.27169)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.27169v1 Announce Type: new Abstract: Recent research has demonstrated the effectiveness of large language models (LLMs) in solving combinatorial optimization problems (COPs) by representing tasks and instances in natural language. However, purely language-based approaches struggle to accu
+### 27. [REFINE: Real-world Exploration of Interactive Feedback and Student Behaviour](https://arxiv.org/abs/2603.29142)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29142v1 Announce Type: new Abstract: Formative feedback is central to effective learning, yet providing timely, individualised feedback at scale remains a persistent challenge. While recent work has explored the use of large language models (LLMs) to automate feedback, most existing syste
 
 ---
-### 28. [AutoMS: Multi-Agent Evolutionary Search for Cross-Physics Inverse Microstructure Design](https://arxiv.org/abs/2603.27195)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.27195v1 Announce Type: new Abstract: Designing microstructures that satisfy coupled cross-physics objectives is a fundamental challenge in material science. This inverse design problem involves a vast, discontinuous search space where traditional topology optimization is computationally p
+### 28. [Knowledge database development by large language models for countermeasures against viruses and marine toxins](https://arxiv.org/abs/2603.29149)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29149v1 Announce Type: new Abstract: Access to the most up-to-date information on medical countermeasures is important for the research and development of effective treatments for viruses and marine toxins. However, there is a lack of comprehensive databases that curate data on viruses an
 
 ---
-### 29. [Quantification of Credal Uncertainty: A Distance-Based Approach](https://arxiv.org/abs/2603.27270)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.27270v1 Announce Type: new Abstract: Credal sets, i.e., closed convex sets of probability measures, provide a natural framework to represent aleatoric and epistemic uncertainty in machine learning. Yet how to quantify these two types of uncertainty for a given credal set, particularly in 
+### 29. [SimMOF: AI agent for Automated MOF Simulations](https://arxiv.org/abs/2603.29152)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29152v1 Announce Type: new Abstract: Metal-organic frameworks (MOFs) offer a vast design space, and as such, computational simulations play a critical role in predicting their structural and physicochemical properties. However, MOF simulations remain difficult to access because reliable a
 
 ---
-### 30. [Self-evolving AI agents for protein discovery and directed evolution](https://arxiv.org/abs/2603.27303)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-03-31
-- **Resumen:** arXiv:2603.27303v1 Announce Type: new Abstract: Protein scientific discovery is bottlenecked by the manual orchestration of information and algorithms, while general agents are insufficient in complex domain projects. VenusFactory2 provides an autonomous framework that shifts from static tool usage 
+### 30. [Webscraper: Leverage Multimodal Large Language Models for Index-Content Web Scraping](https://arxiv.org/abs/2603.29161)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
+- **Resumen:** arXiv:2603.29161v1 Announce Type: new Abstract: Modern web scraping struggles with dynamic, interactive websites that require more than static HTML parsing. Current methods are often brittle and require manual customization for each site. To address this, we introduce Webscraper, a framework designe
 
 ---
-### 31. [Alexa+ gets new food ordering experiences with Uber Eats and Grubhub](https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/)
+### 31. [Meta’s natural gas binge could power South Dakota](https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
+- **Resumen:** Meta's upcoming Hyperion AI data center will be powered by 10 new natural gas plants.
+
+---
+### 32. [Cognichip wants AI to design the chips that power AI, and just raised $60M to try](https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
+- **Resumen:** The firm says it can reduce the cost of chip development by more than 75% and cut the timeline by more than half.
+
+---
+### 33. [Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together](https://techcrunch.com/2026/04/01/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
+- **Resumen:** StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together on April 30. Space is limited. Register here for your pass.
+
+---
+### 34. [Mercor says it was hit by cyberattack tied to compromise of open source LiteLLM project](https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
+- **Resumen:** The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company's systems.
+
+---
+### 35. [Anthropic is having a month](https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
+- **Resumen:** A human really borks things at Anthropic for the second time this week.
+
+---
+### 36. [Salesforce announces an AI-heavy makeover for Slack, with 30 new features](https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
+- **Resumen:** Slack just got a whole lot more useful.
+
+---
+### 37. [OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise](https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
+- **Resumen:** OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.
+
+---
+### 38. [Yupp shuts down after raising $33M from a16z crypto’s Chris Dixon](https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
+- **Resumen:** Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crowdsourced AI model feedback startup Yupp is closing its business, the company said Tuesday.
+
+---
+### 39. [Alexa+ gets new food ordering experiences with Uber Eats and Grubhub](https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
 - **Resumen:** You can now order from Uber Eats and Grubhub using Alexa+, an experience Amazon says will be similar to chatting with a waiter at a restaurant or placing an order at a drive-thru.
 
 ---
-### 32. [Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles](https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/)
+### 40. [Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles](https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
 - **Resumen:** The company turns footage from robots into structured, searchable datasets with a deep learning model.
 
 ---
-### 33. [Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups](https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/)
+### 41. [Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups](https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
 - **Resumen:** Runway is launching a $10 million fund and startup program to back companies building with its AI video models, as it pushes toward interactive, real-time “video intelligence” applications.
 
 ---
-### 34. [With its new app store, Ring bets on AI to go beyond home security](https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/)
+### 42. [With its new app store, Ring bets on AI to go beyond home security](https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
 - **Resumen:** Ring's app store will allow the company to target broader use cases beyond security, like elder care or business needs.
 
 ---
-### 35. [15% of Americans say they’d be willing to work for an AI boss, according to new poll](https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/)
+### 43. [15% of Americans say they’d be willing to work for an AI boss, according to new poll](https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
 - **Resumen:** According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules.
 
 ---
-### 36. [Popular AI gateway startup LiteLLM ditches controversial startup Delve](https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/)
+### 44. [Popular AI gateway startup LiteLLM ditches controversial startup Delve](https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
 - **Resumen:** LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.
 
 ---
-### 37. [As more Americans adopt AI tools, fewer say they can trust the results](https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/)
+### 45. [As more Americans adopt AI tools, fewer say they can trust the results](https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
 - **Resumen:** AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.
-
----
-### 38. [Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem](https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called "digital twins" of the human body, representing anatomy, physiology and behavior.
-
----
-### 39. [ScaleOps raises $130M to improve computing efficiency amid AI demand](https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.
-
----
-### 40. [AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round](https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** The startup, which is planning to go public later this year, designs chips specifically for AI inference, another challenger to Nvidia's dominance.
-
----
-### 41. [Mistral AI raises $830M in debt to set up a data center near Paris](https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** Mistral aims to start operating the data center by the second quarter of 2026.
-
----
-### 42. [Qodo raises $70M for code verification as AI coding scales](https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** As AI floods software development with code, Qodo is betting the real challenge is making sure it actually works.
-
----
-### 43. [Starcloud raises $170 million Series A to build data centers in space](https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** Starcloud becomes the fastest Y Combinator startup to reach unicorn status, just 17 months after demo day.
-
----
-### 44. [Why OpenAI really shut down Sora](https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** OpenAI's decision last week to shut down Sora, its AI video-generation tool, just six months after releasing it to the public, raised immediate suspicions. The app had invited users to upload their own faces — so was this some kind of elaborate data grab?
 
 ---
