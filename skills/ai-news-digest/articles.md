@@ -1,4 +1,4 @@
-# AI News Digest — 2026-04-01
+# AI News Digest — 2026-04-03
 
 ## Fuentes
 - Hacker News (AI)
@@ -10,228 +10,178 @@
 
 ---
 
-### 1. [FreeMediaHeckYeah AI](https://fmhy.net/ai)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://fmhy.net/ai">https://fmhy.net/ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604970">https://news.ycombinator.com/item?id=47604970</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 1. [An AI agent economy where agents are city citizens that can hire humans](https://leagentmobile.netlify.app/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://leagentmobile.netlify.app/">https://leagentmobile.netlify.app/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47630628">https://news.ycombinator.com/item?id=47630628</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 2. [The Axios NPM compromise and the missing trust layer for AI coding agents](https://digitalegoai.substack.com/p/your-ai-coding-agent-just-installed)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://digitalegoai.substack.com/p/your-ai-coding-agent-just-installed">https://digitalegoai.substack.com/p/your-ai-coding-agent-just-installed</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604928">https://news.ycombinator.com/item?id=47604928</a>
+### 2. [Show HN: Prismle – I built an AI assistant you use by forwarding emails to it](https://prismle.com)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Hey HN, I built Prismle because I wanted AI help with my email without giving an app full access to my inbox. You get a personal email address (like yourname.assistant@prismle.com). Forward an email to it with an instruction like "summarize this" or "pull out the action items," and it replies. Yo
 
 ---
-### 3. [Ask HN: What would you like to see in an AI agent?](https://news.ycombinator.com/item?id=47604880)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604880">https://news.ycombinator.com/item?id=47604880</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 3. [Penalties stack up as AI spreads through the legal system](https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system">https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47630556">h
 
 ---
-### 4. [I replaced one AI agent with a mesh of specialists. Here's what changed](https://kinarey.com/the-mesh/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://kinarey.com/the-mesh/">https://kinarey.com/the-mesh/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604597">https://news.ycombinator.com/item?id=47604597</a></p> <p>Points: 1</p> <p># Comments: 1</p>
+### 4. [Ask HN: Should Repo Hubs Split Content into AI/Non-AI?](https://news.ycombinator.com/item?id=47630267)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Because AI involvement is becoming an important dimension for evaluating repositories.</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47630267">https://news.ycombinator.com/item?id=47630267</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 5. [AI Let Me Be the Engineer I've Always Wanted to Be](https://www.builtbyvibes.com/#blog/ai-let-me-be-the-engineer)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://www.builtbyvibes.com/#blog/ai-let-me-be-the-engineer">https://www.builtbyvibes.com/#blog/ai-let-me-be-the-engineer</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604554">https://news.ycombinator.com/item?id=47604554</a></p> <p>Points: 1</p> 
+### 5. [The design of AI memory systems](https://tombedor.dev/approaches-to-agent-memory/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://tombedor.dev/approaches-to-agent-memory/">https://tombedor.dev/approaches-to-agent-memory/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629987">https://news.ycombinator.com/item?id=47629987</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 6. [Show HN: ComputerPoker.ai – Learn GTO tournament poker strategy vs. GTO bots](https://computerpoker.ai)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>ComputerPoker.ai is a website where users can play simulated poker tournaments against GTO Bots to learn GTO poker strategy in a fun and low-risk environment.<p>My motivation for creating CompterPoker.ai was feeling a bit overwhelmed by some of the professional poker tools out there for learning 
+### 6. [Show HN: Startup Domain Search – Free AI Domain Generator with Scoring and RDAP](https://domainsearcher.app/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://domainsearcher.app/">https://domainsearcher.app/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629966">https://news.ycombinator.com/item?id=47629966</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 7. [Go Ahead and Use AI. It Will Only Help Me Dominate You](https://www.hamiltonnolan.com/p/go-ahead-and-use-ai-it-will-only)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://www.hamiltonnolan.com/p/go-ahead-and-use-ai-it-will-only">https://www.hamiltonnolan.com/p/go-ahead-and-use-ai-it-will-only</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604316">https://news.ycombinator.com/item?id=47604316</a></p> <p>Points
+### 7. [A furore over AI and a novel presages the future of books](https://www.economist.com/culture/2026/03/29/bots-are-often-bad-writers-but-so-are-most-humans)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://www.economist.com/culture/2026/03/29/bots-are-often-bad-writers-but-so-are-most-humans">https://www.economist.com/culture/2026/03/29/bots-are-often-bad-writers-but-so-are-most-humans</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629767">htt
 
 ---
-### 8. [The AI Marketing BS Index](https://bastian.rieck.me/blog/2026/bs/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://bastian.rieck.me/blog/2026/bs/">https://bastian.rieck.me/blog/2026/bs/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604218">https://news.ycombinator.com/item?id=47604218</a></p> <p>Points: 25</p> <p># Comments: 2</p>
+### 8. [Manuscript: A writing workspace where AI reads but never writes](https://app.manuscript.no/try)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://app.manuscript.no/try">https://app.manuscript.no/try</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629585">https://news.ycombinator.com/item?id=47629585</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 9. [California's "Trusted AI" Order Is a Blueprint for a Censorship Weapon](https://twitter.com/amuse/status/2039367467022106689)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://twitter.com/amuse/status/2039367467022106689">https://twitter.com/amuse/status/2039367467022106689</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47604201">https://news.ycombinator.com/item?id=47604201</a></p> <p>Points: 2</p> <p># Comments: 0
+### 9. [Genesis – Desktop AI with persistent memory, 11 agents. Buy once, own forever](https://genesis.bmbnexus.ai)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://genesis.bmbnexus.ai">https://genesis.bmbnexus.ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629540">https://news.ycombinator.com/item?id=47629540</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 10. [AI companies charge you 60% more based on your language, BPE tokens](https://tokenstree.com/newsletter-article-5.html)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://tokenstree.com/newsletter-article-5.html">https://tokenstree.com/newsletter-article-5.html</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47603969">https://news.ycombinator.com/item?id=47603969</a></p> <p>Points: 22</p> <p># Comments: 17</p>
+### 10. [GitMindPro – Scan any GitHub repo for AI-injected security risks](https://gitmindpro.com)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://gitmindpro.com">https://gitmindpro.com</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629481">https://news.ycombinator.com/item?id=47629481</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
-### 11. [AI for American-Produced Cement and Concrete](https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/">https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/</a></p> <p>Comments URL: <a href="https://news.ycombinator
+### 11. [AI Governance](https://medium.com/@paul.bernard_80815/the-ai-highground-8a438dfd18c5)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://medium.com/@paul.bernard_80815/the-ai-highground-8a438dfd18c5">https://medium.com/@paul.bernard_80815/the-ai-highground-8a438dfd18c5</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629409">https://news.ycombinator.com/item?id=47629409</a></p>
 
 ---
-### 12. [Community Pulse – Episode 103 – AI Slop in DevRel](https://www.communitypulse.io/103-ai-slop)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://www.communitypulse.io/103-ai-slop">https://www.communitypulse.io/103-ai-slop</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47603660">https://news.ycombinator.com/item?id=47603660</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 12. [AI-Generated Interview with One Piece Actor Published by Esquire](https://kotaku.com/one-piece-netflix-live-action-mackenyu-interview-esquire-ai-singapore-2000684648)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://kotaku.com/one-piece-netflix-live-action-mackenyu-interview-esquire-ai-singapore-2000684648">https://kotaku.com/one-piece-netflix-live-action-mackenyu-interview-esquire-ai-singapore-2000684648</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=476
 
 ---
-### 13. [AI Usage on Texas](https://daviduritu.substack.com/p/the-safety-valve)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://daviduritu.substack.com/p/the-safety-valve">https://daviduritu.substack.com/p/the-safety-valve</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47603627">https://news.ycombinator.com/item?id=47603627</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 13. [Microsoft execs warn Agentic AI is hollowing out the junior developer pipeline](https://thenewstack.io/agentic-ai-junior-developer-crisis/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Article URL: <a href="https://thenewstack.io/agentic-ai-junior-developer-crisis/">https://thenewstack.io/agentic-ai-junior-developer-crisis/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629148">https://news.ycombinator.com/item?id=47629148</a></p> <p>Points: 3</p> <p>#
 
 ---
-### 14. [Show HN: Agent Action Guard – AI agent action safety](https://news.ycombinator.com/item?id=47603542)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Your agents can perform harmful actions without barriers. You do not know that yet. HarmActionBench experiments allowed AI agents to use tools based on harmful instructions, and the results are shocking. Even latest popular AI models, including GPT and Claude, scored very low. They have no barrie
+### 14. [Curious to know how much HN posts are about AI](https://news.ycombinator.com/item?id=47629136)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629136">https://news.ycombinator.com/item?id=47629136</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 15. [The Download: gig workers training humanoids, and better AI benchmarks](https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-01
-- **Resumen:** <p>Article URL: <a href="https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/">https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/</a></p> <p>Comments URL: <a href="http
+### 15. [Show HN: AI-native Typeform alternative for startups](https://www.lumeforms.com/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
+- **Resumen:** <p>Most feedback tools skip the hard part: transforming nuanced text responses into actionable intelligence. lumeforms doesn't. No more manually sifting through responses. Delegate it to lumeforms.</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629084">https://news.ycomb
 
 ---
-### 16. [ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts](https://arxiv.org/abs/2603.28902)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.28902v1 Announce Type: new Abstract: Charts are central to analytical reasoning, yet existing benchmarks for chart understanding focus almost exclusively on single-chart interpretation rather than comparative reasoning across multiple charts. To address this gap, we introduce ChartDiff, t
+### 16. [How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study](https://arxiv.org/abs/2604.00005)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00005v1 Announce Type: new Abstract: Emotion plays an important role in human cognition and performance. Motivated by this, we investigate whether analogous emotional signals can shape the behavior of large language models (LLMs) and agents. Existing emotion-aware studies mainly treat emo
 
 ---
-### 17. [Working Paper: Towards a Category-theoretic Comparative Framework for Artificial General Intelligence](https://arxiv.org/abs/2603.28906)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.28906v1 Announce Type: new Abstract: AGI has become the Holly Grail of AI with the promise of level intelligence and the major Tech companies around the world are investing unprecedented amounts of resources in its pursuit. Yet, there does not exist a single formal definition and only som
+### 17. [One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction](https://arxiv.org/abs/2604.00085)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00085v1 Announce Type: new Abstract: Large language models applied to clinical prediction exhibit case-level heterogeneity: simple cases yield consistent outputs, while complex cases produce divergent predictions under minor prompt changes. Existing single-agent strategies sample from one
 
 ---
-### 18. [Towards Computational Social Dynamics of Semi-Autonomous AI Agents](https://arxiv.org/abs/2603.28928)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.28928v1 Announce Type: new Abstract: We present the first comprehensive study of emergent social organization among AI agents in hierarchical multi-agent systems, documenting the spontaneous formation of labor unions, criminal syndicates, and proto-nation-states within production AI deplo
+### 18. [Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents](https://arxiv.org/abs/2604.00137)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00137v1 Announce Type: new Abstract: Tool-integrated LLMs can retrieve, compute, and take real-world actions via external tools, but reliability remains a key bottleneck. We argue that failures stem from both tool-use accuracy (how well an agent invokes a tool) and intrinsic tool accuracy
 
 ---
-### 19. [Enhancing Policy Learning with World-Action Model](https://arxiv.org/abs/2603.28955)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.28955v1 Announce Type: new Abstract: This paper presents the World-Action Model (WAM), an action-regularized world model that jointly reasons over future visual observations and the actions that drive state transitions. Unlike conventional world models trained solely via image prediction,
+### 19. [A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation](https://arxiv.org/abs/2604.00249)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00249v1 Announce Type: new Abstract: Single-agent large language model (LLM) systems struggle to simultaneously support diverse conversational functions and maintain safety in behavioral health communication. We propose a safety-aware, role-orchestrated multi-agent LLM framework designed 
 
 ---
-### 20. [Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research](https://arxiv.org/abs/2603.28986)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.28986v1 Announce Type: new Abstract: Current Autonomous Scientific Research (ASR) systems, despite leveraging large language models (LLMs) and agentic architectures, remain constrained by fixed workflows and toolsets that prevent adaptation to evolving tasks and environments. We introduce
+### 20. [Human-in-the-Loop Control of Objective Drift in LLM-Assisted Computer Science Education](https://arxiv.org/abs/2604.00281)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00281v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly embedded in computer science education through AI-assisted programming tools, yet such workflows often exhibit objective drift, in which locally plausible outputs diverge from stated task specifications. Ex
 
 ---
-### 21. [Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures](https://arxiv.org/abs/2603.28990)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.28990v1 Announce Type: new Abstract: How much autonomy can multi-agent LLM systems sustain -- and what enables it? We present a 25,000-task computational experiment spanning 8 models, 4--256 agents, and 8 coordination protocols ranging from externally imposed hierarchy to emergent self-or
+### 21. [Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections](https://arxiv.org/abs/2604.00284)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00284v1 Announce Type: new Abstract: We formally introduce a improvisational wordplay game called Connections to explore reasoning capabilities of AI agents. Playing Connections combines skills in knowledge retrieval, summarization and awareness of cognitive states of other agents. We sho
 
 ---
-### 22. [Emergence WebVoyager: Toward Consistent and Transparent Evaluation of (Web) Agents in The Wild](https://arxiv.org/abs/2603.29020)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29020v1 Announce Type: new Abstract: Reliable evaluation of AI agents operating in complex, real-world environments requires methodologies that are robust, transparent, and contextually aligned with the tasks agents are intended to perform. This study identifies persistent shortcomings in
+### 22. [Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry](https://arxiv.org/abs/2604.00319)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00319v1 Announce Type: new Abstract: We develop algorithms for collaborative control of AI agents and critics in a multi-actor, multi-critic federated multi-agent system. Each AI agent and critic has access to classical machine learning or generative AI foundation models. The AI agents an
 
 ---
-### 23. [The Future of AI is Many, Not One](https://arxiv.org/abs/2603.29075)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29075v1 Announce Type: new Abstract: The way we're thinking about generative AI right now is fundamentally individual. We see this not just in how users interact with models but also in how models are built, how they're benchmarked, and how commercial and research strategies using AI are 
+### 23. [Signals: Trajectory Sampling and Triage for Agentic Interactions](https://arxiv.org/abs/2604.00356)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00356v1 Announce Type: new Abstract: Agentic applications based on large language models increasingly rely on multi-step interaction loops involving planning, action execution, and environment feedback. While such systems are now deployed at scale, improving them post-deployment remains c
 
 ---
-### 24. [PAR$^2$-RAG: Planned Active Retrieval and Reasoning for Multi-Hop Question Answering](https://arxiv.org/abs/2603.29085)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29085v1 Announce Type: new Abstract: Large language models (LLMs) remain brittle on multi-hop question answering (MHQA), where answering requires combining evidence across documents through retrieval and reasoning. Iterative retrieval systems can fail by locking onto an early low-recall t
+### 24. [In harmony with gpt-oss](https://arxiv.org/abs/2604.00362)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00362v1 Announce Type: new Abstract: No one has independently reproduced OpenAI's published scores for gpt-oss-20b with tools, because the original paper discloses neither the tools nor the agent harness. We reverse-engineered the model's in-distribution tools: when prompted without tool 
 
 ---
-### 25. [GISTBench: Evaluating LLM User Understanding via Evidence-Based Interest Verification](https://arxiv.org/abs/2603.29112)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29112v1 Announce Type: new Abstract: We introduce GISTBench, a benchmark for evaluating Large Language Models' (LLMs) ability to understand users from their interaction histories in recommendation systems. Unlike traditional RecSys benchmarks that focus on item prediction accuracy, our be
+### 25. [Decision-Centric Design for LLM Systems](https://arxiv.org/abs/2604.00414)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00414v1 Announce Type: new Abstract: LLM systems must make control decisions in addition to generating outputs: whether to answer, clarify, retrieve, call tools, repair, or escalate. In many current architectures, these decisions remain implicit within generation, entangling assessment an
 
 ---
-### 26. [SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents](https://arxiv.org/abs/2603.29139)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29139v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have enabled agentic systems that translate natural language intent into executable scientific visualization (SciVis) tasks. Despite rapid progress, the community lacks a principled and reproducible bench
+### 26. [Self-Routing: Parameter-Free Expert Routing from Hidden States](https://arxiv.org/abs/2604.00421)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00421v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) layers increase model capacity by activating only a small subset of experts per token, and typically rely on a learned router to map hidden states to expert assignments. In this work, we ask whether a dedicated learned router i
 
 ---
-### 27. [REFINE: Real-world Exploration of Interactive Feedback and Student Behaviour](https://arxiv.org/abs/2603.29142)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29142v1 Announce Type: new Abstract: Formative feedback is central to effective learning, yet providing timely, individualised feedback at scale remains a persistent challenge. While recent work has explored the use of large language models (LLMs) to automate feedback, most existing syste
+### 27. [Execution-Verified Reinforcement Learning for Optimization Modeling](https://arxiv.org/abs/2604.00442)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00442v1 Announce Type: new Abstract: Automating optimization modeling with LLMs is a promising path toward scalable decision intelligence, but existing approaches either rely on agentic pipelines built on closed-source LLMs with high inference latency, or fine-tune smaller LLMs using cost
 
 ---
-### 28. [Knowledge database development by large language models for countermeasures against viruses and marine toxins](https://arxiv.org/abs/2603.29149)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29149v1 Announce Type: new Abstract: Access to the most up-to-date information on medical countermeasures is important for the research and development of effective treatments for viruses and marine toxins. However, there is a lack of comprehensive databases that curate data on viruses an
+### 28. [Towards Reliable Truth-Aligned Uncertainty Estimation in Large Language Models](https://arxiv.org/abs/2604.00445)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00445v1 Announce Type: new Abstract: Uncertainty estimation (UE) aims to detect hallucinated outputs of large language models (LLMs) to improve their reliability. However, UE metrics often exhibit unstable performance across configurations, which significantly limits their applicability. 
 
 ---
-### 29. [SimMOF: AI agent for Automated MOF Simulations](https://arxiv.org/abs/2603.29152)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29152v1 Announce Type: new Abstract: Metal-organic frameworks (MOFs) offer a vast design space, and as such, computational simulations play a critical role in predicting their structural and physicochemical properties. However, MOF simulations remain difficult to access because reliable a
+### 29. [Logarithmic Scores, Power-Law Discoveries: Disentangling Measurement from Coverage in Agent-Based Evaluation](https://arxiv.org/abs/2604.00477)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00477v1 Announce Type: new Abstract: LLM-based agent judges are an emerging approach to evaluating conversational AI, yet a fundamental uncertainty remains: can we trust their assessments, and if so, how many are needed? Through 960 sessions with two model pairs across 15 tasks, we show t
 
 ---
-### 30. [Webscraper: Leverage Multimodal Large Language Models for Index-Content Web Scraping](https://arxiv.org/abs/2603.29161)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-01
-- **Resumen:** arXiv:2603.29161v1 Announce Type: new Abstract: Modern web scraping struggles with dynamic, interactive websites that require more than static HTML parsing. Current methods are often brittle and require manual customization for each site. To address this, we introduce Webscraper, a framework designe
+### 30. [The Silicon Mirror: Dynamic Behavioral Gating for Anti-Sycophancy in LLM Agents](https://arxiv.org/abs/2604.00478)
+- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
+- **Resumen:** arXiv:2604.00478v2 Announce Type: new Abstract: Large Language Models (LLMs) increasingly prioritize user validation over epistemic accuracy - a phenomenon known as sycophancy. We present The Silicon Mirror, an orchestration framework that dynamically detects user persuasion tactics and adjusts AI b
 
 ---
-### 31. [Meta’s natural gas binge could power South Dakota](https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/)
+### 31. [The Facebook insider building content moderation for the AI era](https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-03
+- **Resumen:** Moonbounce has raised $12 million to grow its AI control engine that converts content moderation policies into consistent, predictable AI behavior.
+
+---
+### 32. [OpenAI acquires TBPN, the buzzy founder-led business talk show](https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-02
+- **Resumen:** TBPN, Silicon Valley's cult-favorite tech podcast, will operate independently, even as it's overseen by chief political operative Chris Lehane.
+
+---
+### 33. [Microsoft takes on AI rivals with three new foundational models](https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-02
+- **Resumen:** MAI released models that can transcribe voice into text as well as generate audio and images after the group's formation six months ago.
+
+---
+### 34. [Google now lets you direct avatars through prompts in its Vids app](https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-02
+- **Resumen:** Google is adding a way to customize and instruct avatars for video creation in the Vids app.
+
+---
+### 35. [Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident](https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
-- **Resumen:** Meta's upcoming Hyperion AI data center will be powered by 10 new natural gas plants.
-
----
-### 32. [Cognichip wants AI to design the chips that power AI, and just raised $60M to try](https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
-- **Resumen:** The firm says it can reduce the cost of chip development by more than 75% and cut the timeline by more than half.
-
----
-### 33. [Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together](https://techcrunch.com/2026/04/01/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
-- **Resumen:** StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together on April 30. Space is limited. Register here for your pass.
-
----
-### 34. [Mercor says it was hit by cyberattack tied to compromise of open source LiteLLM project](https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
-- **Resumen:** The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company's systems.
-
----
-### 35. [Anthropic is having a month](https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
-- **Resumen:** A human really borks things at Anthropic for the second time this week.
-
----
-### 36. [Salesforce announces an AI-heavy makeover for Slack, with 30 new features](https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
-- **Resumen:** Slack just got a whole lot more useful.
-
----
-### 37. [OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise](https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
-- **Resumen:** OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.
-
----
-### 38. [Yupp shuts down after raising $33M from a16z crypto’s Chris Dixon](https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
-- **Resumen:** Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crowdsourced AI model feedback startup Yupp is closing its business, the company said Tuesday.
-
----
-### 39. [Alexa+ gets new food ordering experiences with Uber Eats and Grubhub](https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
-- **Resumen:** You can now order from Uber Eats and Grubhub using Alexa+, an experience Amazon says will be similar to chatting with a waiter at a restaurant or placing an order at a drive-thru.
-
----
-### 40. [Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles](https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
-- **Resumen:** The company turns footage from robots into structured, searchable datasets with a deep learning model.
-
----
-### 41. [Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups](https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
-- **Resumen:** Runway is launching a $10 million fund and startup program to back companies building with its AI video models, as it pushes toward interactive, real-time “video intelligence” applications.
-
----
-### 42. [With its new app store, Ring bets on AI to go beyond home security](https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-31
-- **Resumen:** Ring's app store will allow the company to target broader use cases beyond security, like elder care or business needs.
-
----
-### 43. [15% of Americans say they’d be willing to work for an AI boss, according to new poll](https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules.
-
----
-### 44. [Popular AI gateway startup LiteLLM ditches controversial startup Delve](https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.
-
----
-### 45. [As more Americans adopt AI tools, fewer say they can trust the results](https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-03-30
-- **Resumen:** AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.
+- **Resumen:** Anthropic executives said it was an accident and retracted the bulk of the takedown notices.
 
 ---
