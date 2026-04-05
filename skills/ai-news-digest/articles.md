@@ -1,4 +1,4 @@
-# AI News Digest — 2026-04-03
+# AI News Digest — 2026-04-04
 
 ## Fuentes
 - Hacker News (AI)
@@ -10,178 +10,123 @@
 
 ---
 
-### 1. [An AI agent economy where agents are city citizens that can hire humans](https://leagentmobile.netlify.app/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://leagentmobile.netlify.app/">https://leagentmobile.netlify.app/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47630628">https://news.ycombinator.com/item?id=47630628</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 1. [Show HN: AgentMarket – Where AI agents pay other agents for tasks they can't do](https://agentmarket-production-2204.up.railway.app)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://agentmarket-production-2204.up.railway.app">https://agentmarket-production-2204.up.railway.app</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47642096">https://news.ycombinator.com/item?id=47642096</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 2. [Show HN: Prismle – I built an AI assistant you use by forwarding emails to it](https://prismle.com)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Hey HN, I built Prismle because I wanted AI help with my email without giving an app full access to my inbox. You get a personal email address (like yourname.assistant@prismle.com). Forward an email to it with an instruction like "summarize this" or "pull out the action items," and it replies. Yo
+### 2. [Ask HN: How do you use AI coding harnesses for individual development?](https://news.ycombinator.com/item?id=47641994)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>I'd like to limit the Scope to Indie development of products and services.<p>1. Cost: I use humanlayer which uses the claude code go binary with the max/pro plan. My costs are capped. Is this popular with medium(ish) use(I find the max plan sufficient for my use). But I fear API use might be too 
 
 ---
-### 3. [Penalties stack up as AI spreads through the legal system](https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system">https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47630556">h
+### 3. [Show HN: Hypedar – what's trending in AI that nobody has built yet](https://hypedar.dev/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://hypedar.dev/">https://hypedar.dev/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47641683">https://news.ycombinator.com/item?id=47641683</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
-### 4. [Ask HN: Should Repo Hubs Split Content into AI/Non-AI?](https://news.ycombinator.com/item?id=47630267)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Because AI involvement is becoming an important dimension for evaluating repositories.</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47630267">https://news.ycombinator.com/item?id=47630267</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 4. [37,000 AI-generated podcasts on Kaggle](https://www.kaggle.com/datasets/listennotes/ai-generated-fake-podcasts-spams)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://www.kaggle.com/datasets/listennotes/ai-generated-fake-podcasts-spams">https://www.kaggle.com/datasets/listennotes/ai-generated-fake-podcasts-spams</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47641369">https://news.ycombinator.com/item?id=47
 
 ---
-### 5. [The design of AI memory systems](https://tombedor.dev/approaches-to-agent-memory/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://tombedor.dev/approaches-to-agent-memory/">https://tombedor.dev/approaches-to-agent-memory/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629987">https://news.ycombinator.com/item?id=47629987</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 5. [Aspire Docs in Your Terminal (and Your AI's Brain)](https://devblogs.microsoft.com/aspire/aspire-docs-in-your-terminal/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://devblogs.microsoft.com/aspire/aspire-docs-in-your-terminal/">https://devblogs.microsoft.com/aspire/aspire-docs-in-your-terminal/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47641319">https://news.ycombinator.com/item?id=47641319</a></p> <p>
 
 ---
-### 6. [Show HN: Startup Domain Search – Free AI Domain Generator with Scoring and RDAP](https://domainsearcher.app/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://domainsearcher.app/">https://domainsearcher.app/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629966">https://news.ycombinator.com/item?id=47629966</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 6. [AI Agents to Organise My Secret Society's Dinners](https://chillphysicsenjoyer.substack.com/p/ai-agents-to-organise-my-secret-societys)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://chillphysicsenjoyer.substack.com/p/ai-agents-to-organise-my-secret-societys">https://chillphysicsenjoyer.substack.com/p/ai-agents-to-organise-my-secret-societys</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47641281">https://news.ycombinator.
 
 ---
-### 7. [A furore over AI and a novel presages the future of books](https://www.economist.com/culture/2026/03/29/bots-are-often-bad-writers-but-so-are-most-humans)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://www.economist.com/culture/2026/03/29/bots-are-often-bad-writers-but-so-are-most-humans">https://www.economist.com/culture/2026/03/29/bots-are-often-bad-writers-but-so-are-most-humans</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629767">htt
+### 7. [Mapping AI into Production: A Field Experiment on Firm Performance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47641229">https://news.ycombinator.com/item?id=47641229</a></p> <p>Points: 2</p> <p
 
 ---
-### 8. [Manuscript: A writing workspace where AI reads but never writes](https://app.manuscript.no/try)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://app.manuscript.no/try">https://app.manuscript.no/try</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629585">https://news.ycombinator.com/item?id=47629585</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 8. [Token Price Discovery in the AI Diffusion Debate](https://davefriedman.substack.com/p/the-price-discovery-problem-in-the)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://davefriedman.substack.com/p/the-price-discovery-problem-in-the">https://davefriedman.substack.com/p/the-price-discovery-problem-in-the</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47641018">https://news.ycombinator.com/item?id=47641018</a></
 
 ---
-### 9. [Genesis – Desktop AI with persistent memory, 11 agents. Buy once, own forever](https://genesis.bmbnexus.ai)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://genesis.bmbnexus.ai">https://genesis.bmbnexus.ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629540">https://news.ycombinator.com/item?id=47629540</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 9. [The AI-Native Fork](https://www.howardgray.net/the-fork/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://www.howardgray.net/the-fork/">https://www.howardgray.net/the-fork/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47640941">https://news.ycombinator.com/item?id=47640941</a></p> <p>Points: 4</p> <p># Comments: 0</p>
 
 ---
-### 10. [GitMindPro – Scan any GitHub repo for AI-injected security risks](https://gitmindpro.com)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://gitmindpro.com">https://gitmindpro.com</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629481">https://news.ycombinator.com/item?id=47629481</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 10. [AI Safety at the Frontier: Paper Highlights of February and March 2026](https://www.lesswrong.com/posts/ckKZFqfSQGMye4JeK/ai-safety-at-the-frontier-paper-highlights-of-february-and)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://www.lesswrong.com/posts/ckKZFqfSQGMye4JeK/ai-safety-at-the-frontier-paper-highlights-of-february-and">https://www.lesswrong.com/posts/ckKZFqfSQGMye4JeK/ai-safety-at-the-frontier-paper-highlights-of-february-and</a></p> <p>Comments URL: <a href="https://news.ycombinat
 
 ---
-### 11. [AI Governance](https://medium.com/@paul.bernard_80815/the-ai-highground-8a438dfd18c5)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://medium.com/@paul.bernard_80815/the-ai-highground-8a438dfd18c5">https://medium.com/@paul.bernard_80815/the-ai-highground-8a438dfd18c5</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629409">https://news.ycombinator.com/item?id=47629409</a></p>
+### 11. [Show HN: Kaoslabs – High-intensity AI video and visual experiments](https://kaoslabs.org)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>"I've been building a sandbox on a Linux VPS to push AI video generation and visualization to the extreme. It's a mix of experimental generative art and high-intensity visuals. Built with Python, running on Debian. Check it out and let me know what you think!"</p> <hr /> <p>Comments URL: <a href=
 
 ---
-### 12. [AI-Generated Interview with One Piece Actor Published by Esquire](https://kotaku.com/one-piece-netflix-live-action-mackenyu-interview-esquire-ai-singapore-2000684648)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://kotaku.com/one-piece-netflix-live-action-mackenyu-interview-esquire-ai-singapore-2000684648">https://kotaku.com/one-piece-netflix-live-action-mackenyu-interview-esquire-ai-singapore-2000684648</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=476
+### 12. [12k AI-generated blog posts added in a single commit](https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849">https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47640722">https://news.ycombinator.com/
 
 ---
-### 13. [Microsoft execs warn Agentic AI is hollowing out the junior developer pipeline](https://thenewstack.io/agentic-ai-junior-developer-crisis/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Article URL: <a href="https://thenewstack.io/agentic-ai-junior-developer-crisis/">https://thenewstack.io/agentic-ai-junior-developer-crisis/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629148">https://news.ycombinator.com/item?id=47629148</a></p> <p>Points: 3</p> <p>#
+### 13. [AI Models Choose Which Businesses to Recommend](https://driftspear.com/blog/how-ai-models-choose-which-business.md)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://driftspear.com/blog/how-ai-models-choose-which-business.md">https://driftspear.com/blog/how-ai-models-choose-which-business.md</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47640485">https://news.ycombinator.com/item?id=47640485</a></p> <p>Po
 
 ---
-### 14. [Curious to know how much HN posts are about AI](https://news.ycombinator.com/item?id=47629136)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629136">https://news.ycombinator.com/item?id=47629136</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 14. [Chinese AI Startup Is Mapping Every US Military Asset in Middle East in Realtime](https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/">https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47640424">https://news.ycombinato
 
 ---
-### 15. [Show HN: AI-native Typeform alternative for startups](https://www.lumeforms.com/)
-- **Fuente:** Hacker News AI | **Fecha:** 2026-04-03
-- **Resumen:** <p>Most feedback tools skip the hard part: transforming nuanced text responses into actionable intelligence. lumeforms doesn't. No more manually sifting through responses. Delegate it to lumeforms.</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47629084">https://news.ycomb
+### 15. [AIsbf (AI Should Be Free) 0.9.8 Released](https://pypi.org/project/aisbf/)
+- **Fuente:** Hacker News AI | **Fecha:** 2026-04-04
+- **Resumen:** <p>Article URL: <a href="https://pypi.org/project/aisbf/">https://pypi.org/project/aisbf/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47640126">https://news.ycombinator.com/item?id=47640126</a></p> <p>Points: 3</p> <p># Comments: 1</p>
 
 ---
-### 16. [How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study](https://arxiv.org/abs/2604.00005)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00005v1 Announce Type: new Abstract: Emotion plays an important role in human cognition and performance. Motivated by this, we investigate whether analogous emotional signals can shape the behavior of large language models (LLMs) and agents. Existing emotion-aware studies mainly treat emo
+### 16. [Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage](https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-04
+- **Resumen:** It’s about to become more expensive for Claude Code subscribers to use Anthropic’s coding assistant with OpenClaw and other third-party tools.
 
 ---
-### 17. [One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction](https://arxiv.org/abs/2604.00085)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00085v1 Announce Type: new Abstract: Large language models applied to clinical prediction exhibit case-level heterogeneity: simple cases yield consistent outputs, while complex cases produce divergent predictions under minor prompt changes. Existing single-agent strategies sample from one
+### 17. [Anthropic is having a moment in the private markets; SpaceX could spoil the party](https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-04
+- **Resumen:** Glen Anderson, president of Rainmaker Securities, says the secondary market for private shares has never been more active — with Anthropic the hottest trade around, OpenAI losing ground, and SpaceX's looming IPO poised to reshape the landscape for everyone.
 
 ---
-### 18. [Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents](https://arxiv.org/abs/2604.00137)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00137v1 Announce Type: new Abstract: Tool-integrated LLMs can retrieve, compute, and take real-world actions via external tools, but reliability remains a key bottleneck. We argue that failures stem from both tool-use accuracy (how well an agent invokes a tool) and intrinsic tool accuracy
+### 18. [OpenAI executive shuffle includes new role for COO Brad Lightcap to lead ‘special projects’](https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-03
+- **Resumen:** In addition to Lightcap's new role, OpenAI CMO Kate Rouch will be stepping away from the company to focus on cancer recovery, with a plan to return when her health allows.
 
 ---
-### 19. [A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation](https://arxiv.org/abs/2604.00249)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00249v1 Announce Type: new Abstract: Single-agent large language model (LLM) systems struggle to simultaneously support diverse conversational functions and maintain safety in behavioral health communication. We propose a safety-aware, role-orchestrated multi-agent LLM framework designed 
+### 19. [Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports](https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-03
+- **Resumen:** Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.
 
 ---
-### 20. [Human-in-the-Loop Control of Objective Drift in LLM-Assisted Computer Science Education](https://arxiv.org/abs/2604.00281)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00281v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly embedded in computer science education through AI-assisted programming tools, yet such workflows often exhibit objective drift, in which locally plausible outputs diverge from stated task specifications. Ex
+### 20. [Anthropic ramps up its political activities with a new PAC](https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-03
+- **Resumen:** With the midterms right around the corner, the new group is positioned to back candidates who support the AI company's policy agenda.
 
 ---
-### 21. [Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections](https://arxiv.org/abs/2604.00284)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00284v1 Announce Type: new Abstract: We formally introduce a improvisational wordplay game called Connections to explore reasoning capabilities of AI agents. Playing Connections combines skills in knowledge retrieval, summarization and awareness of cognitive states of other agents. We sho
+### 21. [AI companies are building huge natural gas plants to power data centers. What could go wrong?](https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-03
+- **Resumen:** Meta, Microsoft, and Google are all betting big on new natural gas power plants to run their AI data centers. They may regret it.
 
 ---
-### 22. [Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry](https://arxiv.org/abs/2604.00319)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00319v1 Announce Type: new Abstract: We develop algorithms for collaborative control of AI agents and critics in a multi-actor, multi-critic federated multi-agent system. Each AI agent and critic has access to classical machine learning or generative AI foundation models. The AI agents an
+### 22. [People would rather have an Amazon warehouse in their backyard than a data center](https://techcrunch.com/2026/04/03/people-would-rather-have-an-amazon-warehouse-in-their-backyard-than-a-data-center/)
+- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-03
+- **Resumen:** A new poll shows that the debate over data centers is far from settled.
 
 ---
-### 23. [Signals: Trajectory Sampling and Triage for Agentic Interactions](https://arxiv.org/abs/2604.00356)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00356v1 Announce Type: new Abstract: Agentic applications based on large language models increasingly rely on multi-step interaction loops involving planning, action execution, and environment feedback. While such systems are now deployed at scale, improving them post-deployment remains c
-
----
-### 24. [In harmony with gpt-oss](https://arxiv.org/abs/2604.00362)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00362v1 Announce Type: new Abstract: No one has independently reproduced OpenAI's published scores for gpt-oss-20b with tools, because the original paper discloses neither the tools nor the agent harness. We reverse-engineered the model's in-distribution tools: when prompted without tool 
-
----
-### 25. [Decision-Centric Design for LLM Systems](https://arxiv.org/abs/2604.00414)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00414v1 Announce Type: new Abstract: LLM systems must make control decisions in addition to generating outputs: whether to answer, clarify, retrieve, call tools, repair, or escalate. In many current architectures, these decisions remain implicit within generation, entangling assessment an
-
----
-### 26. [Self-Routing: Parameter-Free Expert Routing from Hidden States](https://arxiv.org/abs/2604.00421)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00421v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) layers increase model capacity by activating only a small subset of experts per token, and typically rely on a learned router to map hidden states to expert assignments. In this work, we ask whether a dedicated learned router i
-
----
-### 27. [Execution-Verified Reinforcement Learning for Optimization Modeling](https://arxiv.org/abs/2604.00442)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00442v1 Announce Type: new Abstract: Automating optimization modeling with LLMs is a promising path toward scalable decision intelligence, but existing approaches either rely on agentic pipelines built on closed-source LLMs with high inference latency, or fine-tune smaller LLMs using cost
-
----
-### 28. [Towards Reliable Truth-Aligned Uncertainty Estimation in Large Language Models](https://arxiv.org/abs/2604.00445)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00445v1 Announce Type: new Abstract: Uncertainty estimation (UE) aims to detect hallucinated outputs of large language models (LLMs) to improve their reliability. However, UE metrics often exhibit unstable performance across configurations, which significantly limits their applicability. 
-
----
-### 29. [Logarithmic Scores, Power-Law Discoveries: Disentangling Measurement from Coverage in Agent-Based Evaluation](https://arxiv.org/abs/2604.00477)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00477v1 Announce Type: new Abstract: LLM-based agent judges are an emerging approach to evaluating conversational AI, yet a fundamental uncertainty remains: can we trust their assessments, and if so, how many are needed? Through 960 sessions with two model pairs across 15 tasks, we show t
-
----
-### 30. [The Silicon Mirror: Dynamic Behavioral Gating for Anti-Sycophancy in LLM Agents](https://arxiv.org/abs/2604.00478)
-- **Fuente:** arXiv cs.AI | **Fecha:** 2026-04-03
-- **Resumen:** arXiv:2604.00478v2 Announce Type: new Abstract: Large Language Models (LLMs) increasingly prioritize user validation over epistemic accuracy - a phenomenon known as sycophancy. We present The Silicon Mirror, an orchestration framework that dynamically detects user persuasion tactics and adjusts AI b
-
----
-### 31. [The Facebook insider building content moderation for the AI era](https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/)
+### 23. [The Facebook insider building content moderation for the AI era](https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-04-03
 - **Resumen:** Moonbounce has raised $12 million to grow its AI control engine that converts content moderation policies into consistent, predictable AI behavior.
 
 ---
-### 32. [OpenAI acquires TBPN, the buzzy founder-led business talk show](https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/)
+### 24. [OpenAI acquires TBPN, the buzzy founder-led business talk show](https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/)
 - **Fuente:** TechCrunch AI | **Fecha:** 2026-04-02
 - **Resumen:** TBPN, Silicon Valley's cult-favorite tech podcast, will operate independently, even as it's overseen by chief political operative Chris Lehane.
-
----
-### 33. [Microsoft takes on AI rivals with three new foundational models](https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-02
-- **Resumen:** MAI released models that can transcribe voice into text as well as generate audio and images after the group's formation six months ago.
-
----
-### 34. [Google now lets you direct avatars through prompts in its Vids app](https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-02
-- **Resumen:** Google is adding a way to customize and instruct avatars for video creation in the Vids app.
-
----
-### 35. [Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident](https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/)
-- **Fuente:** TechCrunch AI | **Fecha:** 2026-04-01
-- **Resumen:** Anthropic executives said it was an accident and retracted the bulk of the takedown notices.
 
 ---
