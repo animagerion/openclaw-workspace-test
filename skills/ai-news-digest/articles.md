@@ -1,144 +1,144 @@
 # AI News — 2026-04-08
 
-## 58 artículos recopilados
+## 57 artículos recopilados
 
-### 1. Heron is open-source security auditor that interviews your AI agents
+### 1. AI doesn't know how to interact with touchscreens
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://news.ycombinator.com/item?id=47689318
-**Resumen:** <p>Last week our security guy in our company asked me to write doc with information about how my AI agents work, which data and systems it touches. "It's too much work" i thought, so i built Heron. It interviews your agent with 10 main questions and smart follow-ups if feel uncertainty. It also has regulatory flags (SOC2, GDPR, EU AI Act etc). As a result you get a full report with all needed information.<p>Feel free to try. No SDK, no code changes, MIT licensed. Have 4 modes(server, skill, scan
+**URL:** https://blog.allada.com/give-an-llm-an-api-and-itll-thrive-give-it-a-touchscreen-and-it-struggles/
+**Resumen:** <p>Article URL: <a href="https://blog.allada.com/give-an-llm-an-api-and-itll-thrive-give-it-a-touchscreen-and-it-struggles/">https://blog.allada.com/give-an-llm-an-api-and-itll-thrive-give-it-a-touchscreen-and-it-struggles/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692674">https://news.ycombinator.com/item?id=47692674</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 2. Show HN: Heron is open-source security auditor that interviews your AI agents
+### 2. Show HN: TUI-use: Let AI agents control interactive terminal programs
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://news.ycombinator.com/item?id=47689236
-**Resumen:** <p>Last week security guy in our company asked me to write doc with information about how they work, which data and systems it touches for all my AI agents. "It's too much work" i thought. So i built Heron. It interviews your agent with 10 main questions and smart follow-ups if feel uncertainty. It also has regulatory flags (SOC2, GDPR, EU AI Act etc). As a result you get a full report with all needed information.<p>Feel free to try. No SDK, no code changes, MIT licensed. Have 4 modes (server, o
+**URL:** https://github.com/onesuper/tui-use
+**Resumen:** <p>Article URL: <a href="https://github.com/onesuper/tui-use">https://github.com/onesuper/tui-use</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692661">https://news.ycombinator.com/item?id=47692661</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 3. The Empty Middle of AI Coding
+### 3. Show HN: One click to deploy AI platforms and other open source tools
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://xificurc.github.io/blog/the-empty-middle-of-ai-coding/
-**Resumen:** <p>Article URL: <a href="https://xificurc.github.io/blog/the-empty-middle-of-ai-coding/">https://xificurc.github.io/blog/the-empty-middle-of-ai-coding/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47689135">https://news.ycombinator.com/item?id=47689135</a></p> <p>Points: 3</p> <p># Comments: 1</p>
+**URL:** https://hyp.app
+**Resumen:** <p>Article URL: <a href="https://hyp.app">https://hyp.app</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692634">https://news.ycombinator.com/item?id=47692634</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 4. Anthropic's most powerful AI model Mythos Preview is too dangerous for release
+### 4. Akamai: AI bot traffic surged 300% in 2025, hitting publishers hardest
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release
-**Resumen:** <p>Article URL: <a href="https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release">https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688944">https://news.ycombinator.com/item?id=47688944</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+**URL:** https://www.akamai.com/resources/state-of-the-internet/publishing-ai-botnet-report
+**Resumen:** <p>Article URL: <a href="https://www.akamai.com/resources/state-of-the-internet/publishing-ai-botnet-report">https://www.akamai.com/resources/state-of-the-internet/publishing-ai-botnet-report</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692598">https://news.ycombinator.com/item?id=47692598</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 5. Ask HN: Should AI credits be refunded on mistakes?
+### 5. AI Experience Engineering
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://news.ycombinator.com/item?id=47688712
-**Resumen:** <p>Something I’ve noticed (I’m using Claude subscription so no refunds but it applies to usage windows) is that sometimes AI makes mistakes so if something is important I tell Claude code to spin up a couple of sub agents and verify the information, often there will be a mistake and it gets rectified.<p>It feels unfair I have to pay (or lose some usage) for this.<p>Interested in other people’s thoughts.</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688712">https://n
+**URL:** https://raqibul.com/writing/ai-experience-engineering
+**Resumen:** <p>Article URL: <a href="https://raqibul.com/writing/ai-experience-engineering">https://raqibul.com/writing/ai-experience-engineering</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692593">https://news.ycombinator.com/item?id=47692593</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 6. Who Would Be Scared If AI Replaced Their Jobs?
+### 6. AI agents as CRDT peers – building collaborative AI with Yjs
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://maxglobalnews.com/if-ai-takes-over-we-lose-our-jobs-but-if-ai-fails-we-also-lose-our-jobs/
-**Resumen:** <p>Article URL: <a href="https://maxglobalnews.com/if-ai-takes-over-we-lose-our-jobs-but-if-ai-fails-we-also-lose-our-jobs/">https://maxglobalnews.com/if-ai-takes-over-we-lose-our-jobs-but-if-ai-fails-we-also-lose-our-jobs/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688591">https://news.ycombinator.com/item?id=47688591</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+**URL:** https://electric-sql.com/blog/2026/04/08/ai-agents-as-crdt-peers-with-yjs
+**Resumen:** <p>Article URL: <a href="https://electric-sql.com/blog/2026/04/08/ai-agents-as-crdt-peers-with-yjs">https://electric-sql.com/blog/2026/04/08/ai-agents-as-crdt-peers-with-yjs</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692540">https://news.ycombinator.com/item?id=47692540</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 7. Breakthrough in AI Solving Math Conjectures: Peking Univ. Team's Exploration
+### 7. What a Japanese cooking principle taught me about overcoming AI fatigue
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://chinaresearchcollective.substack.com/p/a-new-breakthrough-in-ai-solving
-**Resumen:** <p>Article URL: <a href="https://chinaresearchcollective.substack.com/p/a-new-breakthrough-in-ai-solving">https://chinaresearchcollective.substack.com/p/a-new-breakthrough-in-ai-solving</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688483">https://news.ycombinator.com/item?id=47688483</a></p> <p>Points: 2</p> <p># Comments: 2</p>
+**URL:** https://www.devas.life/what-a-japanese-cooking-principle-taught-me-about-overcoming-ai-fatigue/
+**Resumen:** <p>Article URL: <a href="https://www.devas.life/what-a-japanese-cooking-principle-taught-me-about-overcoming-ai-fatigue/">https://www.devas.life/what-a-japanese-cooking-principle-taught-me-about-overcoming-ai-fatigue/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692373">https://news.ycombinator.com/item?id=47692373</a></p> <p>Points: 3</p> <p># Comments: 1</p>
 
 ---
 
-### 8. Defender – Local prompt injection detection for AI agents (no API calls)
+### 8. Show HN: Open-Source AI That Builds Screens, Not Just Text
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://www.npmjs.com/package/@stackone/defender
-**Resumen:** <p>Article URL: <a href="https://www.npmjs.com/package/@stackone/defender">https://www.npmjs.com/package/@stackone/defender</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688386">https://news.ycombinator.com/item?id=47688386</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+**URL:** https://github.com/SimonSchubert/Kai
+**Resumen:** <p>Article URL: <a href="https://github.com/SimonSchubert/Kai">https://github.com/SimonSchubert/Kai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692343">https://news.ycombinator.com/item?id=47692343</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 9. Claude Mythos Preview: Available in Private Preview on Vertex AI
+### 9. Show HN: I built a personal corporation of AI agents that runs on your PC
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai
-**Resumen:** <p>Article URL: <a href="https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai">https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688319">https://news.ycombinator.com/item?id=47688319</a></p> <p>Points: 1</p> <p># Comments: 1</p>
+**URL:** https://github.com/re-marked/claude-corp
+**Resumen:** <p>Claude Corp is a daemon that runs and orchestrates an autonomous personal corporation of AI agents on your machine.<p>OpenClaw agents form a social hierarchy, and everybody knows who they listen and report to.<p>Agents can discuss stuff in channels, by @mentioning each other or using threads.<p>Agents can create Tasks and Contracts, where Tasks are persistent tasks stored as file, and Contracts are a bundle of tasks, with a shared goal. When all tasks in a contract are done, the Contract is m
 
 ---
 
-### 10. ZeroKeep – Private AI workspace on WebGPU. Zero cost, zero setup
+### 10. Meta debuts Muse Spark, first AI model under Alexandr Wang
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://zerokeep.dev
-**Resumen:** <p>Article URL: <a href="https://zerokeep.dev">https://zerokeep.dev</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688210">https://news.ycombinator.com/item?id=47688210</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+**URL:** https://www.axios.com/2026/04/08/meta-muse-alexandr-wang
+**Resumen:** <p>Article URL: <a href="https://www.axios.com/2026/04/08/meta-muse-alexandr-wang">https://www.axios.com/2026/04/08/meta-muse-alexandr-wang</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692250">https://news.ycombinator.com/item?id=47692250</a></p> <p>Points: 13</p> <p># Comments: 2</p>
 
 ---
 
-### 11. An AI Agent. In COBOL. Yes
+### 11. Japan relaxes privacy laws to make itself the 'easiest country to develop AI'
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://github.com/xawt/cobold-cli
-**Resumen:** <p>Article URL: <a href="https://github.com/xawt/cobold-cli">https://github.com/xawt/cobold-cli</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687923">https://news.ycombinator.com/item?id=47687923</a></p> <p>Points: 4</p> <p># Comments: 0</p>
+**URL:** https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/
+**Resumen:** <p>Article URL: <a href="https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/">https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47692042">https://news.ycombinator.com/item?id=47692042</a></p> <p>Points: 3</p> <p># Comments: 0</p>
 
 ---
 
-### 12. Completely Private AI
+### 12. Anthropic Just Handed Apache $1.5M to Secure the Open Source Stack AI Depends On
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://molebieai.com/
-**Resumen:** <p>Article URL: <a href="https://molebieai.com/">https://molebieai.com/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687824">https://news.ycombinator.com/item?id=47687824</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+**URL:** https://itsfoss.com/news/anthropic-apache-software-foundation-donation/
+**Resumen:** <p>Article URL: <a href="https://itsfoss.com/news/anthropic-apache-software-foundation-donation/">https://itsfoss.com/news/anthropic-apache-software-foundation-donation/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691992">https://news.ycombinator.com/item?id=47691992</a></p> <p>Points: 2</p> <p># Comments: 2</p>
 
 ---
 
-### 13. HappyHorse 1.0 – Turn Any Idea into AI Videos Instantly
+### 13. Is this the end for data analysts? AI agent, 500GB, 100 rounds, 134.9s, $1.66
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://happyhorse.video
-**Resumen:** <p>Article URL: <a href="https://happyhorse.video">https://happyhorse.video</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687686">https://news.ycombinator.com/item?id=47687686</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+**URL:** https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04
+**Resumen:** <p>Article URL: <a href="https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04">https://medium.com/generative-ai/i-talked-to-500gb-of-retail-data-with-zero-domain-knowledge-ai-designed-a-strategy-i-never-expected-11e97b37ad04</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691761">https://news.ycombinator.com/item?id=47691761</a></p> <p>Points: 1</p> <p># Comments: 2</p>
 
 ---
 
-### 14. Show HN: Rootcx.com – open-source AI agents and internal software
+### 14. AWS has climbed on the AI-in-space bandwagon with more bad science
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://github.com/RootCX/RootCX
-**Resumen:** <p>Article URL: <a href="https://github.com/RootCX/RootCX">https://github.com/RootCX/RootCX</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687370">https://news.ycombinator.com/item?id=47687370</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+**URL:** https://aws.amazon.com/
+**Resumen:** <p>Article URL: <a href="https://aws.amazon.com/">https://aws.amazon.com/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691757">https://news.ycombinator.com/item?id=47691757</a></p> <p>Points: 1</p> <p># Comments: 2</p>
 
 ---
 
-### 15. Show HN: SharpSkill – We built the future of AI coding interviews
+### 15. AI Dance Generator: Create Viral Dance Videos from Photos
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://sharpskill.dev/en
-**Resumen:** <p>Gm HN,<p>Quite hard to code without AI nowadays.<p>We decided to help people monitore it, in order to reach their own goals.<p>AI writes your code, we teach you how to use it.</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687305">https://news.ycombinator.com/item?id=47687305</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+**URL:** https://dancingai.io/
+**Resumen:** <p>Article URL: <a href="https://dancingai.io/">https://dancingai.io/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691517">https://news.ycombinator.com/item?id=47691517</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 16. AI-Ready Modular Data Center Slashes Deployment Time
+### 16. StormScope: Giving Real-Time Weather Data to Your AI
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://spectrum.ieee.org/modular-data-center
-**Resumen:** <p>Article URL: <a href="https://spectrum.ieee.org/modular-data-center">https://spectrum.ieee.org/modular-data-center</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687292">https://news.ycombinator.com/item?id=47687292</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+**URL:** https://jmthornton.net/blog/p/stormscope/
+**Resumen:** <p>Article URL: <a href="https://jmthornton.net/blog/p/stormscope/">https://jmthornton.net/blog/p/stormscope/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691235">https://news.ycombinator.com/item?id=47691235</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 17. UK's grand plan to fuel AI with public data faces uphill battle
+### 17. Benchmark to measure AI on graphic design tasks
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://www.theregister.com/2026/04/08/national_data_library_plan/
-**Resumen:** <p>Article URL: <a href="https://www.theregister.com/2026/04/08/national_data_library_plan/">https://www.theregister.com/2026/04/08/national_data_library_plan/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687226">https://news.ycombinator.com/item?id=47687226</a></p> <p>Points: 2</p> <p># Comments: 1</p>
+**URL:** https://arxiv.org/abs/2604.04192
+**Resumen:** <p>Article URL: <a href="https://arxiv.org/abs/2604.04192">https://arxiv.org/abs/2604.04192</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691227">https://news.ycombinator.com/item?id=47691227</a></p> <p>Points: 5</p> <p># Comments: 2</p>
 
 ---
 
-### 18. Milla Jovovich released an AI memory system. None of benchmark scores are real
+### 18. Northeastern presentation to junior engineers in the age of AI
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://penfieldlabs.substack.com/p/milla-jovovich-just-released-an-ai
-**Resumen:** <p>Article URL: <a href="https://penfieldlabs.substack.com/p/milla-jovovich-just-released-an-ai">https://penfieldlabs.substack.com/p/milla-jovovich-just-released-an-ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687208">https://news.ycombinator.com/item?id=47687208</a></p> <p>Points: 3</p> <p># Comments: 0</p>
+**URL:** https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html
+**Resumen:** <p>Article URL: <a href="https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html">https://blog.marcua.net/2026/04/08/ai-agent-revolution-junior-software-engineers.html</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691156">https://news.ycombinator.com/item?id=47691156</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 19. Claude AI down: Anthropic users hit with errors as chatbot goes offline
+### 19. Chilcy – Free AI tool for CSV insights
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://www.the-independent.com/tech/claude-ai-down-anthropic-chatbot-error-status-b2953528.html
-**Resumen:** <p>Article URL: <a href="https://www.the-independent.com/tech/claude-ai-down-anthropic-chatbot-error-status-b2953528.html">https://www.the-independent.com/tech/claude-ai-down-anthropic-chatbot-error-status-b2953528.html</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687173">https://news.ycombinator.com/item?id=47687173</a></p> <p>Points: 3</p> <p># Comments: 0</p>
+**URL:** https://www.chilcy.com/
+**Resumen:** <p>Article URL: <a href="https://www.chilcy.com/">https://www.chilcy.com/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691127">https://news.ycombinator.com/item?id=47691127</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 20. Show HN: Bring AI Agents to industrial control via "SDK-style" real-time engine
+### 20. Google launched an AI dictation app that works offline
 **Fuente:** Hacker News AI | **Fecha:** 2026-04-08
-**URL:** https://www.youtube.com/watch?v=3Uc_OT2CKiE
-**Resumen:** <p>Hi<p>Just want to showcase this new real-time engine I built in Python.<p>It can achieve precise real-time task execution with a jitter of less than 1ms, suitable to be used as a vPLC.<p>It has a built-in auto-generation of RESTful APIs and MCP, which allows direct integration with other systems and LLM agents.<p>It also allows you to connect with real PLCs, industrial gateways, or edge units via the OPC UA protocol. So you can use it for backup.<p>The URL links to a demo in action with Ignit
+**URL:** https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/
+**Resumen:** <p>Article URL: <a href="https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/">https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47691004">https://news.ycombinator.com/item?id=47691004</a></p> <p>Points: 3</p> <p># Comments: 0</p>
 
 ---
 
