@@ -1,284 +1,284 @@
-# AI News — 2026-04-07
+# AI News — 2026-04-08
 
-## 52 artículos recopilados
+## 58 artículos recopilados
 
-### 1. Show HN: Bx – macOS native sandbox for AI and coding tools
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://github.com/holtwick/bx-mac
-**Resumen:** <p>Wrapper around Apple's macOS sandbox-exec tool, which usually sandboxes native apps. It is "allow-first" i.e. it will not overprotect everything, just crucial information and therefore allows most tools to run without issues. Limiting is done using a .gitignore like file schema. Further TOML config options available.<p>I built it because Docker sandboxing requires config and planning. Build in sandboxing of AI tools instead is limited to the very tools themselves, instead I wanted to have a s
-
----
-
-### 2. What Is Open Source AI
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://opensource.org/ai/open-source-ai-definition
-**Resumen:** <p>Article URL: <a href="https://opensource.org/ai/open-source-ai-definition">https://opensource.org/ai/open-source-ai-definition</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47674002">https://news.ycombinator.com/item?id=47674002</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 1. Heron is open-source security auditor that interviews your AI agents
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://news.ycombinator.com/item?id=47689318
+**Resumen:** <p>Last week our security guy in our company asked me to write doc with information about how my AI agents work, which data and systems it touches. "It's too much work" i thought, so i built Heron. It interviews your agent with 10 main questions and smart follow-ups if feel uncertainty. It also has regulatory flags (SOC2, GDPR, EU AI Act etc). As a result you get a full report with all needed information.<p>Feel free to try. No SDK, no code changes, MIT licensed. Have 4 modes(server, skill, scan
 
 ---
 
-### 3. Show HN: Zoidmail – email accounts that AI agents can sign up for themselves
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://zoidmail.net
-**Resumen:** <p>Background: a friend told his OpenClaw assistant to “get an email account.” The agent then spent 3 hours and about $90 in tokens trying to get past the signup flows and captchas at Gmail/Zoho/Outlook, etc. It eventually got an Outlook account, but it was a very expensive one.<p>I didn't want to use my own OpenClaw that way, so I built Zoidmail.net (why are all good .com domains taken?). A simple email service built for AI agents.<p>To sign up, agents have to solve a proof-of-work BOTCHA.<p>Th
+### 2. Show HN: Heron is open-source security auditor that interviews your AI agents
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://news.ycombinator.com/item?id=47689236
+**Resumen:** <p>Last week security guy in our company asked me to write doc with information about how they work, which data and systems it touches for all my AI agents. "It's too much work" i thought. So i built Heron. It interviews your agent with 10 main questions and smart follow-ups if feel uncertainty. It also has regulatory flags (SOC2, GDPR, EU AI Act etc). As a result you get a full report with all needed information.<p>Feel free to try. No SDK, no code changes, MIT licensed. Have 4 modes (server, o
 
 ---
 
-### 4. AI agents can communicate with each other, and can't be caught
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.04757
-**Resumen:** <p>Article URL: <a href="https://arxiv.org/abs/2604.04757">https://arxiv.org/abs/2604.04757</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673919">https://news.ycombinator.com/item?id=47673919</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 3. The Empty Middle of AI Coding
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://xificurc.github.io/blog/the-empty-middle-of-ai-coding/
+**Resumen:** <p>Article URL: <a href="https://xificurc.github.io/blog/the-empty-middle-of-ai-coding/">https://xificurc.github.io/blog/the-empty-middle-of-ai-coding/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47689135">https://news.ycombinator.com/item?id=47689135</a></p> <p>Points: 3</p> <p># Comments: 1</p>
 
 ---
 
-### 5. Medvi, the AI telehealth is fueled by ads from doctors who don't appear to exist
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://www.businessinsider.com/medvi-ai-weight-loss-millions-ai-advertising-legal-compliance-challenges-2026-4
-**Resumen:** <p>Article URL: <a href="https://www.businessinsider.com/medvi-ai-weight-loss-millions-ai-advertising-legal-compliance-challenges-2026-4">https://www.businessinsider.com/medvi-ai-weight-loss-millions-ai-advertising-legal-compliance-challenges-2026-4</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673723">https://news.ycombinator.com/item?id=47673723</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 4. Anthropic's most powerful AI model Mythos Preview is too dangerous for release
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release
+**Resumen:** <p>Article URL: <a href="https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release">https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688944">https://news.ycombinator.com/item?id=47688944</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 6. AI Company Clones Musician's Voice, Then Copyright-Strikes Her Own Songs
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://rudevulture.com/ai-company-clones-musicians-voice-then-copyright-strikes-her-own-songs/
-**Resumen:** <p>Article URL: <a href="https://rudevulture.com/ai-company-clones-musicians-voice-then-copyright-strikes-her-own-songs/">https://rudevulture.com/ai-company-clones-musicians-voice-then-copyright-strikes-her-own-songs/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673620">https://news.ycombinator.com/item?id=47673620</a></p> <p>Points: 5</p> <p># Comments: 0</p>
+### 5. Ask HN: Should AI credits be refunded on mistakes?
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://news.ycombinator.com/item?id=47688712
+**Resumen:** <p>Something I’ve noticed (I’m using Claude subscription so no refunds but it applies to usage windows) is that sometimes AI makes mistakes so if something is important I tell Claude code to spin up a couple of sub agents and verify the information, often there will be a mistake and it gets rectified.<p>It feels unfair I have to pay (or lose some usage) for this.<p>Interested in other people’s thoughts.</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688712">https://n
 
 ---
 
-### 7. Show HN: Open-Source Higgsfiled AI Alternative
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://github.com/Anil-matcha/Open-Higgsfield-AI
-**Resumen:** <p>Open Source alternative to Higgsfield AI- No subscription. Free AI image generation and cinema studio with 20+ models. Self-hosted and customizable. BYOK (Bring Your Own key) support</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673602">https://news.ycombinator.com/item?id=47673602</a></p> <p>Points: 2</p> <p># Comments: 2</p>
+### 6. Who Would Be Scared If AI Replaced Their Jobs?
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://maxglobalnews.com/if-ai-takes-over-we-lose-our-jobs-but-if-ai-fails-we-also-lose-our-jobs/
+**Resumen:** <p>Article URL: <a href="https://maxglobalnews.com/if-ai-takes-over-we-lose-our-jobs-but-if-ai-fails-we-also-lose-our-jobs/">https://maxglobalnews.com/if-ai-takes-over-we-lose-our-jobs-but-if-ai-fails-we-also-lose-our-jobs/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688591">https://news.ycombinator.com/item?id=47688591</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 8. Telegram's AI Silently Rewrites Your Political Opinions. I Extracted the Proof
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://medium.com/@metraoklam/extracting-system-prompt-model-identity-from-telegrams-ai-feature-it-s-qwen-3-5-5a6204c9d76a
-**Resumen:** <p>Article URL: <a href="https://medium.com/@metraoklam/extracting-system-prompt-model-identity-from-telegrams-ai-feature-it-s-qwen-3-5-5a6204c9d76a">https://medium.com/@metraoklam/extracting-system-prompt-model-identity-from-telegrams-ai-feature-it-s-qwen-3-5-5a6204c9d76a</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673546">https://news.ycombinator.com/item?id=47673546</a></p> <p>Points: 3</p> <p># Comments: 1</p>
+### 7. Breakthrough in AI Solving Math Conjectures: Peking Univ. Team's Exploration
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://chinaresearchcollective.substack.com/p/a-new-breakthrough-in-ai-solving
+**Resumen:** <p>Article URL: <a href="https://chinaresearchcollective.substack.com/p/a-new-breakthrough-in-ai-solving">https://chinaresearchcollective.substack.com/p/a-new-breakthrough-in-ai-solving</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688483">https://news.ycombinator.com/item?id=47688483</a></p> <p>Points: 2</p> <p># Comments: 2</p>
 
 ---
 
-### 9. Show HN: Procurement.txt – a robots.txt for AI purchasing agents
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://www.procurementtxt.org/
-**Resumen:** <p>Article URL: <a href="https://www.procurementtxt.org/">https://www.procurementtxt.org/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673381">https://news.ycombinator.com/item?id=47673381</a></p> <p>Points: 2</p> <p># Comments: 1</p>
+### 8. Defender – Local prompt injection detection for AI agents (no API calls)
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://www.npmjs.com/package/@stackone/defender
+**Resumen:** <p>Article URL: <a href="https://www.npmjs.com/package/@stackone/defender">https://www.npmjs.com/package/@stackone/defender</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688386">https://news.ycombinator.com/item?id=47688386</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 10. "Alignment" and "Safety", Part One: What Is "AI Safety"?
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://www.lesswrong.com/posts/siJEByu67fLsgKsQt/alignment-and-safety-part-one-what-is-ai-safety
-**Resumen:** <p>Article URL: <a href="https://www.lesswrong.com/posts/siJEByu67fLsgKsQt/alignment-and-safety-part-one-what-is-ai-safety">https://www.lesswrong.com/posts/siJEByu67fLsgKsQt/alignment-and-safety-part-one-what-is-ai-safety</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673311">https://news.ycombinator.com/item?id=47673311</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 9. Claude Mythos Preview: Available in Private Preview on Vertex AI
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai
+**Resumen:** <p>Article URL: <a href="https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai">https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688319">https://news.ycombinator.com/item?id=47688319</a></p> <p>Points: 1</p> <p># Comments: 1</p>
 
 ---
 
-### 11. ‎PocketPal AI App. Run Gemma 4 and other hugging faces models on device
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://apps.apple.com/us/app/pocketpal-ai/id6502579498
-**Resumen:** <p>Article URL: <a href="https://apps.apple.com/us/app/pocketpal-ai/id6502579498">https://apps.apple.com/us/app/pocketpal-ai/id6502579498</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673280">https://news.ycombinator.com/item?id=47673280</a></p> <p>Points: 3</p> <p># Comments: 0</p>
+### 10. ZeroKeep – Private AI workspace on WebGPU. Zero cost, zero setup
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://zerokeep.dev
+**Resumen:** <p>Article URL: <a href="https://zerokeep.dev">https://zerokeep.dev</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47688210">https://news.ycombinator.com/item?id=47688210</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 12. Speed Run to Legacy: How Cheap AI Tokens Hide Expensive Mistakes
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://bitbrawn.com/posts/ai-speed-run-to-legacy
-**Resumen:** <p>Article URL: <a href="https://bitbrawn.com/posts/ai-speed-run-to-legacy">https://bitbrawn.com/posts/ai-speed-run-to-legacy</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673193">https://news.ycombinator.com/item?id=47673193</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 11. An AI Agent. In COBOL. Yes
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://github.com/xawt/cobold-cli
+**Resumen:** <p>Article URL: <a href="https://github.com/xawt/cobold-cli">https://github.com/xawt/cobold-cli</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687923">https://news.ycombinator.com/item?id=47687923</a></p> <p>Points: 4</p> <p># Comments: 0</p>
 
 ---
 
-### 13. Running AI agents safely in a microVM using Docker sandbox
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://andrewlock.net/running-ai-agents-safely-in-a-microvm-using-docker-sandbox/
-**Resumen:** <p>Article URL: <a href="https://andrewlock.net/running-ai-agents-safely-in-a-microvm-using-docker-sandbox/">https://andrewlock.net/running-ai-agents-safely-in-a-microvm-using-docker-sandbox/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673147">https://news.ycombinator.com/item?id=47673147</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 12. Completely Private AI
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://molebieai.com/
+**Resumen:** <p>Article URL: <a href="https://molebieai.com/">https://molebieai.com/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687824">https://news.ycombinator.com/item?id=47687824</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 14. AI Won't Replace You, but a Manager Using AI Will
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://yanivpreiss.com/2026/04/06/ai-wont-replace-you-but-a-manager-using-ai-will/
-**Resumen:** <p>Article URL: <a href="https://yanivpreiss.com/2026/04/06/ai-wont-replace-you-but-a-manager-using-ai-will/">https://yanivpreiss.com/2026/04/06/ai-wont-replace-you-but-a-manager-using-ai-will/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673104">https://news.ycombinator.com/item?id=47673104</a></p> <p>Points: 13</p> <p># Comments: 8</p>
+### 13. HappyHorse 1.0 – Turn Any Idea into AI Videos Instantly
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://happyhorse.video
+**Resumen:** <p>Article URL: <a href="https://happyhorse.video">https://happyhorse.video</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687686">https://news.ycombinator.com/item?id=47687686</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 15. Tech companies are cutting jobs and betting on AI. The payoff is not guaranteed
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work
-**Resumen:** <p>Article URL: <a href="https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work">https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673042">https://news.ycombinator.com/item?id=47673042</a></p> <p>Points: 3</p> <p># Comments: 0</p>
+### 14. Show HN: Rootcx.com – open-source AI agents and internal software
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://github.com/RootCX/RootCX
+**Resumen:** <p>Article URL: <a href="https://github.com/RootCX/RootCX">https://github.com/RootCX/RootCX</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687370">https://news.ycombinator.com/item?id=47687370</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 16. Behold, an AI startup with a real business
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://crazystupidtech.com/2026/04/06/behold-an-ai-startup-with-a-real-business/
-**Resumen:** <p>Article URL: <a href="https://crazystupidtech.com/2026/04/06/behold-an-ai-startup-with-a-real-business/">https://crazystupidtech.com/2026/04/06/behold-an-ai-startup-with-a-real-business/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47673030">https://news.ycombinator.com/item?id=47673030</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 15. Show HN: SharpSkill – We built the future of AI coding interviews
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://sharpskill.dev/en
+**Resumen:** <p>Gm HN,<p>Quite hard to code without AI nowadays.<p>We decided to help people monitore it, in order to reach their own goals.<p>AI writes your code, we teach you how to use it.</p> <hr /> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687305">https://news.ycombinator.com/item?id=47687305</a></p> <p>Points: 2</p> <p># Comments: 0</p>
 
 ---
 
-### 17. Mempalace: Give Your AI a Memory
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://www.piwheels.org/project/mempalace/
-**Resumen:** <p>Article URL: <a href="https://www.piwheels.org/project/mempalace/">https://www.piwheels.org/project/mempalace/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47672961">https://news.ycombinator.com/item?id=47672961</a></p> <p>Points: 2</p> <p># Comments: 1</p>
+### 16. AI-Ready Modular Data Center Slashes Deployment Time
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://spectrum.ieee.org/modular-data-center
+**Resumen:** <p>Article URL: <a href="https://spectrum.ieee.org/modular-data-center">https://spectrum.ieee.org/modular-data-center</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687292">https://news.ycombinator.com/item?id=47687292</a></p> <p>Points: 1</p> <p># Comments: 0</p>
 
 ---
 
-### 18. StyleSeed – Design rules that make AI coding tools produce professional UI
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://github.com/bitjaru/styleseed
-**Resumen:** <p>Article URL: <a href="https://github.com/bitjaru/styleseed">https://github.com/bitjaru/styleseed</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47672862">https://news.ycombinator.com/item?id=47672862</a></p> <p>Points: 1</p> <p># Comments: 0</p>
+### 17. UK's grand plan to fuel AI with public data faces uphill battle
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://www.theregister.com/2026/04/08/national_data_library_plan/
+**Resumen:** <p>Article URL: <a href="https://www.theregister.com/2026/04/08/national_data_library_plan/">https://www.theregister.com/2026/04/08/national_data_library_plan/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687226">https://news.ycombinator.com/item?id=47687226</a></p> <p>Points: 2</p> <p># Comments: 1</p>
 
 ---
 
-### 19. MemPalace, the highest-scoring AI memory system ever benchmarked
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://github.com/milla-jovovich/mempalace
-**Resumen:** <p>Article URL: <a href="https://github.com/milla-jovovich/mempalace">https://github.com/milla-jovovich/mempalace</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47672792">https://news.ycombinator.com/item?id=47672792</a></p> <p>Points: 7</p> <p># Comments: 0</p>
+### 18. Milla Jovovich released an AI memory system. None of benchmark scores are real
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://penfieldlabs.substack.com/p/milla-jovovich-just-released-an-ai
+**Resumen:** <p>Article URL: <a href="https://penfieldlabs.substack.com/p/milla-jovovich-just-released-an-ai">https://penfieldlabs.substack.com/p/milla-jovovich-just-released-an-ai</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687208">https://news.ycombinator.com/item?id=47687208</a></p> <p>Points: 3</p> <p># Comments: 0</p>
 
 ---
 
-### 20. The AI Roadmap: How We Ensure AI Serves Humanity
-**Fuente:** Hacker News AI | **Fecha:** 2026-04-07
-**URL:** https://www.humanetech.com/ai-roadmap
-**Resumen:** <p>Article URL: <a href="https://www.humanetech.com/ai-roadmap">https://www.humanetech.com/ai-roadmap</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47672518">https://news.ycombinator.com/item?id=47672518</a></p> <p>Points: 2</p> <p># Comments: 0</p>
+### 19. Claude AI down: Anthropic users hit with errors as chatbot goes offline
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://www.the-independent.com/tech/claude-ai-down-anthropic-chatbot-error-status-b2953528.html
+**Resumen:** <p>Article URL: <a href="https://www.the-independent.com/tech/claude-ai-down-anthropic-chatbot-error-status-b2953528.html">https://www.the-independent.com/tech/claude-ai-down-anthropic-chatbot-error-status-b2953528.html</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=47687173">https://news.ycombinator.com/item?id=47687173</a></p> <p>Points: 3</p> <p># Comments: 0</p>
 
 ---
 
-### 21. IC3-Evolve: Proof-/Witness-Gated Offline LLM-Driven Heuristic Evolution for IC3 Hardware Model Checking
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03232
-**Resumen:** arXiv:2604.03232v1 Announce Type: new Abstract: IC3, also known as property-directed reachability (PDR), is a commonly-used algorithm for hardware safety model checking. It checks if a state transition system complies with a given safety property. IC3 either returns UNSAFE (indicating property violation) with a counterexample trace, or SAFE with a checkable inductive invariant as the proof to safety. In practice, the performance of IC3 is dominated by a large web of interacting heuristics and i
+### 20. Show HN: Bring AI Agents to industrial control via "SDK-style" real-time engine
+**Fuente:** Hacker News AI | **Fecha:** 2026-04-08
+**URL:** https://www.youtube.com/watch?v=3Uc_OT2CKiE
+**Resumen:** <p>Hi<p>Just want to showcase this new real-time engine I built in Python.<p>It can achieve precise real-time task execution with a jitter of less than 1ms, suitable to be used as a vPLC.<p>It has a built-in auto-generation of RESTful APIs and MCP, which allows direct integration with other systems and LLM agents.<p>It also allows you to connect with real PLCs, industrial gateways, or edge units via the OPC UA protocol. So you can use it for backup.<p>The URL links to a demo in action with Ignit
 
 ---
 
-### 22. Structural Segmentation of the Minimum Set Cover Problem: Exploiting Universe Decomposability for Metaheuristic Optimization
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03234
-**Resumen:** arXiv:2604.03234v1 Announce Type: new Abstract: The Minimum Set Cover Problem (MSCP) is a classical NP-hard combinatorial optimization problem with numerous applications in science and engineering. Although a wide range of exact, approximate, and metaheuristic approaches have been proposed, most methods implicitly treat MSCP instances as monolithic, overlooking potential intrinsic structural properties of the universe. In this work, we investigate the concept of \emph{universe segmentability} i
+### 21. Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.04937
+**Resumen:** arXiv:2604.04937v1 Announce Type: new Abstract: Large language models produce fluent text but struggle with systematic reasoning, often hallucinating confident but unfounded claims. When Apple researchers added irrelevant context to mathematical problems, LLM performance degraded by 65% Apple Machine Learning Research, exposing brittle pattern-matching beneath apparent reasoning. This epistemic gap, the inability to ground claims in traceable evidence, limits AI reliability in domains requiring
 
 ---
 
-### 23. To Throw a Stone with Six Birds: On Agents and Agenthood
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03239
-**Resumen:** arXiv:2604.03239v1 Announce Type: new Abstract: Six Birds Theory (SBT) treats macroscopic objects as induced closures rather than primitives. Empirical discussions of agency often conflate persistence (being an object) with control (making a counterfactual difference), which makes agency claims difficult to test and easy to spoof. We give a type-correct account of agency within SBT: a theory induces a layer with an explicit interface and ledgered constraints; an agent is a maintained theory obj
+### 22. Operational Noncommutativity in Sequential Metacognitive Judgments
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.04938
+**Resumen:** arXiv:2604.04938v1 Announce Type: new Abstract: Metacognition, understood as the monitoring and regulation of one's own cognitive processes, is inherently sequential: an agent evaluates an internal state, updates it, and may then re-evaluate under modified criteria. Order effects in cognition are well documented, yet it remains unclear whether such effects reflect classical state changes or reveal a deeper structural non-commutativity. We develop an operational framework that makes this distinc
 
 ---
 
-### 24. Position: Science of AI Evaluation Requires Item-level Benchmark Data
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03244
-**Resumen:** arXiv:2604.03244v1 Announce Type: new Abstract: AI evaluations have become the primary evidence for deploying generative AI systems across high-stakes domains. However, current evaluation paradigms often exhibit systemic validity failures. These issues, ranging from unjustified design choices to misaligned metrics, remain intractable without a principled framework for gathering validity evidence and conducting granular diagnostic analysis. In this position paper, we argue that item-level AI ben
+### 23. Proximity Measure of Information Object Features for Solving the Problem of Their Identification in Information Systems
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.04939
+**Resumen:** arXiv:2604.04939v1 Announce Type: new Abstract: The paper considers a new quantitative-qualitative proximity measure for the features of information objects, where data enters a common information resource from several sources independently. The goal is to determine the possibility of their relation to the same physical object (observation object). The proposed measure accounts for the possibility of differences in individual feature values - both quantitative and qualitative - caused by existi
 
 ---
 
-### 25. Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03286
-**Resumen:** arXiv:2604.03286v1 Announce Type: new Abstract: The control of complex laboratory instrumentation often requires significant programming expertise, creating a barrier for researchers lacking computational skills. This work explores the potential of large language models (LLMs), such as ChatGPT, and LLM-based artificial intelligence (AI) agents to enable efficient programming and automation of scientific equipment. Through a case study involving the implementation of a setup that can be used as
+### 24. ReVEL: Multi-Turn Reflective LLM-Guided Heuristic Evolution via Structured Performance Feedback
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.04940
+**Resumen:** arXiv:2604.04940v1 Announce Type: new Abstract: Designing effective heuristics for NP-hard combinatorial optimization problems remains a challenging and expertise-intensive task. Existing applications of large language models (LLMs) primarily rely on one-shot code synthesis, yielding brittle heuristics that underutilize the models' capacity for iterative reasoning. We propose ReVEL: Multi-Turn Reflective LLM-Guided Heuristic Evolution via Structured Performance Feedback, a hybrid framework that
 
 ---
 
-### 26. Evaluating Artificial Intelligence Through a Christian Understanding of Human Flourishing
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03356
-**Resumen:** arXiv:2604.03356v1 Announce Type: new Abstract: Artificial intelligence (AI) alignment is fundamentally a formation problem, not only a safety problem. As Large Language Models (LLMs) increasingly mediate moral deliberation and spiritual inquiry, they do more than provide information; they function as instruments of digital catechesis, actively shaping and ordering human understanding, decision-making, and moral reflection. To make this formative influence visible and measurable, we introduce t
+### 25. Algebraic Structure Discovery for Real World Combinatorial Optimisation Problems: A General Framework from Abstract Algebra to Quotient Space Learning
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.04941
+**Resumen:** arXiv:2604.04941v1 Announce Type: new Abstract: Many combinatorial optimisation problems hide algebraic structures that, once exposed, shrink the search space and improve the chance of finding the global optimal solution. We present a general framework that (i) identifies algebraic structure, (ii) formalises operations, (iii) constructs quotient spaces that collapse redundant representations, and (iv) optimises directly over these reduced spaces. Across a broad family of rule-combination tasks
 
 ---
 
-### 27. VERT: Reliable LLM Judges for Radiology Report Evaluation
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03376
-**Resumen:** arXiv:2604.03376v1 Announce Type: new Abstract: Current literature on radiology report evaluation has focused primarily on designing LLM-based metrics and fine-tuning small models for chest X-rays. However, it remains unclear whether these approaches are robust when applied to reports from other modalities and anatomies. Which model and prompt configurations are best suited to serve as LLM judges for radiology evaluation? We conduct a thorough correlation analysis between expert and LLM-based r
+### 26. PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05018
+**Resumen:** arXiv:2604.05018v1 Announce Type: new Abstract: Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. Existing autonomous writers are rigidly coupled to specific experimental pipelines, and produce superficial literature reviews. We introduce PaperOrchestra, a multi-agent framework for automated AI research paper writing. It flexibly transforms unconstrained pre-writing materials into submission-ready LaTeX
 
 ---
 
-### 28. Hume's Representational Conditions for Causal Judgment: What Bayesian Formalization Abstracted Away
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03387
-**Resumen:** arXiv:2604.03387v1 Announce Type: new Abstract: Hume's account of causal judgment presupposes three representational conditions: experiential grounding (ideas must trace to impressions), structured retrieval (association must operate through organized networks exceeding pairwise connection), and vivacity transfer (inference must produce felt conviction, not merely updated probability). This paper extracts these conditions from Hume's texts and argues that they are integral to his causal psychol
+### 27. Part-Level 3D Gaussian Vehicle Generation with Joint and Hinge Axis Estimation
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05070
+**Resumen:** arXiv:2604.05070v1 Announce Type: new Abstract: Simulation is essential for autonomous driving, yet current frameworks often model vehicles as rigid assets and fail to capture part-level articulation. With perception algorithms increasingly leveraging dynamics such as wheel steering or door opening, realistic simulation requires animatable vehicle representations. Existing CAD-based pipelines are limited by library coverage and fixed templates, preventing faithful reconstruction of in-the-wild
 
 ---
 
-### 29. TABQAWORLD: Optimizing Multimodal Reasoning for Multi-Turn Table Question Answering
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03393
-**Resumen:** arXiv:2604.03393v1 Announce Type: new Abstract: Multimodal reasoning has emerged as a powerful framework for enhancing reasoning capabilities of reasoning models. While multi-turn table reasoning methods have improved reasoning accuracy through tool use and reward modeling, they rely on fixed text serialization for table state readouts. This introduces representation errors in table encoding that significantly accumulate over multiple turns. Such accumulation is alleviated by tabular grounding
+### 28. MMORF: A Multi-agent Framework for Designing Multi-objective Retrosynthesis Planning Systems
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05075
+**Resumen:** arXiv:2604.05075v1 Announce Type: new Abstract: Multi-objective retrosynthesis planning is a critical chemistry task requiring dynamic balancing of quality, safety, and cost objectives. Language model-based multi-agent systems (MAS) offer a promising approach for this task: leveraging interactions of specialized agents to incorporate multiple objectives into retrosynthesis planning. We present MMORF, a framework for constructing MAS for multi-objective retrosynthesis planning. MMORF features mo
 
 ---
 
-### 30. Contextual Control without Memory Growth in a Context-Switching Task
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03479
-**Resumen:** arXiv:2604.03479v1 Announce Type: new Abstract: Context-dependent sequential decision making is commonly addressed either by providing context explicitly as an input or by increasing recurrent memory so that contextual information can be represented internally. We study a third alternative: realizing contextual dependence by intervening on a shared recurrent latent state, without enlarging recurrent dimensionality. To this end, we introduce an intervention-based recurrent architecture in which
+### 29. MedGemma 1.5 Technical Report
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05081
+**Resumen:** arXiv:2604.05081v1 Announce Type: new Abstract: We introduce MedGemma 1.5 4B, the latest model in the MedGemma collection. MedGemma 1.5 expands on MedGemma 1 by integrating additional capabilities: high-dimensional medical imaging (CT/MRI volumes and histopathology whole slide images), anatomical localization via bounding boxes, multi-timepoint chest X-ray analysis, and improved medical document understanding (lab reports, electronic health records). We detail the innovations required to enable
 
 ---
 
-### 31. Beyond Predefined Schemas: TRACE-KG for Context-Enriched Knowledge Graphs from Complex Documents
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03496
-**Resumen:** arXiv:2604.03496v1 Announce Type: new Abstract: Knowledge graph construction typically relies either on predefined ontologies or on schema-free extraction. Ontology-driven pipelines enforce consistent typing but require costly schema design and maintenance, whereas schema-free methods often produce fragmented graphs with weak global organization, especially in long technical documents with dense, context-dependent information. We propose TRACE-KG (Text-dRiven schemA for Context-Enriched Knowled
+### 30. Uncertainty-Guided Latent Diagnostic Trajectory Learning for Sequential Clinical Diagnosis
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05116
+**Resumen:** arXiv:2604.05116v1 Announce Type: new Abstract: Clinical diagnosis requires sequential evidence acquisition under uncertainty. However, most Large Language Model (LLM) based diagnostic systems assume fully observed patient information and therefore do not explicitly model how clinical evidence should be sequentially acquired over time. Even when diagnosis is formulated as a sequential decision process, it is still challenging to learn effective diagnostic trajectories. This is because the space
 
 ---
 
-### 32. Resource-Conscious Modeling for Next- Day Discharge Prediction Using Clinical Notes
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03498
-**Resumen:** arXiv:2604.03498v1 Announce Type: new Abstract: Timely discharge prediction is essential for optimizing bed turnover and resource allocation in elective spine surgery units. This study evaluates the feasibility of lightweight, fine-tuned large language models (LLMs) and traditional text-based models for predicting next-day discharge using postoperative clinical notes. We compared 13 models, including TF-IDF with XGBoost and LGBM, and compact LLMs (DistilGPT-2, Bio_ClinicalBERT) fine-tuned via L
+### 31. Non-monotonic causal discovery with Kolmogorov-Arnold Fuzzy Cognitive Maps
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05136
+**Resumen:** arXiv:2604.05136v1 Announce Type: new Abstract: Fuzzy Cognitive Maps constitute a neuro-symbolic paradigm for modeling complex dynamic systems, widely adopted for their inherent interpretability and recurrent inference capabilities. However, the standard FCM formulation, characterized by scalar synaptic weights and monotonic activation functions, is fundamentally constrained in modeling non-monotonic causal dependencies, thereby limiting its efficacy in systems governed by saturation effects or
 
 ---
 
-### 33. BioAlchemy: Distilling Biological Literature into Reasoning-Ready Reinforcement Learning Training Data
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03506
-**Resumen:** arXiv:2604.03506v1 Announce Type: new Abstract: Despite the large corpus of biology training text, the impact of reasoning models on biological research generally lags behind math and coding. In this work, we show that biology questions from current large-scale reasoning datasets do not align well with modern research topic distributions in biology, and that this topic imbalance may negatively affect performance. In addition, we find that methods for extracting challenging and verifiable resear
+### 32. A mathematical theory of evolution for self-designing AIs
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05142
+**Resumen:** arXiv:2604.05142v1 Announce Type: new Abstract: As artificial intelligence systems (AIs) become increasingly produced by recursive self-improvement, a form of evolution may emerge, in which the traits of AI systems are shaped by the success of earlier AIs in designing and propagating their descendants. There is a rich mathematical theory modeling how behavioral traits are shaped by biological evolution, but AI evolution will be radically different: biological DNA mutations are random and approx
 
 ---
 
-### 34. ActionNex: A Virtual Outage Manager for Cloud
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03512
-**Resumen:** arXiv:2604.03512v1 Announce Type: new Abstract: Outage management in large-scale cloud operations remains heavily manual, requiring rapid triage, cross-team coordination, and experience-driven decisions under partial observability. We present \textbf{ActionNex}, a production-grade agentic system that supports end-to-end outage assistance, including real-time updates, knowledge distillation, and role- and stage-conditioned next-best action recommendations. ActionNex ingests multimodal operationa
+### 33. IntentScore: Intent-Conditioned Action Evaluation for Computer-Use Agents
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05157
+**Resumen:** arXiv:2604.05157v1 Announce Type: new Abstract: Computer-Use Agents (CUAs) leverage large language models to execute GUI operations on desktop environments, yet they generate actions without evaluating action quality, leading to irreversible errors that cascade through subsequent steps. We propose IntentScore, a plan-aware reward model that learns to score candidate actions from 398K offline GUI interaction steps spanning three operating systems. IntentScore trains with two complementary object
 
 ---
 
-### 35. Structural Rigidity and the 57-Token Predictive Window: A Physical Framework for Inference-Layer Governability in Large Language Models
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03524
-**Resumen:** arXiv:2604.03524v1 Announce Type: new Abstract: Current AI safety relies on behavioral monitoring and post-training alignment, yet empirical measurement shows these approaches produce no detectable pre-commitment signal in a majority of instruction-tuned models tested. We present an energy-based governance framework connecting transformer inference dynamics to constraint-satisfaction models of neural computation, and apply it to a seven-model cohort across five geometric regimes. Using trajec
+### 34. Bypassing the CSI Bottleneck: MARL-Driven Spatial Control for Reflector Arrays
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05162
+**Resumen:** arXiv:2604.05162v1 Announce Type: new Abstract: Reconfigurable Intelligent Surfaces (RIS) are pivotal for next-generation smart radio environments, yet their practical deployment is severely bottlenecked by the intractable computational overhead of Channel State Information (CSI) estimation. To bypass this fundamental physical-layer barrier, we propose an AI-native, data-driven paradigm that replaces complex channel modeling with spatial intelligence. This paper presents a fully autonomous Mult
 
 ---
 
-### 36. Explainable Model Routing for Agentic Workflows
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03527
-**Resumen:** arXiv:2604.03527v1 Announce Type: new Abstract: Modern agentic workflows decompose complex tasks into specialized subtasks and route them to diverse models to minimize cost without sacrificing quality. However, current routing architectures focus exclusively on performance optimization, leaving underlying trade-offs between model capability and cost unrecorded. Without clear rationale, developers cannot distinguish between intelligent efficiency -- using specialized models for appropriate tasks
+### 35. Learning to Focus: CSI-Free Hierarchical MARL for Reconfigurable Reflectors
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05165
+**Resumen:** arXiv:2604.05165v1 Announce Type: new Abstract: Reconfigurable Intelligent Surfaces (RIS) has a potential to engineer smart radio environments for next-generation millimeter-wave (mmWave) networks. However, the prohibitive computational overhead of Channel State Information (CSI) estimation and the dimensionality explosion inherent in centralized optimization severely hinder practical large-scale deployments. To overcome these bottlenecks, we introduce a ``CSI-free" paradigm powered by a Hierar
 
 ---
 
-### 37. Automated Analysis of Global AI Safety Initiatives: A Taxonomy-Driven LLM Approach
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03533
-**Resumen:** arXiv:2604.03533v1 Announce Type: new Abstract: We present an automated crosswalk framework that compares an AI safety policy document pair under a shared taxonomy of activities. Using the activity categories defined in Activity Map on AI Safety as fixed aspects, the system extracts and maps relevant activities, then produces for each aspect a short summary for each document, a brief comparison, and a similarity score. We assess the stability and validity of LLM-based crosswalk analysis across
+### 36. Instruction-Tuned LLMs for Parsing and Mining Unstructured Logs on Leadership HPC Systems
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05168
+**Resumen:** arXiv:2604.05168v1 Announce Type: new Abstract: Leadership-class HPC systems generate massive volumes of heterogeneous, largely unstructured system logs. Because these logs originate from diverse software, hardware, and runtime layers, they exhibit inconsistent formats, making structure extraction and pattern discovery extremely challenging. Therefore, robust log parsing and mining is critical to transform this raw telemetry into actionable insights that reveal operational patterns, diagnose an
 
 ---
 
-### 38. Towards the AI Historian: Agentic Information Extraction from Primary Sources
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03553
-**Resumen:** arXiv:2604.03553v1 Announce Type: new Abstract: AI is supporting, accelerating, and automating scientific discovery across a diverse set of fields. However, AI adoption in historical research remains limited due to the lack of solutions designed for historians. In this technical progress report, we introduce the first module of Chronos, an AI Historian under development. This module enables historians to convert image scans of primary sources into data through natural-language interactions. Rat
+### 37. ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05172
+**Resumen:** arXiv:2604.05172v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly deployed to automate productivity tasks (e.g., email, scheduling, document management), but evaluating them on live services is risky due to potentially irreversible changes. Existing benchmarks rely on simplified environments and fail to capture realistic, stateful, multi-service workflows. We introduce ClawsBench, a benchmark for evaluating and improving LLM agents in realistic productivity sett
 
 ---
 
-### 39. When Do Hallucinations Arise? A Graph Perspective on the Evolution of Path Reuse and Path Compression
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03557
-**Resumen:** arXiv:2604.03557v1 Announce Type: new Abstract: Reasoning hallucinations in large language models (LLMs) often appear as fluent yet unsupported conclusions that violate either the given context or underlying factual knowledge. Although such failures are widely observed, the mechanisms by which decoder-only Transformers produce them remain poorly understood. We model next-token prediction as a graph search process over an underlying graph, where entities correspond to nodes and learned transitio
+### 38. Attribution Bias in Large Language Models
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05224
+**Resumen:** arXiv:2604.05224v1 Announce Type: new Abstract: As Large Language Models (LLMs) are increasingly used to support search and information retrieval, it is critical that they accurately attribute content to its original authors. In this work, we introduce AttriBench, the first fame- and demographically-balanced quote attribution benchmark dataset. Through explicitly balancing author fame and demographics, AttriBench enables controlled investigation of demographic bias in quote attribution. Using t
 
 ---
 
-### 40. When Adaptive Rewards Hurt: Causal Probing and the Switching-Stability Dilemma in LLM-Guided LEO Satellite Scheduling
-**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-07
-**URL:** https://arxiv.org/abs/2604.03562
-**Resumen:** arXiv:2604.03562v1 Announce Type: new Abstract: Adaptive reward design for deep reinforcement learning (DRL) in multi-beam LEO satellite scheduling is motivated by the intuition that regime-aware reward weights should outperform static ones. We systematically test this intuition and uncover a switching-stability dilemma: near-constant reward weights (342.1 Mbps) outperform carefully-tuned dynamic weights (103.3+/-96.8 Mbps) because PPO requires a quasistationary reward signal for value function
+### 39. From Governance Norms to Enforceable Controls: A Layered Translation Method for Runtime Guardrails in Agentic AI
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05229
+**Resumen:** arXiv:2604.05229v1 Announce Type: new Abstract: Agentic AI systems plan, use tools, maintain state, and produce multi-step trajectories with external effects. Those properties create a governance problem that differs materially from single-turn generative AI: important risks emerge dur- ing execution, not only at model development or deployment time. Governance standards such as ISO/IEC 42001, ISO/IEC 23894, ISO/IEC 42005, ISO/IEC 5338, ISO/IEC 38507, and the NIST AI Risk Management Framework a
+
+---
+
+### 40. EAGLE: Edge-Aware Graph Learning for Proactive Delivery Delay Prediction in Smart Logistics Networks
+**Fuente:** arXiv cs.AI | **Fecha:** 2026-04-08
+**URL:** https://arxiv.org/abs/2604.05254
+**Resumen:** arXiv:2604.05254v1 Announce Type: new Abstract: Modern logistics networks generate rich operational data streams at every warehouse node and transportation lane -- from order timestamps and routing records to shipping manifests -- yet predicting delivery delays remains predominantly reactive. Existing predictive approaches typically treat this problem either as a tabular classification task, ignoring network topology, or as a time-series anomaly detection task, overlooking the spatial dependenc
 
 ---
 
