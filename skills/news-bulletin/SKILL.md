@@ -53,10 +53,19 @@ python3 /home/gerion/.openclaw/workspace/skills/news-bulletin/collect.py
 
 1. `collect.py` — descarga y parsea los RSS (múltiples fuentes), extrae títulos, resúmenes y URLs
 2. `raw_news.md` — raw recopilado y organizado por categoría
-3. Gerion redacta el boletín en Markdown (texto completo)
-4. Genera audio TTS con voice "AlvaroNeutral" (Edge TTS)
-5. Envía el audio por Telegram a Paduel
-6. También envía el texto del boletín como mensaje o documento
+3. Gerion redacta el borrador del boletín en Markdown
+4. **REVISIÓN Y EDICIÓN FINAL** — Antes de generar el audio, revisar el borrador aplicando estos criterios:
+   - ¿Hay texto en otros idiomas (chino, etc.) que se haya colado por error?
+   - ¿Hay abreviaturas o términos en inglés sin explicar?
+   - ¿La estructura es clara y coherente?
+   - ¿El tono es profesional y está en español correcto?
+   - ¿Hay datos incorrectos o inventados?
+   - ¿Falta contexto que el lector pueda necesitar?
+   - ¿El cierre es adecuado (recordatorio de agenda si aplica)?
+   Corregir todo lo que falle antes de pasar al audio.
+5. Genera audio TTS con voice "AlvaroNeutral" (Edge TTS)
+6. Envía el audio por Telegram a Paduel
+7. También envía el texto del boletín como mensaje o documento
 
 ## Configuración
 
