@@ -33,10 +33,14 @@ python3 skills/epub-translator/parse_epub.py <libro.epub> <carpeta_salida>
 ### 4. Ciclo de traducción
 Para cada capítulo, en secuencia:
 1. Leer `chapters/chapter_XXX.txt` completo
-2. Spawn subagente que traduce al español
-3. Spawn segundo subagente que revisa (revisión obligatoria)
-4. Guardar en `translated_chapter_XXX.txt`
-5. Actualizar `progress.json` (marcar done=true)
+2. **Dividir si es necesario:** Si el capítulo tiene más de ~3000 palabras, dividir en mitades o tercios para evitar truncado del modelo. Crear archivos temporales `temp_chXXX_half1.txt`, `temp_chXXX_half2.txt`, etc.
+3. Spawn subagente que traduce al español (cada fragmento por separado si se dividió)
+4. Spawn segundo subagente que revisa (revisión obligatoria, también por fragmentos si hay división)
+5. Concatenar fragmentos traducidos en orden en `translated_chapter_XXX.txt`
+6. Guardar en `translated_chapter_XXX.txt`
+7. Actualizar `progress.json` (marcar done=true)
+
+**Regla del truncado:** Siempre verificar el número de palabras del capítulo antes de traducir. Si pasa de ~3000 palabras, dividir en fragmentos que el modelo pueda procesar sin cortar. No fiarse del modelo para indicar cuándo trunca — revisar siempre la última frase del output.
 
 ### 5. Generación del EPUB final (CRÍTICO)
 
