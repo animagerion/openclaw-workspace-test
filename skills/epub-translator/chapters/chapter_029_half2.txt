@@ -1,0 +1,32 @@
+CHAPTER_TITLE: Appendix C:
+CHAPTER_NUM: 29
+SOURCE_FILE: 68a486d08293a5001c65634a.xhtml
+Indicators:
+
+Social Trust: “Most people can be trusted” percentage. (World Values Survey)
+Institutional Quality: World Bank Governance Indicators (average percentile rank): composite of Rule of Law, Control of Corruption, etc.
+Social Cohesion: Income inequality (Gini coefficient) and social mobility measures: proxies for fairness and inclusivity.
+Connectivity: Trade openness (% of GDP) and international internet bandwidth: measures of external connections. (World Bank, ITU)
+D — Diversity Capital: The Option Portfolio
+Core concept: The variety of components, strategies, and perspectives that provides resilience and antifragility. It is the structural embodiment of the Law of Resilience.
+Indicators:
+
+Economic Complexity: Economic Complexity Index (ECI): diversity and sophistication of a country’s export basket. (Harvard Growth Lab)
+Industrial Diversity: Herfindahl–Hirschman Index (HHI) for industries: market concentration across the national economy.
+Ideological Diversity: Press freedom and political pluralism measures. (Reporters Without Borders, other reputable indices)
+Biological Diversity: Environmental Performance Index (EPI): ecosystem vitality and biodiversity. (Yale University)
+Scaling Down: Your Personal MIND Dashboard
+The power of the MIND framework is that it is scale-invariant. You can use it to measure the vitality of your company, your community, or even your own life.
+For a Company:
+
+M-Capital: Free cash flow, energy efficiency, supply chain circularity.
+I-Capital: Rate of employee skill development, speed of product iteration.
+N-Capital: Employee turnover, customer trust scores, partner ecosystem strength.
+D-Capital: Diversity of revenue streams, customer demographics, and team cognitive diversity.
+For an Individual:
+
+M-Capital: Your physical health, financial savings, and the sustainability of your environment.
+I-Capital: The rate at which you are learning new, durable skills.
+N-Capital: The quality and strength of your relationships with family, friends, and community.
+D-Capital: The portfolio of options you have in your life that give you resilience against unexpected change.
+The goal is the same at every scale: not to maximize a single metric, but to cultivate a balanced, resilient, and generative portfolio. The first step is to change what you measure.

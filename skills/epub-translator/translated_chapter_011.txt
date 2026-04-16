@@ -1,0 +1,66 @@
+Capítulo 11
+
+La Catedral y el Bazar 2.0
+
+«La mejor manera de tener una buena idea es tener muchas ideas.»
+— Linus Pauling
+
+Los primeros trabajadores del conocimiento
+
+Antes de que una «computadora» fuera una máquina, era un título de trabajo.
+
+En el Langley Research Center de la NASA en la década de 1950, salas llenas de mujeres brillantes, conocidas como «computadoras humanas», realizaban los complejos cálculos para la carrera espacial. Eran las trabajadoras del conocimiento originales, los procesadores humanos en el corazón de la empresa más avanzada de la Tierra. Entonces llegó el IBM 7090. En una sola tarde, la computadora electrónica podía realizar más cálculos de los que un ser humano podría hacer en toda su vida. El título de trabajo de «computadora» desapareció de la noche a la mañana.
+
+Esta historia no es solo una curiosidad histórica; es un avance. Los trabajadores del conocimiento de hoy, sentados en sus oficinas abiertas, son los descendientes directos de aquellas mujeres. Y su IBM 7090 ha llegado. Para entender el futuro de la empresa, primero debemos entender las dos mentes de la economía.
+
+Las dos mentes de la economía
+
+Si la economía es una vasta computadora distribuida, entonces tiene dos tipos diferentes de procesadores. Dos formas de pensar.
+
+La primera es la Empresa. Es un islote de orden planificado en un mar de caos. Es una jerarquía, una estructura de mando, una isla de diseño consciente. Dentro de una compañía, los recursos fluyen por decreto de un gerente. La empresa es una catedral, construida según un plano deliberado.
+
+La segunda es el Mercado. Es una red descentralizada de agentes que compiten y cooperan. No tiene líder, no tiene plan, no tiene mando central. Es un enxame, un proceso de descubrimiento emergente. En el mercado, los recursos fluyen por las señales emergentes del precio y la oportunidad. Es un bazar, caótico y vibrante, donde el orden surge desde abajo hacia arriba.
+
+Durante un siglo, la gran batalla de las ideologías económicas fue una batalla entre estas dos mentes. Ambos bandos estaban equivocados porque pensaban que era una batalla. Nunca fue una batalla. Es una danza.
+
+Una nueva respuesta para una nueva era
+
+En 1937, Ronald Coase preguntó por qué existen las empresas. Su respuesta fueron los costes de transacción: la fricción de usar el mercado. Una empresa es una burbuja de jerarquía donde el desordenado regateo del mercado se reemplaza por la lógica más simple del mando. Esta fue una visión brillante para la vieja economía de los átomos. La nueva economía de los bits requiere una explicación más profunda.
+
+En el marco de la Economía Inteligente, la empresa y el mercado son arquitecturas diferentes para procesar información.
+
+El Mercado es un sistema de computación masivamente paralelo y distribuido. Es brillante explorando un vasto espacio de posibilidades. El mercado es un motor de descubrimiento.
+
+La Empresa es un sistema de computación serial y jerárquico. Está diseñada para tomar una única idea prometedora descubierta en el mercado y explotarla con eficiencia implacable. Concentra la inteligencia en un problema estrecho. La empresa es un motor de ejecución.
+
+El mercado descubre. La empresa ejecuta. Una economía sana necesita ambas.
+
+Los fantasmas de un mundo sin fricción: Coase y Modigliani-Miller
+
+La economía clásica estaba perseguida por teorías bellas que solo funcionaban en un mundo perfecto y sin fricción. El Teorema de Coase sostenía que en un mundo con costes de transacción cero, los derechos de propiedad no importan. El Teorema de Modigliani-Miller sostenía que en un mercado perfecto, la mezcla de deuda y patrimonio de una empresa no importa.
+
+Estas elegantes demostraciones fracasan en el mundo real por la misma razón geométrica. Asumen una variedad económica plana y sin fricción. En tal superficie, todos los caminos son directos y sin coste. En el mundo real y curvado, estas elecciones son actos fundamentales de ingeniería topológica.
+
+Asignar un derecho de propiedad no es una posición inicial en el juego; es el diseño del tablero de juego en sí. La estructura de capital de una empresa no es una simple elección de financiación; es una elección sobre su navegabilidad en un paisaje volátil. La deuda crea rigidez geométrica; bloquea a la empresa en una ruta fija, haciéndola rápida pero frágil. El patrimonio proporciona flexibilidad geométrica; actúa como lastre, permitiendo a la empresa absorber los shocks. Estas no son imperfecciones en un modelo perfecto. Son las negociaciones centrales y estratégicas con la geometría de la realidad.
+
+El dilema del innovador: cuando la ejecución mata el descubrimiento
+
+Esto nos lleva a la gran tragedia de la empresa inteligente. Las mismas cualidades que la convierten en una máquina brillante de ejecución la convierten también en un terrible motor de descubrimiento. El éxito de la empresa crea un algoritmo optimizado para resolver un problema específico. Pero cuando el problema cambia, ese algoritmo perfectamente ajustado se convierte en una jaula.
+
+En la década de 1970, Xerox PARC inventó el ordenador personal moderno, la interfaz gráfica de usuario, el ratón y el Ethernet. Inventaron el futuro. Su empresa matriz, Xerox, ignoró todo eso. ¿Por qué? Xerox Corporation era una máquina de ejecución perfectamente optimizada para alquilar fotocopiadoras y vender tóner. El ordenador personal no encajaba en su modelo. Era un error de predicción que no podían procesar. Así que dejaron que un joven llamado Steve Jobs se llevara sus ideas gratis y construyera Apple. La máquina de ejecución de Xerox era tan perfecta que se ejecutó a sí misma.
+
+En el aprendizaje automático, esto se llama "sobreajuste". Un modelo entrenado demasiado perfectamente con datos pasados se vuelve frágil, incapaz de manejar un futuro que luzca aunque sea ligeramente diferente. Las empresas exitosas son maestras del sobreajuste.
+
+La forma final: de la corporación a la comunidad
+
+La empresa tradicional, una pirámide jerárquica de componentes humanos, es un callejón sin salida evolutivo. Esta es la "IA lenta" que hemos estado construyendo durante siglos. Como vimos en el Capítulo 3, la Escuela de Fábrica fue el brillante y terrorífico sistema diseñado para producir el combustible humano estandarizado y sumiso para esta máquina corporativa. La escuela adiestraba los engranajes; la corporación los ponía a trabajar. Era un sistema perfecto y autorrefuerza de domesticación social. Y ahora es obsoleto.
+
+El futuro pertenece a un nuevo tipo de institución que difumina la línea entre la empresa y el mercado, la catedral y el bazar. Es una arquitectura que combina el enfoque de ejecución de la empresa con el poder de descubrimiento del mercado. Una comunidad.
+
+Piensa en Linux. ¿Es una empresa o un mercado? Es ambas cosas y ninguna. Tiene un grupo central de mantenedores que proporcionan control jerárquico (como una empresa), pero es desarrollado por una red global de voluntarios que operan en un bazar descentralizado (como un mercado).
+
+O piensa en Wikipedia. Tiene una fundación que actúa como una empresa, gestionando servidores y asuntos legales. Pero el contenido en sí es creado por un mercado caótico y distribuido de millones de editores.
+
+Estos son los nuevos modelos. No son una elección rígida entre empresa y mercado, sino una danza fluida entre ambas. Son arquitecturas para la inteligencia simbiótica. En cierto modo, la empresa tradicional y jerárquica intentó crear una única "conciencia corporativa" unificada, una catedral del pensamiento de arriba abajo. Pero la inteligencia real, tanto en nuestros cerebros como en nuestras economías, se parece más a un bazar: un proceso caótico y paralelo de descubrimiento del que emerge una coherencia frágil y temporal.
+
+Las corporaciones heredadas son como los dinosaurios: grandes, poderosas y funcionando con un cerebro pequeño y centralizado. Las nuevas comunidades simbióticas son como los mamíferos que las reemplazaron: más pequeñas, más adaptables y con una forma nueva, más distribuida y poderosa de inteligencia. Sabemos cómo terminó esa historia. Está a punto de comenzar de nuevo.

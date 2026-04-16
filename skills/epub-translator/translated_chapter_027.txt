@@ -1,0 +1,145 @@
+Bibliografía
+
+Este trabajo es un acto de síntesis, que se apoya en textos fundamentales de economía, física, informática, historia y filosofía. Esta bibliografía no se ofrece simplemente como una lista de citas, sino como una guía para profundizar en los pilares intelectuales que sustentan sus argumentos.
+
+Parte I: El canon económico y sus críticos
+
+Coase, Ronald H. «The Nature of the Firm.» Economica, vol. 4, no. 16, 1937, pp. 386–405.
+
+El revolucionario concepto de «costes de transacción» de Coase aporta la explicación clásica de la existencia de la empresa. En el Capítulo 11, reinterpretamos esta idea desde la perspectiva del procesamiento de información, argumentando que la empresa es un «motor de ejecución» que minimiza los costes computacionales del descubrimiento de mercado.
+
+Graeber, David. Bullshit Jobs: A Theory. Simon & Schuster, 2018.
+
+El trabajo esencial de Graeber aporta la evidencia sociológica de la «crisis de sentido» discutida en el Capítulo 4 y del «desbundle del trabajo» que constituye el núcleo del Capítulo 22. Demuestra que el viejo paradigma ya estaba fallando a la hora de proporcionar propósito mucho antes de la Inversión de la Inteligencia.
+
+Hayek, Friedrich A. «The Use of Knowledge in Society.» The American Economic Review, vol. 35, no. 4, 1945, pp. 519–30.
+
+El ensayo seminal de Hayek sobre el sistema de precios como mecanismo para coordinar el conocimiento disperso es la descripción definitiva de lo que identificamos en el Capítulo 9 como Flujo Armónico: los canales estructurales emergentes de confianza e información que sustentan una sociedad compleja.
+
+Keynes, John Maynard. The General Theory of Employment, Interest and Money. Macmillan, 1936.
+
+El texto fundacional de la macroeconomía moderna. Cuestionamos su marco como la cúspide del paradigma «mecanicista», un sistema de palancas y dialécticas que nuestro modelo de Ingeniería de Política como Geometría busca reemplazar.
+
+Keynes, John Maynard. «Economic Possibilities for our Grandchildren.» Essays in Persuasion, 1930.
+
+Este asombrosamente profético ensayo, que previó los desafíos psicológicos de un mundo de abundancia, proporciona el marco inicial para nuestra exploración de un mundo posescasez en el Capítulo 22: Después de la Economía.
+
+Kuznets, Simon. «National Income, 1929–1932». 73rd US Congress, 2d session, Senate document no. 124, 1934.
+
+Kuznets creó el PIB mientras advertía personalmente contra su uso como medida del bienestar. Su crítica profética es la base de nuestro argumento en el Capítulo 4: El Panel de Control de la Locura y la motivación principal para desarrollar el Panel MIND.
+
+Lee, Kai-Fu. AI Superpowers: China, Silicon Valley, and the New World Order. Houghton Mifflin Harcourt, 2018.
+
+El análisis geopolítico definitivo de Lee sobre la carrera de IA entre EE. UU. y China describe la dinámica central que identificamos en el Capítulo 16 como el camino hacia el futuro de la Gran Fragmentación.
+
+Lucas, Robert E., Jr. «Econometric Policy Evaluation: A Critique.» Carnegie-Rochester Conference Series on Public Policy, vol. 1, 1976, pp. 19-46.
+
+El artículo ganador del Premio Nobel que devastó la modelización macroeconómica mecanicista. Proponemos en el Capítulo 13 que el modelo del Doble Motor es la primera solución mecanicista completa a la Crítica de Lucas.
+
+Marx, Karl. Das Kapital, Volumen 1. 1867.
+
+La crítica fundacional de Marx a la naturaleza autoamplificadora del capital proporciona una descripción perfecta de lo que identificamos en el Capítulo 9 como Flujo Circular: la dinámica autorreforzante y acumulativa de los activos no rivales.
+
+Perez, Carlota. Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages. Edward Elgar Publishing, 2002.
+
+El trabajo esencial de Perez sobre la naturaleza cíclica de las revoluciones tecnológicas informa nuestro argumento en el Capítulo 13 de que la Inversión de la Inteligencia rompe este patrón histórico, colapsando las fases de «instalación» y «despliegue» en una única transición permanente.
+
+Piketty, Thomas. Capital in the Twenty-First Century. Traducido por Arthur Goldhammer, Belknap Press, 2014.
+
+El estudio empírico emblemático de Piketty sobre la desigualdad identificó el síntoma (r > g). En el Capítulo 10, aportamos un diagnóstico físico, argumentando que r representa los rendimientos exponenciales del Flujo Circular y g los rendimientos lineales del Flujo Gradiente.
+
+Sahlins, Marshall. Stone Age Economics. Aldine Transaction, 1972.
+
+El concepto de Sahlins de la «sociedad opulenta original» proporciona el precedente histórico y antropológico del mundo poseconómico que exploramos en el Capítulo 22, desafiando el mito de que la humanidad está condenada naturalmente al trabajo incesante.
+
+Smith, Adam. An Inquiry into the Nature and Causes of the Wealth of Nations. 1776.
+
+El texto fundacional de la economía clásica. En el Capítulo 9, reposicionamos la «mano invisible» de Smith como una brillante descripción del Flujo Gradiente: el intercambio competitivo de bienes escasos y rivales.
+
+Zuboff, Shoshana. The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power. PublicAffairs, 2019.
+
+Zuboff aporta la crónica definitiva de la lógica económica extractiva que posicionamos como el modelo de negocio final, más perfeccionado, de la Tercera Inversión Económica: el paradigma que ahora está terminando.
+
+Parte II: IA, Alineación y el Futuro de la Inteligencia
+
+Bostrom, Nick. Superintelligence: Paths, Dangers, Strategies. Oxford University Press, 2014.
+
+El trabajo fundacional de Bostrom sobre el riesgo existencial a largo plazo derivado de la IAG informa nuestro argumento en el Capítulo 14, donde reinterpretamos su «problema de control» filosófico como el desafío inmediato y práctico de la Economía de la Alineación.
+
+Suleyman, Mustafa. The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma. Crown, 2023.
+
+La perspectiva de insider de Suleyman sobre el immense desafío de «contener» las nuevas tecnologías destaca el problema que nuestra propuesta de Estado Simbiótico está diseñada para resolver, argumentando que la contención simple es insuficiente.
+
+Parte III: Física, Complejidad y Teoría de la Información
+
+Barabási, Albert-László. Linked: How Everything Is Connected to Everything Else and What It Means for Business, Science, and Everyday Life. Basic Books, 2002.
+
+La accesible introducción de Barabási a la ciencia de redes proporciona la base científica para nuestro análisis de la Topología de Red y la dinámica de leyes de potencia en el Capítulo 10: La Prisión de la Red.
+
+Prigogine, Ilya, e Isabelle Stengers. Order Out of Chaos: Man's New Dialogue with Nature. Bantam Books, 1984.
+
+El trabajo de este premio Nobel sobre termodinámica y sistemas autoorganizadores proporciona la metáfora física central para todo nuestro marco, particularmente la lucha fundamental entre inteligencia y entropía delineada en el Capítulo 6.
+
+Shannon, Claude E. «A Mathematical Theory of Communication.» The Bell System Technical Journal, vol. 27, 1948, pp. 379-423.
+
+El documento fundacional de la teoría de la información, que proporciona el lenguaje matemático necesario para comprender la «Economía Bit», la física del Capital de Inteligencia y la dinámica de los bienes no rivales.
+
+Taleb, Nassim Nicholas. Antifragile: Things That Gain from Disorder. Random House, 2012.
+
+El crucial concepto de antifragilidad de Taleb informa el énfasis de nuestro marco en la resiliencia. Argumentamos en el Capítulo 8 que el Capital de Diversidad (D) es la propiedad estructural clave que permite a un sistema volverse antifrágil.
+
+Parte IV: Filosofía, Historia y Gobernanza
+
+Bacon, Francis. The Advancement of Learning. Cassell & Company, 1893.
+
+La máxima de Bacon —«Si un hombre comienza con certezas…»— se utiliza como epígrafe del Capítulo 5, estableciendo el tono de partir de la duda para llegar a conclusiones más firmes.
+
+Kahneman, Daniel. Thinking, Fast and Slow. Farrar, Straus and Giroux, 2011.
+
+La reflexión de Kahneman —«Podemos ser ciegos ante lo obvio, y también somos ciegos ante nuestra propia ceguera»— sirve como cita de cabecera del Capítulo 9, introduciendo el enfoque del capítulo sobre los puntos ciegos cognitivos y la meta-conciencia.
+
+Frankl, Viktor E. Man's Search for Meaning. Beacon Press, 1959.
+
+La profunda obra de Frankl sobre encontrar propósito ante el sufrimiento se cita en el Capítulo 22 como guía vital para el reto que viene de encontrar propósito en un mundo de facilidad sin fricción.
+
+Gatto, John Taylor. Dumbing Us Down: The Hidden Curriculum of Compulsory Schooling. New Society Publishers, 1992.
+
+La crítica de Gatto al sistema educativo moderno proporciona un contexto histórico clave para nuestro concepto de la Escuela Fábrica en el Capítulo 3.
+
+Hobbes, Thomas. Leviathan. 1651.
+
+Locke, John. Two Treatises of Government. 1689.
+
+Rousseau, Jean-Jacques. The Social Contract. 1762.
+
+Estos tres textos fundamentales de la filosofía política moderna se analizan en el Capítulo 14 como los arquitectos de un contrato social construido para un mundo obsoleto de escasez.
+
+Ostrom, Elinor. Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press, 1990.
+
+El trabajo de Ostrom, merecedor del Premio Nobel, proporciona poderosa evidencia real de la viabilidad de modelos de gobernanza descentralizados y simbióticos, que son una piedra angular de nuestro plano para un nuevo mundo. Su obra es una demostración práctica del Flujo Armónico.
+
+Rawls, John. A Theory of Justice. Harvard University Press, 1971.
+
+El experimento mental del «velo de ignorancia» de Rawls proporciona el marco ético explícito utilizado en el Capítulo 14 para derivar los principios del Nuevo Contrato Social desde primeros principios de justicia.
+
+Parte V: Citas Adicionales
+
+«Average Hourly Earnings for Private Payrolls Increased 3.1 Percent for Year Ended January 2020.» The Economics Daily, U.S. Bureau of Labor Statistics, 11 Feb. 2020, https://www.bls.gov/opub/ted/2020/average-hourly-earnings-for-private-payrolls-increased-3-point-1-percent-for-year-ended-january-2020.htm.
+
+Board of Governors of the Federal Reserve System (US). «Share of Financial Assets Held by the Top 1% (99th to 100th Wealth Percentiles) [WFRBST01112].» FRED, Federal Reserve Bank of St. Louis, https://fred.stlouisfed.org/series/WFRBST01112. Acceso: 19 Ago. 2025.
+
+Bradbury, Rosie, y Jacob Robbins. «41% of All VC Dollars Deployed This Year Have Gone to Just 10 Startups.» PitchBook News & Analysis, 8 Ago. 2025, https://pitchbook.com/news/articles/41-of-all-vc-dollars-deployed-this-year-have-gone-to-just-10-startups.
+
+«Confidence in Institutions.» Gallup Historical Trends, Gallup, https://news.gallup.com/poll/1597/confidence-institutions.aspx. Acceso: 19 Ago. 2025.
+
+Hamilton, Brady E., Joyce A. Martin y Michelle J. K. Osterman. Births: Provisional Data for 2024. Vital Statistics Rapid Release, no. 38, National Center for Health Statistics, Centers for Disease Control and Prevention, Abr. 2025, https://www.cdc.gov/nchs/data/vsrr/vsrr038.pdf.
+
+Nielsen, Jakob. «The 90–9–1 Rule for Participation Inequality in Social Media and Online Communities.» Nielsen Norman Group, 8 Oct. 2006, https://www.nngroup.com/articles/participation-inequality/.
+
+OpenAI. «GPT-4 Technical Report.» arXiv, 27 Mar. 2023, https://arxiv.org/abs/2303.08774.
+
+Talent Disrupted. Strada Institute for the Future of Work and Burning Glass Institute, 21 Feb. 2024, https://www.strada.org/reports/talent-disrupted.
+
+Wike, Richard, et al. «Economic Inequality Seen as Major Challenge Around the World.» Pew Research Center, 9 Ene. 2025, https://www.pewresearch.org/global/2025/01/09/economic-inequality-seen-as-major-challenge-around-the-world/.
+
+«Writers and Authors.» Occupational Outlook Handbook, U.S. Bureau of Labor Statistics, https://www.bls.gov/ooh/media-and-communication/writers-and-authors.htm. Acceso: 19 Ago. 2025.

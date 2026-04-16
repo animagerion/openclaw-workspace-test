@@ -1,0 +1,32 @@
+CHAPTER_TITLE: Appendix D:
+CHAPTER_NUM: 30
+SOURCE_FILE: 68a486d08293a5001c656348.xhtml
+
+The Three Flows of Value: The universal grammar of all economic activity, derived from the Hodge Decomposition (see Chapter 9).
+
+Gradient Flow: The competitive, zero-sum exchange of scarce, rivalrous goods ("atoms"). The domain of Adam Smith.
+Circular Flow: The accumulative, positive-sum dynamic of non-rivalrous goods ("bits"). The domain of Karl Marx.
+Harmonic Flow: The persistent, structural channels of trust, protocols, and institutions. The domain of Friedrich Hayek.
+Network Topology: The fundamental structure of connections that determines power and opportunity (see Chapter 10).
+
+Hub-and--Spoke: The topology of extraction.
+Small World: The topology of innovation.
+Distributed Mesh: The topology of resilience.
+The Dual Engine: The co-evolutionary process governing institutional change, consisting of a Fast Engine(market behavior, timescale of months) and a Slow Engine (the evolution of rules and strategies, timescale of decades). The solution to the Lucas Critique (see Chapter 13).
+The Alignment Economy: The central economic problem of the 21st century, replacing the problem of allocation. It is the challenge of aligning abundant, autonomous AI with human values, encompassing both Outer Alignment (specifying the right goals) and Inner Alignment (preventing emergent, misaligned sub-goals) (see Chapter 14).
+Part IV: The Symbiotic Blueprint
+
+The Three Futures: The only three stable configurations available to civilization after the Intelligence Inversion: Digital Feudalism, The Great Fragmentation, and Human Symbiosis (see Chapter 19).
+Policy as Geometry Engineering: The new paradigm for governance, which focuses on shaping the economic landscape (incentives, protocols, and defaults) rather than commanding outcomes (see Chapter 20).
+The Symbiotic State: The evolution of the nation-state from a resource extractor to a "MIND Steward," whose primary function is to cultivate the generative capacity of its society (see Chapter 20).
+Universal Access to Intelligence (UAI): The core promise of the new social contract, an endowment for every citizen that includes a Sovereign AI Agent, a right to a baseline of intelligence, and access to a trusted Knowledge Commons (see Chapter 18).
+Dual Currency System: A monetary architecture designed for two different physical realities (see Chapter 21).
+
+Foundation Coins (FC): A finite, scarcity-based currency for the "Atomic Economy," created via Proof of Benefit.
+Culture Credits (CC): An abundant, flowing currency for the "Bit Economy," distributed as an Abundance Dividend.
+The Nucleation of the New: The strategic theory of change for the symbiotic transition. It argues that the new world will not emerge from a top-down revolution, but from the bottom-up success and replication of small, protected "Nucleation Sites" (see Chapter 22).
+Part V: The Human Transition
+
+The Metabolic Rift: The fundamental, physical difference between human labor (a metabolic engine that requires sustenance) and AI/robotic labor (a non-metabolic engine that requires only electricity). This is the reason the Fourth Inversion is final (see Chapter 1).
+Computation vs. Consciousness: The fundamental distinction between AI and human intelligence. Computation is the syntactic engine for answering "how." Consciousness is the semantic engine for answering "why." The ultimate Human-AI Symbiosis is the fusion of these two (see Chapter 25).
+The Arts of Being Human: The replacement for "jobs." These are the intrinsically human, non-automatable roles that become central in a post-economic world, such as Attention Architects, Relationship Weavers, and Meaning Makers (see Chapter 25).

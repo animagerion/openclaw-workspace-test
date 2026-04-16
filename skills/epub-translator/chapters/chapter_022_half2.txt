@@ -1,0 +1,12 @@
+CHAPTER_TITLE: Money for Two Worlds
+CHAPTER_NUM: 22
+SOURCE_FILE: 68a486d08293a5001c65633b.xhtml
+2. Culture Credits (CC): The Currency of FlowThis is the currency for the Bit Economy, designed as an abundant medium of exchange to foster creativity and collaboration.
+
+Its Purpose: To maximize the creation and circulation of Intelligence (I) and Network (N) Capital.
+Its Creation: Culture Credits are issued as an Abundance Dividend, providing the baseline liquidity for every Sovereign Agent to participate in the network.
+Its Mechanism: Like the "miracle" money of Wörgl, Culture Credits have a built in decay rate (demurrage). If you do not use them, they slowly lose value and return to the commons. This incentivizes circulation, ensuring that our collective intelligence is a flowing river, not a stagnant reservoir.
+
+From a Physics of Power to a Physics of Intelligence
+This dual system represents a fundamental shift in the physics of money.The old monetary systems are based on a physics of power. Fiat currency is valuable because the state has the power to compel its use. Bitcoin is valuable because its network has the power to consume immense energy.The new system is based on a physics of intelligence. Foundation Coins are valuable because they are the direct, auditable result of the efficient conversion of energy into useful order. Its backing is not the power of a state or the hash rate of a network, but the demonstrated intelligence of its participants.
+This is not just a monetary system. It is a generative, anti-entropic engine. It is an economy designed to fund its own evolution toward greater intelligence, resilience, and shared prosperity.
