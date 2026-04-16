@@ -1,0 +1,219 @@
+[
+  {
+    "num": 1,
+    "title": "Contents",
+    "file": "chapter_001.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_001.txt",
+    "source": "toc.xhtml"
+  },
+  {
+    "num": 2,
+    "title": "Sin título",
+    "file": "chapter_002.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_002.txt",
+    "source": "68a486d08293a5001c656341.xhtml"
+  },
+  {
+    "num": 3,
+    "title": "Dedication",
+    "file": "chapter_003.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_003.txt",
+    "source": "HpFFM2A5ibWCUpLk.xhtml"
+  },
+  {
+    "num": 4,
+    "title": "Introduction:",
+    "file": "chapter_004.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_004.txt",
+    "source": "68a486d08293a5001c656329.xhtml"
+  },
+  {
+    "num": 5,
+    "title": "The Intelligence Inversion",
+    "file": "chapter_005.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_005.txt",
+    "source": "68a486d08293a5001c65632a.xhtml"
+  },
+  {
+    "num": 6,
+    "title": "Harbingers of the Storm",
+    "file": "chapter_006.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_006.txt",
+    "source": "68a486d08293a5001c65632b.xhtml"
+  },
+  {
+    "num": 7,
+    "title": "The Seven Fatal Lies of a Dying Paradigm",
+    "file": "chapter_007.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_007.txt",
+    "source": "68a486d08293a5001c65632d.xhtml"
+  },
+  {
+    "num": 8,
+    "title": "The Dashboard for Insanity:",
+    "file": "chapter_008.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_008.txt",
+    "source": "68a486d08293a5001c65632c.xhtml"
+  },
+  {
+    "num": 9,
+    "title": "The Trial by Fire",
+    "file": "chapter_009.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_009.txt",
+    "source": "68a486d08293a5001c65632e.xhtml"
+  },
+  {
+    "num": 10,
+    "title": "The Engine of Order:",
+    "file": "chapter_010.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_010.txt",
+    "source": "68a486d08293a5001c65632f.xhtml"
+  },
+  {
+    "num": 11,
+    "title": "The Generative Engine",
+    "file": "chapter_011.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_011.txt",
+    "source": "68a486d08293a5001c656330.xhtml"
+  },
+  {
+    "num": 12,
+    "title": "The MIND of a Civilization",
+    "file": "chapter_012.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_012.txt",
+    "source": "68a486d08293a5001c656331.xhtml"
+  },
+  {
+    "num": 13,
+    "title": "The Three Flows:",
+    "file": "chapter_013.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_013.txt",
+    "source": "68a486d08293a5001c656332.xhtml"
+  },
+  {
+    "num": 14,
+    "title": "The Network Prison",
+    "file": "chapter_014.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_014.txt",
+    "source": "68a486d08293a5001c656333.xhtml"
+  },
+  {
+    "num": 15,
+    "title": "The Cathedral and the Bazaar 2.0",
+    "file": "chapter_015.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_015.txt",
+    "source": "68a486d08293a5001c656334.xhtml"
+  },
+  {
+    "num": 16,
+    "title": "Intelligent Game Theory",
+    "file": "chapter_016.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_016.txt",
+    "source": "68a486d08293a5001c656335.xhtml"
+  },
+  {
+    "num": 17,
+    "title": "The Dual Engine:",
+    "file": "chapter_017.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_017.txt",
+    "source": "68a486d08293a5001c656336.xhtml"
+  },
+  {
+    "num": 18,
+    "title": "The New Social Contract",
+    "file": "chapter_018.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_018.txt",
+    "source": "68a486d08293a5001c656337.xhtml"
+  },
+  {
+    "num": 19,
+    "title": "The Alignment Economy:",
+    "file": "chapter_019.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_019.txt",
+    "source": "68a486d08293a5001c656338.xhtml"
+  },
+  {
+    "num": 20,
+    "title": "The Three Futures",
+    "file": "chapter_020.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_020.txt",
+    "source": "68a486d08293a5001c656339.xhtml"
+  },
+  {
+    "num": 21,
+    "title": "The Symbiotic State:",
+    "file": "chapter_021.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_021.txt",
+    "source": "68a486d08293a5001c65633a.xhtml"
+  },
+  {
+    "num": 22,
+    "title": "Money for Two Worlds",
+    "file": "chapter_022.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_022.txt",
+    "source": "68a486d08293a5001c65633b.xhtml"
+  },
+  {
+    "num": 23,
+    "title": "The Nucleation of the New:",
+    "file": "chapter_023.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_023.txt",
+    "source": "68a486d08293a5001c65633c.xhtml"
+  },
+  {
+    "num": 24,
+    "title": "Intelligent Macroeconomics",
+    "file": "chapter_024.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_024.txt",
+    "source": "68a486d08293a5001c65633d.xhtml"
+  },
+  {
+    "num": 25,
+    "title": "After Economics",
+    "file": "chapter_025.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_025.txt",
+    "source": "68a486d08293a5001c65633e.xhtml"
+  },
+  {
+    "num": 26,
+    "title": "Epilogue:",
+    "file": "chapter_026.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_026.txt",
+    "source": "68a486d08293a5001c65633f.xhtml"
+  },
+  {
+    "num": 27,
+    "title": "Appendix A:",
+    "file": "chapter_027.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_027.txt",
+    "source": "68a486d08293a5001c656346.xhtml"
+  },
+  {
+    "num": 28,
+    "title": "Appendix B:",
+    "file": "chapter_028.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_028.txt",
+    "source": "68a486d08293a5001c656347.xhtml"
+  },
+  {
+    "num": 29,
+    "title": "Appendix C:",
+    "file": "chapter_029.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_029.txt",
+    "source": "68a486d08293a5001c65634a.xhtml"
+  },
+  {
+    "num": 30,
+    "title": "Appendix D:",
+    "file": "chapter_030.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_030.txt",
+    "source": "68a486d08293a5001c656348.xhtml"
+  },
+  {
+    "num": 31,
+    "title": "Bibliography",
+    "file": "chapter_031.txt",
+    "path": "/home/gerion/.openclaw/workspace/skills/epub-translator/chapters/chapter_031.txt",
+    "source": "68a486d08293a5001c656349.xhtml"
+  }
+]

@@ -1,0 +1,16 @@
+CHAPTER_TITLE: Sin título
+CHAPTER_NUM: 2
+SOURCE_FILE: 68a486d08293a5001c656341.xhtml
+---
+© Emad Mostaque, 2025. All rights reserved. 
+
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means—electronic, mechanical, photocopying, recording, or otherwise—without the prior written permission of the author and publisher, except for brief quotations used in reviews, articles, or scholarly works.
+
+All rights reserved worldwide. This book may not be distributed, resold, licensed, translated, adapted, or otherwise exploited in any form or by any means, including electronic, audio, or digital reproduction, without the express written consent of the author or publisher.
+
+The author asserts the moral right to be identified as the author of this work.
+
+This publication is provided for informational purposes only. The author and publisher disclaim any liability arising from its use.
+
+Published by Intelligent Internet (L42 Ltd)  
+First Edition: 2025

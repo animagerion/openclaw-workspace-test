@@ -1,0 +1,73 @@
+CHAPTER_TITLE: Bibliography
+CHAPTER_NUM: 31
+SOURCE_FILE: 68a486d08293a5001c656349.xhtml
+---
+Bibliography
+
+This work is an act of synthesis, drawing upon foundational texts from economics, physics, computer science, history, and philosophy. This bibliography is offered not just as a list of citations, but as a guide for further inquiry into the intellectual pillars that inform its arguments. 
+Part I: The Economic Canon &amp; Its Critics
+Coase, Ronald H. "The Nature of the Firm." Economica, vol. 4, no. 16, 1937, pp. 386–405.
+Coase's revolutionary concept of "transaction costs" provides the classical explanation for the existence of the firm. In Chapter 11, we reframe this insight through the lens of information processing, arguing the firm is an "engine for execution" that minimizes the computational costs of market discovery.
+Graeber, David. Bullshit Jobs: A Theory. Simon &amp; Schuster, 2018.
+Graeber's essential work provides the sociological evidence for the "Meaning Crisis" discussed in Chapter 4 and the "unbundling of work" at the core of Chapter 22. It demonstrates that the old paradigm was already failing to provide purpose long before the Intelligence Inversion.
+Hayek, Friedrich A. "The Use of Knowledge in Society." The American Economic Review, vol. 35, no. 4, 1945, pp. 519–30.
+Hayek's seminal essay on the price system as a mechanism for coordinating dispersed knowledge is the definitive description of what we identify in Chapter 9 as Harmonic Flow, the emergent, structural channels of trust and information that underpin a complex society.
+Keynes, John Maynard. The General Theory of Employment, Interest and Money. Macmillan, 1936.
+The foundational text of modern macroeconomics. We critique its framework as the pinnacle of the "mechanistic" paradigm, a system of levers and dials that our model of Policy as Geometry Engineering seeks to replace.
+Keynes, John Maynard. "Economic Possibilities for our Grandchildren." Essays in Persuasion, 1930.
+This astonishingly prescient essay, which foresaw the psychological challenges of a world of abundance, provides the opening frame for our exploration of a post-scarcity world in Chapter 22: After Economics.
+Kuznets, Simon. "National Income, 1929–1932". 73rd US Congress, 2d session, Senate document no. 124, 1934.
+Kuznets created GDP while personally warning against its use as a measure of welfare. His prescient critique is the foundation for our argument in Chapter 4: The Dashboard for Insanity and the primary motivation for developing the MIND Dashboard.
+Lee, Kai-Fu. AI Superpowers: China, Silicon Valley, and the New World Order. Houghton Mifflin Harcourt, 2018.Lee's definitive geopolitical analysis of the US-China AI race describes the central dynamic that we identify in Chapter 16 as the path toward the Great Fragmentation future.
+Lucas, Robert E., Jr. "Econometric Policy Evaluation: A Critique." Carnegie-Rochester Conference Series on Public Policy, vol. 1, 1976, pp. 19-46.
+The Nobel-winning paper that devastated mechanistic macroeconomic modeling. We propose in Chapter 13 that the Dual Engine model is the first complete, mechanistic solution to the Lucas Critique.
+Marx, Karl. Das Kapital, Volume 1. 1867.Marx's foundational critique of capital's self-amplifying nature provides a perfect description of what we identify in Chapter 9 as Circular Flow, the self-reinforcing, accumulative dynamic of non-rivalrous assets.
+Perez, Carlota. Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages. Edward Elgar Publishing, 2002.Perez's essential work on the cyclical nature of technological revolutions informs our argument in Chapter 13 that the Intelligence Inversion breaks this historical pattern, collapsing the "installation" and "deployment" phases into a single, permanent transition.
+Piketty, Thomas. Capital in the Twenty-First Century. Translated by Arthur Goldhammer, Belknap Press, 2014.
+Piketty's landmark empirical study of inequality identified the symptom (r &gt; g). In Chapter 10, we provide a physical diagnosis, arguing that r represents the exponential returns of Circular Flow and gthe linear returns of Gradient Flow.
+Sahlins, Marshall. Stone Age Economics. Aldine Transaction, 1972.
+Sahlins's concept of the "original affluent society" provides the historical and anthropological precedent for the post-economic world we explore in Chapter 22, challenging the myth that humanity is naturally condemned to ceaseless labor.
+Smith, Adam. An Inquiry into the Nature and Causes of the Wealth of Nations. 1776.The foundational text of classical economics. In Chapter 9, we reposition Smith's "invisible hand" as a brilliant description of Gradient Flow, the competitive exchange of scarce, rivalrous goods.
+Zuboff, Shoshana. The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power. PublicAffairs, 2019.
+Zuboff provides the definitive chronicle of the extractive economic logic that we position as the final, most perfected business model of the Third Economic Inversion, the paradigm that is now ending.
+
+Part II: AI, Alignment, and the Future of Intelligence
+Bostrom, Nick. Superintelligence: Paths, Dangers, Strategies. Oxford University Press, 2014.
+Bostrom's foundational work on long-term existential risk from AGI informs our argument in Chapter 14, where we reframe his philosophical "control problem" as the immediate, practical challenge of the Alignment Economy.
+Suleyman, Mustafa. The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma. Crown, 2023.
+Suleyman's insider perspective on the immense challenge of "containing" new technologies highlights the problem that our proposal for a Symbiotic State is designed to solve, arguing that simple containment is insufficient.
+Part III: Physics, Complexity, and Information Theory
+Barabási, Albert-László. Linked: How Everything Is Connected to Everything Else and What It Means for Business, Science, and Everyday Life. Basic Books, 2002.
+Barabási's accessible introduction to network science provides the scientific basis for our analysis of Network Topology and power-law dynamics in Chapter 10: The Network Prison.
+Prigogine, Ilya, and Isabelle Stengers. Order Out of Chaos: Man's New Dialogue with Nature. Bantam Books, 1984.
+This Nobel laureate's work on thermodynamics and self-organizing systems provides the core physical metaphor for our entire framework, particularly the fundamental struggle between intelligence and entropy outlined in Chapter 6.
+Shannon, Claude E. "A Mathematical Theory of Communication." The Bell System Technical Journal, vol. 27, 1948, pp. 379-423.
+The founding document of information theory, providing the mathematical language necessary to understand the "Bit Economy," the physics of Intelligence Capital, and the dynamics of non-rivalrous goods.
+Taleb, Nassim Nicholas. Antifragile: Things That Gain from Disorder. Random House, 2012.
+Taleb's crucial concept of antifragility informs our framework's emphasis on resilience. We argue in Chapter 8 that Diversity Capital (D) is the key structural property that allows a system to become antifragile.
+Part IV: Philosophy, History, and Governance
+Bacon, Francis. The Advancement of Learning. Cassell &amp; Company, 1893. Bacon’s maxim—“If a man will begin with certainties…”—is used as the epigraph to Chapter 5, setting the tone of beginning with doubt to arrive at firmer conclusions.
+Kahneman, Daniel. Thinking, Fast and Slow. Farrar, Straus and Giroux, 2011. Kahneman’s insight—“We can be blind to the obvious, and we are also blind to our blindness.”—is used as the heading quote for Chapter 9, introducing the chapter’s focus on cognitive blind spots and meta-awareness.
+Frankl, Viktor E. Man's Search for Meaning. Beacon Press, 1959.
+Frankl's profound work on finding purpose in the face of suffering is cited in Chapter 22 as a vital guide for the coming challenge of finding purpose in a world of frictionless ease.
+Gatto, John Taylor. Dumbing Us Down: The Hidden Curriculum of Compulsory Schooling. New Society Publishers, 1992.
+Gatto's critique of the modern education system provides key historical context for our concept of the Factory School in Chapter 3.
+Hobbes, Thomas. Leviathan. 1651.
+Locke, John. Two Treatises of Government. 1689.
+Rousseau, Jean-Jacques. The Social Contract. 1762.
+These three foundational texts of modern political philosophy are analyzed in Chapter 14 as the architects of a social contract built for an obsolete world of scarcity.
+Ostrom, Elinor. Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press, 1990.
+Ostrom's Nobel-winning work provides powerful, real-world evidence for the viability of decentralized, symbiotic governance models, which are a cornerstone of our blueprint for a new world. Her work is a practical demonstration of Harmonic Flow.
+Rawls, John. A Theory of Justice. Harvard University Press, 1971.
+Rawls's "veil of ignorance" thought experiment provides the explicit ethical framework used in Chapter 14 to derive the principles of the New Social Contract from first principles of fairness.
+Part V: Additional Citations 
+“Average Hourly Earnings for Private Payrolls Increased 3.1 Percent for Year Ended January 2020.” The Economics Daily, U.S. Bureau of Labor Statistics, 11 Feb. 2020, https://www.bls.gov/opub/ted/2020/average-hourly-earnings-for-private-payrolls-increased-3-point-1-percent-for-year-ended-january-2020.htm.
+Board of Governors of the Federal Reserve System (US). “Share of Financial Assets Held by the Top 1% (99th to 100th Wealth Percentiles) [WFRBST01112].” FRED, Federal Reserve Bank of St. Louis, https://fred.stlouisfed.org/series/WFRBST01112. Accessed 19 Aug. 2025.
+Bradbury, Rosie, and Jacob Robbins. “41% of All VC Dollars Deployed This Year Have Gone to Just 10 Startups.” PitchBook News &amp; Analysis, 8 Aug. 2025, https://pitchbook.com/news/articles/41-of-all-vc-dollars-deployed-this-year-have-gone-to-just-10-startups.
+“Confidence in Institutions.” Gallup Historical Trends, Gallup, https://news.gallup.com/poll/1597/confidence-institutions.aspx. Accessed 19 Aug. 2025.
+Hamilton, Brady E., Joyce A. Martin, and Michelle J. K. Osterman. Births: Provisional Data for 2024. Vital Statistics Rapid Release, no. 38, National Center for Health Statistics, Centers for Disease Control and Prevention, Apr. 2025, https://www.cdc.gov/nchs/data/vsrr/vsrr038.pdf.
+Nielsen, Jakob. “The 90–9–1 Rule for Participation Inequality in Social Media and Online Communities.” Nielsen Norman Group, 8 Oct. 2006, https://www.nngroup.com/articles/participation-inequality/.
+OpenAI. “GPT-4 Technical Report.” arXiv, 27 Mar. 2023, https://arxiv.org/abs/2303.08774.
+Talent Disrupted. Strada Institute for the Future of Work and Burning Glass Institute, 21 Feb. 2024, https://www.strada.org/reports/talent-disrupted.
+Wike, Richard, et al. “Economic Inequality Seen as Major Challenge Around the World.” Pew Research Center, 9 Jan. 2025, https://www.pewresearch.org/global/2025/01/09/economic-inequality-seen-as-major-challenge-around-the-world/.
+“Writers and Authors.” Occupational Outlook Handbook, U.S. Bureau of Labor Statistics, https://www.bls.gov/ooh/media-and-communication/writers-and-authors.htm. Accessed 19 Aug. 2025.

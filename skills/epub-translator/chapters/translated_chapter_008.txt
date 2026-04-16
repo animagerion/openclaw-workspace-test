@@ -1,0 +1,106 @@
+Capítulo 4
+
+El Panel de la Locura
+
+«La medida de la salud económica de un país no es si los ricos se están enriqueciendo más, sino si hay menos pobres.»
+— Amartya Sen
+
+Hemos construido un panel económico que nos dice la salud de un paciente midiendo su temperatura en grados Celsius mientras el paciente arde en llamas. No es un problema de medición. Es un problema de locura.
+
+Cada mañana, millones de personas se despiertan y consultan el panel económico. Ven la bolsa subiendo, los beneficios corporativos alcanzando récords históricos y el desempleo en mínimos históricos. Miran estos datos y se sienten ansiosos. Algo está mal. Deben estar perdiéndose algo.
+
+No se están perdiendo nada. El panel está mintiendo.
+
+Este capítulo trata sobre lo que nuestros instrumentos económicos realmente miden, por qué nos dicen lo contrario de lo que está pasando realmente, y por qué corregirlos no es una solución técnica sino una elección civilizatoria.
+
+Los Cuatro Jinetes del Apocalipsis
+
+Nuestro panel económico actual está dominado por cuatro indicadores: el crecimiento del PIB, la evolución de la bolsa, la tasa de desempleo y la inflación. Estos son los Cuatro Jinetes del Apocalipsis. Examinemos cada uno.
+
+Indicador nº 1: PIB — El Gran Engañador
+
+Lo que mide: La suma de todas las transacciones monetarias en una economía.
+
+Lo que afirma decirnos: Lo bien que le va a la sociedad.
+
+Lo que realmente nos dice: Cuánto dinero está cambiando de manos.
+
+El PIB es el gran engañador porque es muy bueno midiendo lo que dice medir y muy malo midiendo lo que afirma medir. Cuenta la destrucción de un bosque como crecimiento positivo porque alguien pagó dinero para talarlo. Cuenta la construcción de un casino como equivalente a la construcción de un colegio porque ambas implican gasto en construcción. Cuenta la venta de opioides como equivalente a la venta de antibióticos porque ambas implican ventas farmacéuticas.
+
+El PIB cuenta todo lo que tiene un precio. No cuenta nada que no tenga un precio. La madre criando hijos, el voluntario cuidando a mayores, el músico tocando por amor, el programador de código abierto escribiendo para los comunes: ninguno de estos aparece en el PIB porque ninguno de ellos implica transacciones monetarias.
+
+Mientras tanto, registra la llegada de todo lo gratuito como colapso económico. Cuando llegó Wikipedia y destruyó la industria de las enciclopedias, el PIB gritó «¡Desastre!» Cuando llegó Spotify y destruyó la industria del CD, el PIB gritó «¡Desastre!» Cuando llegó el streaming y destruyó la industria del vídeo bajo demanda, el PIB gritó «¡Desastre!» Cuando llegue la IA y destruya la industria de la consultoría, el PIB gritará «¡Desastre!» E igual que intentamos apoyar la industria del CD en lugar de celebrar la llegada de la música en streaming, intentaremos apoyar la industria de la consultoría en lugar de celebrar la llegada del conocimiento generado por IA.
+
+La tragedia no es que tengamos una medida imperfecta. La tragedia es que hemos construido una civilización alrededor de esta medida. Hemos creado incentivos económicos que optimizan para el PIB en lugar del florecimiento humano. Hemos construido sistemas políticos que necesitan crecimiento del PIB para sobrevivir. Hemos creado una cultura que equipara crecimiento del PIB con progreso.
+
+El PIB no es una medida del florecimiento humano. Es una medida de la actividad de mercado. Confundir las dos cosas es como confundir una intersección concurrida con una intersección feliz.
+
+Indicador nº 2: La Bolsa — El Indicador del Esquema Ponzi
+
+Lo que mide: La valoración colectiva de las empresas cotizadas.
+
+Lo que afirma decirnos: La salud de la economía.
+
+Lo que realmente nos dice: El grado en que la riqueza fluye hacia arriba.
+
+La bolsa es el indicador económico más prominentemente mostrado. Cada informativo abre con ella. Cada comentarista financiero analiza cada uno de sus movimientos. Los políticos se atribuyen el mérito cuando sube y culpan a sus oponentes cuando baja.
+
+La bolsa no es una medida de la salud económica. Es una medida de la distribución del poder económico. Cuando la bolsa sube, no es porque la economía vaya bien. Es porque los propietarios del capital se están enriqueciendo.
+
+En la era pospandémica, esto se volvió absurdamente transparente. La bolsa alcanzó máximos históricos mientras las colas del desempleo se extendían por barrios enteros. El mercado subió mientras la economía real sufría. Subió porque la Reserva Federal inundó el sistema de dinero, y ese dinero no tenía otro lugar adónde ir excepto activos financieros. El mercado no estaba valorando la economía. Estaba valorando la inundación de dinero.
+
+Y seguirá subiendo mientras la inundación continúe. Porque cuando los tipos de interés son cero, lo racional es pedir dinero prestado barato e invertirlo en activos financieros. Esto crea una profecía autocumplida. La bolsa sube porque el dinero es barato. Y el dinero se mantiene barato porque la Reserva Federal tiene miedo de provocar un colapso de la bolsa. Hemos creado una máquina donde los ricos se enriquecen con la subida de los precios de los activos, y los precios de los activos en subida mantienen a los ricos en el poder para garantizar que la Reserva Federal mantenga los tipos bajos.
+
+Por eso la bolsa es la peor guía posible para la salud económica. Está midiendo exactamente lo que nos está matando.
+
+Indicador nº 3: El Desempleo — El Mecanismo de Clasificación
+
+Lo que mide: El porcentaje de personas que están buscando activamente trabajo pero no pueden encontrarlo.
+
+Lo que afirma decirnos: Cuántas personas están excluidas de la economía.
+
+Lo que realmente nos dice: Cuántas personas ya han sido clasificadas en la categoría de los perdedores.
+
+La tasa de desempleo es el indicador económico más dañino socialmente porque crea una narrativa de inclusión que oculta una realidad de exclusión. Cuando el desempleo es bajo, la narrativa oficial es que la economía funciona para todos. La verdad es que el desempleo solo mide a quienes están buscando activamente empleo. No mide a quienes han dejado de buscar. No mide a quienes trabajan a tiempo parcial porque no encuentran trabajo a tiempo completo. No mide a quienes están sobrecualificados para los trabajos que realizan. No mide a los encarcelados.
+
+Cuando hablamos de la «gran dimisión» de 2021, lo que realmente estamos midiendo es un cambio en el poder de negociación. La gente no dejaba el trabajo porque se había vuelto perezosa. Lo dejaba porque había descubierto que su trabajo valía más de lo que sus empleadores le pagaban, y tenía la palanca para exigir más. La baja tasa de desempleo durante la «gran dimisión» no era un signo de salud económica. Era un signo de poder laboral.
+
+El verdadero indicador de desempleo incluiría a todos los que quieren un trabajo pero no pueden encontrar uno que pague un salario digno. Con esta medida, el desempleo nunca ha sido tan bajo. Simplemente se ha renombrado.
+
+Indicador nº 4: La Inflación — El Villano que Nadie Entiende
+
+Lo que mide: La tasa a la que están subiendo los precios.
+
+Lo que afirma decirnos: Cómo se está erosionando el poder adquisitivo del dinero.
+
+Lo que realmente nos dice: Cosas complejas y a menudo contradictorias con las que la mayoría de los economistas no están de acuerdo.
+
+La inflación es el indicador económico más malentendido de todos. Se trata como un mal inequívoco, un impuesto a los pobres que beneficia a los ricos. La narrativa es simple: cuando los precios suben, el jubilado con ingresos fijos puede comprar menos, mientras que el propietario de activos ve cómo sube el valor de sus activos. Esta es una preocupación válida, pero es solo una fracción del panorama.
+
+La realidad es que cierta inflación es un subproducto natural de una economía sana y en crecimiento. Y cierta deflación es un signo de colapso, no de prosperidad. La economía japonesa experimentó décadas de deflación. ¿Era esto un signo de salud? Era un signo de una economía moribunda, una economía que no podía generar suficiente demanda para mantener los precios estables.
+
+La narrativa de que la inflación siempre es mala es la narrativa de la clase crediticia. Si tienes ahorros en efectivo, la inflación erosiona tu riqueza. Si tienes deudas, la inflación erosiona tus deudas. La cuestión de si la inflación es buena o mala depende enteramente de quién seas y de lo que poseas.
+
+La verdadera medida de la salud económica no es si los precios suben o bajan. Es si el ser humano medio encuentra más fácil o más difícil vivir una vida digna. Nuestros indicadores de inflación están diseñados para medir la estabilidad de precios, no el florecimiento humano.
+
+El Panel que Necesitamos
+
+Si realmente quisiéramos medir la salud económica, ¿cómo sería nuestro panel?
+
+El Indicador de Progreso Genuino, o IPG, fue desarrollado como alternativa al PIB en la década de 1990. Parte de los mismos gastos de consumo personal que el PIB pero luego ajusta por una serie de factores que el PIB ignora: resta los costes del crimen, la contaminación y el agotamiento de recursos; añade el valor del trabajo doméstico y voluntario; ajusta por la desigualdad de ingresos.
+
+Con esta medida, el bienestar económico en Estados Unidos alcanzó su máximo alrededor de 1978 y ha ido descendiendo desde entonces, incluso cuando el PIB ha seguido subiendo. El IPG revela lo que el PIB oculta: que nos hemos ido empobreciendo en las cosas que más importan mientras nos enriquecemos en las cosas que menos importan.
+
+Pero incluso el IPG no llega lo bastante lejos. Lo que necesitamos es una medida que capture las tres cosas que realmente determinan la salud civilizatoria: la salud del capital MENTAL, la equidad de la distribución y la sostenibilidad de los comunes.
+
+La Paradoja de la Medición
+
+Aquí está el problema más profundo de nuestro panel económico: las cosas que más importan son precisamente las que no pueden medirse. El amor entre padre e hijo. La confianza entre ciudadano e institución. El significado que una persona deriva de su trabajo. La salud del mundo natural. Ninguna de estas cosas puede reducirse a un número, y por tanto ninguna de ellas aparece en nuestro panel.
+
+Hemos construido una civilización alrededor de lo medible y lo hemos llamado progreso. Hemos descuidado lo inmensurable y lo hemos llamado externalidad. Hemos medido las cosas equivocadas con gran precisión y lo hemos llamado ciencia.
+
+El panel que necesitaríamos mediría la salud de las mentes, la equidad de la distribución y la sostenibilidad de los comunes. Pero dicho panel también revelaría lo lejos que hemos quedado del objetivo. Y esta es la razón por la que nos aferramos al antiguo: nos dice que todo va bien. Incluso mientras todo se desmorona a nuestro alrededor, el panel nos dice que todo va bien.
+
+Esta es la locura de nuestra situación actual. Sabemos que el panel está roto. Lo sabemos desde hace décadas. Tenemos mejores alternativas. Y sin embargo seguimos usándolo porque nos dice lo que queremos oír.
+
+El panel de la locura no funciona mal. Funciona perfectamente. Mide exactamente lo que se diseñó para medir. La locura no está en el instrumento. La locura está en elegir usarlo.

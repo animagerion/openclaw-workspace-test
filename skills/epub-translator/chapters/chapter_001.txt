@@ -1,0 +1,145 @@
+CHAPTER_TITLE: Contents
+CHAPTER_NUM: 1
+SOURCE_FILE: toc.xhtml
+---
+Contents
+
+Chapter 
+
+Introduction:
+
+The Thousand-Day Window
+
+1.
+
+The Intelligence Inversion
+
+2.
+
+Harbingers of the Storm
+
+3.
+
+The Seven Fatal Lies of a Dying Paradigm
+
+4.
+
+The Dashboard for Insanity:
+
+4.
+
+GDP and the Meaning Crisis
+
+5.
+
+The Trial by Fire
+
+6.
+
+The Engine of Order:
+
+6.
+
+Intelligence Against Entropy
+
+7.
+
+The Generative Engine
+
+8.
+
+The MIND of a Civilization
+
+9.
+
+The Three Flows:
+
+9.
+
+The Blind Scholars and the Elephant
+
+10.
+
+The Network Prison
+
+11.
+
+The Cathedral and the Bazaar 2.0
+
+12.
+
+Intelligent Game Theory
+
+13.
+
+The Dual Engine:
+
+13.
+
+The Rhythms of Change
+
+14.
+
+The New Social Contract
+
+15.
+
+The Alignment Economy:
+
+15.
+
+Who Commands the Machines?
+
+16.
+
+The Three Futures
+
+17.
+
+The Symbiotic State:
+
+17.
+
+Governance as Geometry Engineering
+
+18.
+
+Money for Two Worlds
+
+19.
+
+The Nucleation of the New:
+
+19.
+
+A Strategy for Hope
+
+20.
+
+Intelligent Macroeconomics
+
+21.
+
+After Economics
+
+Epilogue:
+
+The Thousandth Day
+
+Appendix A:
+
+The Formal Foundations of Intelligence Theory
+
+Appendix B:
+
+The Generative AI Mirror
+
+Appendix C:
+
+The MIND Dashboard: A Practitioner's Guide
+
+Appendix D: 
+
+A Lexicon of Intelligent Economics
+
+Bibliography
