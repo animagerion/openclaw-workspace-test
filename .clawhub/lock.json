@@ -16,6 +16,10 @@
     "openclaw-multi-search-engine": {
       "version": "1.0.0",
       "installedAt": 1776602992097
+    },
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1776617730488
     }
   }
 }
