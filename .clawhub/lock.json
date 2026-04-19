@@ -12,6 +12,10 @@
     "tiangong-notebooklm-cli": {
       "version": "0.1.1",
       "installedAt": 1771198091034
+    },
+    "openclaw-multi-search-engine": {
+      "version": "1.0.0",
+      "installedAt": 1776602992097
     }
   }
 }
