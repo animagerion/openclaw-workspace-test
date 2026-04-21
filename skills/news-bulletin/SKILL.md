@@ -43,10 +43,41 @@ El boletín sigue esta estructura (~1500-2000 palabras):
 4. **ECONOMÍA** — mercados, empresas, finanzas internacionales
 5. **BREVES** — otras noticias de interés
 
+## Fuentes RSS
+
+Las fuentes RSS son el método principal de recopilación. Ver `collect.py` para la lista completa.
+
+### Mejora con Obscura
+
+Para artículos individuales que necesitan más detalle (contenido completo, JS rendering):
+
+```bash
+obscura fetch <url> --wait-until networkidle0 --dump text --quiet
+```
+
+Usar Obscura cuando:
+- Una fuente no tiene RSS funcional
+- El RSS solo da resumen y necesitamos el artículo completo
+- La web carga contenido dinámicamente (JavaScript)
+- RSS falla o está bloqueado
+
+### Ejemplo de uso con Obscura para una noticia
+
+```bash
+# Scraping completo de un artículo
+URL="https://www.elconfidencial.com/..."
+obscura fetch "$URL" --stealth --wait-until networkidle0 --dump text > /tmp/article.txt
+```
+
 ## Uso bajo demanda
 
 ```bash
 python3 /home/gerion/.openclaw/workspace/skills/news-bulletin/collect.py
+```
+
+Para forzar re-scraping con Obscura en lugar de caché:
+```bash
+python3 /home/gerion/.openclaw/workspace/skills/news-bulletin/collect.py --no-cache
 ```
 
 ## Flujo
@@ -76,6 +107,10 @@ python3 /home/gerion/.openclaw/workspace/skills/news-bulletin/collect.py
 
 ## Notas
 
+- Si una fuente RSS falla o está bloqueada, usar Obscura como fallback:
+  ```bash
+  obscura fetch <url> --dump html --quiet
+  ```
 - Priorizar noticias del día (no de días anteriores)
 - Incluir 3-5 noticias por sección
 - Mantener tono profesional de informativo
