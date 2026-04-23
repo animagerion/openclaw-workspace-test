@@ -565,7 +565,7 @@
 
   <!-- SLIDE 1: COVER -->
   <div class="slide slide-cover active" id="s1">
-    <img src="logo.jpg" class="logo-cover" alt="Élan Forensic" style="position:absolute;top:28px;left:36px;height:40px;opacity:0.9;">
+    <img src="logo.png" class="logo-cover" alt="Élan" style="position:absolute;top:28px;left:36px;height:80px;width:auto;opacity:0.92;">
     <div class="cover-line"></div>
     <h3 class="label" style="color: var(--secondary); margin-bottom: 18px;">Análisis Causa — Función</h3>
     <h1 style="color: var(--text-light);">Cero Energético<br>Ibérico</h1>
@@ -577,7 +577,7 @@
 
   <!-- SLIDE 2: RESUMEN -->
   <div class="slide slide-light" id="s2">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
+    <img src="logo.png" class="logo-corner" alt="Élan">
     <h3>Resumen ejecutivo</h3>
     <h2>¿Qué ocurrió?</h2>
     <div class="two-col">
@@ -611,7 +611,7 @@
 
   <!-- SLIDE 3: CONTEXTO -->
   <div class="slide slide-light" id="s3">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
+    <img src="logo.png" class="logo-corner" alt="Élan">
     <h3>Contexto operativo</h3>
     <h2>Un sistema en tensión</h2>
     <div class="two-col">
@@ -654,20 +654,20 @@
   </div>
 
   <!-- SLIDE 4: ESCALA -->
-  <div class="slide slide-dark" id="s4">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
-    <h3 style="color: rgba(255,255,255,0.4);">Severidad</h3>
+  <div class="slide slide-light" id="s4">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Severidad</h3>
     <h2>Escala 3 — ENTSO-E</h2>
-    <div class="scale-badge">
-      <div class="num">3</div>
-      <div class="label-text">Nivel máximo de severidad<br>en el sistema europeo</div>
+    <div class="scale-badge" style="border-color: var(--primary);">
+      <div class="num" style="color: var(--primary);">3</div>
+      <div class="label-text" style="color: rgba(0,0,0,0.5);">Nivel máximo de severidad<br>en el sistema europeo</div>
     </div>
-    <p style="text-align: center; margin-top: 36px; font-size: 14px; opacity: 0.5;">Clasificación ICS — Reglamento (UE) 2017/1485</p>
+    <p style="text-align: center; margin-top: 36px; font-size: 14px; opacity: 0.45; color: var(--on-surface);">Clasificación ICS — Reglamento (UE) 2017/1485</p>
   </div>
 
   <!-- SLIDE 5: SECUENCIA -->
   <div class="slide slide-light" id="s5">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
+    <img src="logo.png" class="logo-corner" alt="Élan">
     <h3>Los hechos</h3>
     <h2>La secuencia del cero</h2>
     <div class="two-col">
@@ -726,45 +726,45 @@
   </div>
 
   <!-- SLIDE 6: CAUSAS -->
-  <div class="slide slide-accent" id="s6">
-    <img src="logo.jpg" class="logo-corner" alt="Élan" style="opacity:0.6;">
-    <h3 style="color: rgba(255,255,255,0.45);">Análisis causal</h3>
+  <div class="slide slide-light" id="s6">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Análisis causal</h3>
     <h2>Las causas identificadas</h2>
     <div class="causes-grid">
-      <div class="cause-card" style="background: rgba(255,255,255,0.1); border-color: var(--secondary);">
-        <h4 style="color: var(--tertiary);">Causa desencadenante</h4>
-        <p style="color: rgba(255,255,255,0.8);">Pérdida en cascada de generación renovable por activación de protecciones de sobretensión. Tres escalones en 20 segundos.</p>
+      <div class="cause-card">
+        <h4>Causa desencadenante</h4>
+        <p style="color: var(--on-surface);">Pérdida en cascada de generación renovable por activación de protecciones de sobretensión. Tres escalones en 20 segundos.</p>
       </div>
-      <div class="cause-card" style="background: rgba(255,255,255,0.1); border-color: var(--tertiary);">
-        <h4 style="color: var(--tertiary);">Control de tensión insuficiente</h4>
-        <p style="color: rgba(255,255,255,0.8);">Capacidad de reactiva próxima a saturación. Parque síncrono reducido (11 grupos). Las renovables no podían hacer soporte dinámico.</p>
+      <div class="cause-card">
+        <h4>Control de tensión insuficiente</h4>
+        <p style="color: var(--on-surface);">Capacidad de reactiva próxima a saturación. Parque síncrono reducido (11 grupos). Las renovables no podían hacer soporte dinámico.</p>
       </div>
-      <div class="cause-card" style="background: rgba(255,255,255,0.1); border-color: var(--tertiary);">
-        <h4 style="color: var(--tertiary);">Oscilaciones no amortiguadas</h4>
-        <p style="color: rgba(255,255,255,0.8);">Episodios de oscilación de baja frecuencia (0,63 Hz y 0,2 Hz) entre las 12:03 y las 12:22. Escasa reserva de amortiguamiento.</p>
+      <div class="cause-card">
+        <h4>Oscilaciones no amortiguadas</h4>
+        <p style="color: var(--on-surface);">Episodios de oscilación de baja frecuencia (0,63 Hz y 0,2 Hz) entre las 12:03 y las 12:22. Escasa reserva de amortiguamiento.</p>
       </div>
-      <div class="cause-card" style="background: rgba(255,255,255,0.1); border-color: var(--tertiary);">
-        <h4 style="color: var(--tertiary);">Reservas insuficientes</h4>
-        <p style="color: rgba(255,255,255,0.8);">Mercado sin ciclos combinados. Errores de pronóstico renovable de hasta el 36%. Cobertura insuficiente para evento N-3.</p>
+      <div class="cause-card">
+        <h4>Reservas insuficientes</h4>
+        <p style="color: var(--on-surface);">Mercado sin ciclos combinados. Errores de pronóstico renovable de hasta el 36%. Cobertura insuficiente para evento N-3.</p>
       </div>
     </div>
   </div>
 
   <!-- SLIDE 7: CAUSA-FUNCIÓN -->
-  <div class="slide slide-dark" id="s7">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
+  <div class="slide slide-light" id="s7">
+    <img src="logo.png" class="logo-corner" alt="Élan">
     <h3>Causa — Función</h3>
     <h2>Dónde estaba cada actor</h2>
     <p style="margin-bottom: 24px; font-size: 15px;">Este análisis no imputation culpa personal. Muestra la relación entre las causas y las funciones que el marco regulatorio atribuía a cada actor.</p>
     <table class="matrix-table">
       <thead>
         <tr>
-          <th style="color: rgba(255,255,255,0.5);">Causa</th>
-          <th style="color: rgba(255,255,255,0.5);">Función implicada</th>
-          <th style="color: rgba(255,255,255,0.5);">Actor</th>
+          <th>Causa</th>
+          <th>Función implicada</th>
+          <th>Actor</th>
         </tr>
       </thead>
-      <tbody style="color: rgba(255,255,255,0.8);">
+      <tbody style="color: var(--on-surface);">
         <tr>
           <td>Desconexiones por sobretensión</td>
           <td>Gestión de restricciones técnicas y control de tensión</td>
@@ -796,7 +796,7 @@
 
   <!-- SLIDE 8: DEFENSA -->
   <div class="slide slide-light" id="s8">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
+    <img src="logo.png" class="logo-corner" alt="Élan">
     <h3>Respuesta del sistema</h3>
     <h2>Los planes de defensa funcionaron</h2>
     <div class="two-col">
@@ -835,7 +835,7 @@
 
   <!-- SLIDE 9: DESCARTADO -->
   <div class="slide slide-light" id="s9">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
+    <img src="logo.png" class="logo-corner" alt="Élan">
     <h3>Hipótesis no confirmadas</h3>
     <h2>Lo que los informes descartan</h2>
     <div class="discarded-grid">
@@ -857,7 +857,7 @@
 
   <!-- SLIDE 10: CONCLUSIONES -->
   <div class="slide slide-light" id="s10">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
+    <img src="logo.png" class="logo-corner" alt="Élan">
     <div class="section-num">3</div>
     <h3>Conclusiones</h3>
     <h2>Consideraciones finales</h2>
@@ -882,7 +882,7 @@
 
   <!-- SLIDE 11: FUENTES -->
   <div class="slide slide-light" id="s11">
-    <img src="logo.jpg" class="logo-corner" alt="Élan">
+    <img src="logo.png" class="logo-corner" alt="Élan">
     <h3>Metodología</h3>
     <h2>Fuentes consultadas</h2>
     <div class="grid-3">
