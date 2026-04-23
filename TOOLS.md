@@ -41,3 +41,17 @@ Add whatever helps you do your job. This is your cheat sheet.
 - API key: Obtenida automáticamente de `auth-profiles.json`
 - Endpoint: `https://platform.minimax.io/v1/api/openplatform/coding_plan/remains`
 
+## PDF Render (Slides/Deck)
+- Script: `/home/gerion/.openclaw/workspace/scripts/render_deck_pdf.js`
+- Dependencias: `playwright` (npm, en `/tmp/node_modules/`) + `pdf-lib`
+- Uso: `node /home/gerion/.openclaw/workspace/scripts/render_deck_pdf.js`
+- Genera PDF de 11 páginas (una por slide) sin navegación ni dots
+- Requiere servidor local para servir el HTML + assets (imágenes)
+- Viewport: 1280x720px
+
+## Design System
+- Spec: `/home/gerion/.openclaw/workspace/design-system/spec.md`
+- Ejemplos: `/home/gerion/.openclaw/workspace/design-system/examples/`
+- Proyectos: `/home/gerion/.openclaw/workspace/design-system/NOMBRE/DESIGN.md`
+- Usar cuando Paduel pida: deck de slides, presentación, o web
+

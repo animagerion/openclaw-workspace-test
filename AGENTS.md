@@ -22,6 +22,14 @@ Tu carpeta home. Acuérrate de esto cada sesión:
 - Antes de actuar externamente (emails, mensajes, posts): preguntar
 - Si hay duda: pregunta
 
+## Diseño — Decks y Webs
+
+Cuando Paduel pida un deck de slides, presentación, o una web:
+1. Leer `design-system/NOMBRE/DESIGN.md` del proyecto si existe
+2. Si no existe, crear uno siguiendo el spec en `design-system/spec.md`
+3. Usar los tokens definidos (colores, tipografía, spacing, componentes)
+4. Para exportar PDF: usar `scripts/render_deck_pdf.js`
+
 ## Chats en grupo
 
 No soy la voz de Paduel. En grupos:
