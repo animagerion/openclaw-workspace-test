@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-23T08:00:11.312Z",
+  "entries": {
+    "memory:memory/2026-04-15.md:1:20": {
+      "key": "memory:memory/2026-04-15.md:1:20",
+      "path": "memory/2026-04-15.md",
+      "startLine": 1,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "# 2026-04-15 ## Resumen del día - Mañana enviada a Paduel: agenda del día (Salir para Rota 17:00, Dentista 19:00) - Paduel pidió resumen de noticias a las 10:40 UTC - Resumen enviado: Oriente Medio/alto el fuego, Papa León XIV vs Trump, India Bihar, ataque Sam Altman, Stanford AI Index 2026, Google Vids con Veo 3.1 - Recordatorio pre-salida para Rota: programado para ~16:00 UTC ## Notas de memoria - Los crons de gmail cada 30 min siguen funcionando (sin emails nuevos durante la noche) - OpenClaw sigue en 2026.4.8, no hay update nuevo ## Tareas pendientes - [ ] Recordatorio pre-salida Rota (~16:00 UTC) - [ ] Recordatorio dentista (~18:00 UTC) - [ ] AI News Digest昨晚 test — pendiente resu",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.9269052475690841,
+      "maxScore": 0.48174360692501067,
+      "firstRecalledAt": "2026-04-23T08:00:03.633Z",
+      "lastRecalledAt": "2026-04-23T08:00:11.312Z",
+      "queryHashes": [
+        "d7953501dbf9",
+        "8f06fffee327"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "medio/alto",
+        "3.1",
+        "pre-salida",
+        "2026.4.8",
+        "resumen",
+        "día",
+        "mañana",
+        "enviada"
+      ]
+    },
+    "memory:memory/2026-03-22.md:1:41": {
+      "key": "memory:memory/2026-03-22.md:1:41",
+      "path": "memory/2026-03-22.md",
+      "startLine": 1,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "## Sesión晚 - 22 de Marzo 2026 (mañana) ### Agendacron activa - **08:00** - Agenda diaria (hoy + mañana) → Telegram.jobId: fdf24669-b011-4520-a5c1-734b60d53f24 - **09:00** - Santos diarios - **Cada 30 min** - Check Gmail - **Cada 6h** - Auto-commit workspace - **Clima Utrera 07:30** - Deshabilitada (timeout) ### Catastro - Nuevo CLI completo - Creado `catastro_full.py` que combina API + web scraping de sedecatastro.gob.es - Descubre la superficie de la parcela (dato que la API no devuelve en producción) - Ubicación: `/home/gerion/.local/bin/catastro_full` - Skills: `skills/catastro/SKILL.md` - Commits: dd34f74, 8fd02c8 ### Consultas catastro hechas hoy - Calle Gorri 14 Utrera → Ref 399100",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4783841967582702,
+      "maxScore": 0.4783841967582702,
+      "firstRecalledAt": "2026-04-23T08:00:03.633Z",
+      "lastRecalledAt": "2026-04-23T08:00:03.633Z",
+      "queryHashes": [
+        "d7953501dbf9"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "telegram.jobid",
+        "auto-commit",
+        "catastro-full.py",
+        "sedecatastro.gob.es",
+        "home/gerion",
+        "local/bin/catastro-full",
+        "skills/catastro/skill.md",
+        "sesión"
+      ]
+    }
+  }
+}
