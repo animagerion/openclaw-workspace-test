@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cero Energético Ibérico — 28 de abril de 2025</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --primary: #8B0000;
+  --secondary: #FF6900;
+  --tertiary: #FCB900;
+  --surface: #FAFAF8;
+  --on-surface: #666666;
+  --on-surface-dark: #333333;
+  --border: #e2e2e2;
+  --bg-dark: #1a0a0a;
+  --text-light: #f5f0ed;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Open Sans', sans-serif; background: #1a1a1a; overflow: hidden; }
+
+.deck { width: 100vw; height: 100vh; position: relative; }
+
+.slide {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  padding: 60px 80px;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+.slide.active { opacity: 1; pointer-events: all; }
+
+.logo-corner { position: absolute; top: 28px; left: 36px; height: 36px; width: auto; opacity: 0.75; }
+.logo-cover { position: absolute; top: 28px; left: 36px; height: 80px; width: auto; opacity: 0.92; }
+
+.nav { position: fixed; bottom: 28px; right: 36px; display: flex; gap: 10px; z-index: 100; }
+.nav button { width: 42px; height: 42px; border: 2px solid rgba(0,0,0,0.15); background: white; color: var(--on-surface-dark); font-size: 18px; cursor: pointer; border-radius: 0; font-family: 'Work Sans', sans-serif; transition: all 0.2s; }
+.nav button:hover { background: var(--primary); color: white; border-color: var(--primary); }
+.slide-counter { position: fixed; bottom: 36px; left: 36px; font-family: 'Work Sans', sans-serif; font-size: 12px; letter-spacing: 0.1em; color: rgba(0,0,0,0.35); z-index: 100; }
+
+h1 { font-family: 'Lora', serif; font-size: 52px; font-weight: 500; line-height: 1.15; color: var(--text-light); }
+h2 { font-family: 'Work Sans', sans-serif; font-size: 28px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 28px; color: var(--on-surface-dark); }
+h3 { font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 12px; }
+p { font-size: 16px; line-height: 1.7; color: var(--on-surface); }
+
+.slide-cover { background: linear-gradient(135deg, var(--bg-dark) 0%, #2a0a0a 60%, #3a0f0f 100%); text-align: center; }
+.slide-cover::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(45deg, transparent, transparent 60px, rgba(139,0,0,0.04) 60px, rgba(139,0,0,0.04) 61px); }
+.slide-light { background: var(--surface); }
+.slide-light h3 { color: var(--primary); }
+.slide-light p { color: var(--on-surface); }
+.slide-light .nav button { border-color: rgba(0,0,0,0.12); color: var(--on-surface-dark); background: white; }
+.slide-light .nav button:hover { background: var(--primary); color: white; border-color: var(--primary); }
+.slide-light .slide-counter { color: rgba(0,0,0,0.3); }
+
+.cover-line { width: 50px; height: 3px; background: var(--secondary); margin: 0 auto 28px; }
+.cover-subtitle { font-family: 'Lora', serif; font-size: 22px; font-style: italic; color: var(--tertiary); margin-bottom: 10px; }
+.cover-date { font-family: 'Work Sans', sans-serif; font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 44px; }
+.cover-tag { font-family: 'Work Sans', sans-serif; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; background: var(--primary); color: white; padding: 7px 18px; display: inline-block; margin-bottom: 20px; }
+.cover-meta { position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); font-size: 12px; color: rgba(255,255,255,0.25); white-space: nowrap; }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; width: 100%; max-width: 1060px; align-items: start; }
+.two-col-wide { display: grid; grid-template-columns: 3fr 2fr; gap: 48px; width: 100%; max-width: 1060px; align-items: start; }
+
+.stat-row { display: flex; gap: 28px; margin: 20px 0; flex-wrap: wrap; }
+.stat-item { text-align: left; }
+.stat-item .big-num { font-family: 'Work Sans', sans-serif; font-size: 36px; font-weight: 700; color: var(--primary); line-height: 1; }
+.stat-item .stat-desc { font-size: 11px; margin-top: 4px; max-width: 110px; opacity: 0.6; }
+
+.timeline { position: relative; width: 100%; max-width: 820px; }
+.timeline::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, var(--secondary), var(--tertiary), var(--primary)); }
+.timeline-item { display: flex; gap: 22px; margin-bottom: 18px; align-items: flex-start; }
+.timeline-time { font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--secondary); min-width: 70px; padding-top: 3px; }
+.timeline-dot { width: 9px; height: 9px; background: var(--secondary); border-radius: 50%; margin-top: 7px; flex-shrink: 0; margin-left: -4px; }
+.timeline-dot.red { background: var(--primary); }
+.timeline-dot.gold { background: var(--tertiary); }
+.timeline-content h4 { font-size: 14px; font-weight: 600; margin-bottom: 3px; color: var(--on-surface-dark); }
+.timeline-content p { font-size: 12px; opacity: 0.65; line-height: 1.45; }
+
+.narrative { font-size: 15px; line-height: 1.75; color: var(--on-surface); max-width: 860px; }
+.narrative strong { color: var(--primary); }
+
+.callout { padding: 12px 16px; border-left: 3px solid var(--secondary); background: rgba(255,105,0,0.04); margin-top: 14px; }
+.callout p { font-size: 12px; color: var(--on-surface); margin: 0; }
+.callout strong { color: var(--primary); }
+
+.data-box { padding: 14px 16px; border-left: 3px solid var(--primary); background: rgba(139,0,0,0.03); }
+.data-box p { font-size: 12px; margin-bottom: 7px; color: var(--on-surface); }
+.data-box p:last-child { margin-bottom: 0; }
+.data-box strong { color: var(--primary); }
+
+.warning-callout { padding: 12px 16px; border-left: 3px solid var(--secondary); background: rgba(255,105,0,0.04); margin-top: 16px; }
+.warning-callout p { font-size: 12px; margin: 0; color: var(--on-surface); }
+.warning-callout strong { color: var(--primary); }
+
+.check-callout { padding: 12px 16px; border-left: 3px solid #2a7a3a; background: rgba(42,122,58,0.04); margin-top: 16px; }
+.check-callout p { font-size: 12px; margin: 0; color: var(--on-surface); }
+
+.cause-card { border-left: 3px solid var(--secondary); padding: 14px 18px; background: rgba(255,105,0,0.02); margin-bottom: 14px; }
+.cause-card h4 { font-family: 'Work Sans', sans-serif; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); margin-bottom: 7px; }
+.cause-card p { font-size: 12px; color: var(--on-surface); opacity: 0.8; line-height: 1.5; }
+
+.cause-2grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; width: 100%; max-width: 960px; }
+.cause-2card { border-left: 3px solid var(--secondary); padding: 14px 18px; background: rgba(255,105,0,0.02); }
+.cause-2card h4 { font-family: 'Work Sans', sans-serif; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); margin-bottom: 7px; }
+.cause-2card p { font-size: 12px; color: var(--on-surface); opacity: 0.8; line-height: 1.5; }
+
+.actor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; width: 100%; max-width: 960px; }
+.actor-card { padding: 14px 16px; border-top: 3px solid var(--primary); background: rgba(139,0,0,0.025); }
+.actor-card.orange { border-color: var(--secondary); background: rgba(255,105,0,0.025); }
+.actor-card.gold { border-color: var(--tertiary); background: rgba(252,185,0,0.03); }
+.actor-card h4 { font-family: 'Work Sans', sans-serif; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 7px; color: var(--primary); }
+.actor-card.orange h4 { color: #cc5500; }
+.actor-card.gold h4 { color: #996600; }
+.actor-card p { font-size: 12px; color: var(--on-surface); opacity: 0.75; line-height: 1.5; }
+
+.mix-bar { display: flex; height: 38px; overflow: hidden; width: 100%; max-width: 640px; margin: 14px 0; }
+.mix-bar .seg { display: flex; align-items: center; justify-content: center; font-family: 'Work Sans', sans-serif; font-size: 10px; font-weight: 700; color: white; padding: 4px; min-width: 0; }
+.mix-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; font-size: 11px; }
+.legend-item { display: flex; align-items: center; gap: 5px; }
+.legend-dot { width: 8px; height: 8px; flex-shrink: 0; }
+
+.matrix-table { width: 100%; max-width: 960px; border-collapse: collapse; font-size: 12px; }
+.matrix-table th { font-family: 'Work Sans', sans-serif; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 10px 12px; text-align: left; border-bottom: 2px solid var(--primary); color: var(--on-surface-dark); }
+.matrix-table td { padding: 10px 12px; border-bottom: 1px solid rgba(0,0,0,0.07); vertical-align: top; line-height: 1.45; color: var(--on-surface); }
+.matrix-table tr:last-child td { border-bottom: none; }
+.badge { display: inline-block; font-family: 'Work Sans', sans-serif; font-size: 9px; font-weight: 700; letter-spacing: 0.05em; padding: 3px 6px; text-transform: uppercase; }
+.badge-red { background: rgba(139,0,0,0.08); color: var(--primary); }
+.badge-orange { background: rgba(255,105,0,0.08); color: #cc5500; }
+.badge-gold { background: rgba(252,185,0,0.12); color: #996600; }
+.badge-grey { background: rgba(0,0,0,0.05); color: #888; }
+
+.progress-dots { display: flex; gap: 5px; position: fixed; bottom: 36px; left: 50%; transform: translateX(-50%); z-index: 100; }
+.progress-dots .dot { width: 5px; height: 5px; background: rgba(0,0,0,0.12); transition: all 0.3s; }
+.progress-dots .dot.active { background: var(--secondary); width: 20px; }
+
+.disclaimer { font-size: 11px; color: var(--on-surface); opacity: 0.4; text-align: center; margin-top: 28px; font-style: italic; max-width: 660px; line-height: 1.6; }
+
+.data-row { display: flex; flex-direction: column; gap: 6px; }
+.data-row .d { font-size: 12px; display: flex; gap: 9px; align-items: baseline; }
+.data-row .d .dot { width: 6px; height: 6px; flex-shrink: 0; margin-top: 2px; }
+.data-row .d .txt { color: var(--on-surface); }
+
+.source-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; width: 100%; max-width: 960px; }
+.source-col .source-heading { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; opacity: 0.4; margin-bottom: 10px; }
+.source-col p { font-size: 12px; color: var(--on-surface); margin-bottom: 5px; line-height: 1.6; }
+.source-col p strong { color: var(--primary); }
+
+@media (max-width: 768px) {
+  .slide { padding: 40px 28px; }
+  h1 { font-size: 36px; }
+  h2 { font-size: 20px; }
+  .two-col, .two-col-wide, .cause-2grid, .actor-grid, .source-grid { grid-template-columns: 1fr; }
+  .logo-corner { height: 28px; }
+}
+</style>
+</head>
+<body>
+
+<div class="deck">
+
+  <!-- S1: COVER -->
+  <div class="slide slide-cover active" id="s1">
+    <img src="logo.png" class="logo-cover" alt="Élan">
+    <div class="cover-line"></div>
+    <h3 class="label" style="color: var(--secondary); margin-bottom: 18px; font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em;">Análisis Causa — Función</h3>
+    <h1 style="color: var(--text-light);">Cero Energético<br>Ibérico</h1>
+    <div class="cover-subtitle">28 de abril de 2025</div>
+    <div class="cover-date">España · Portugal · 12:33 CEST</div>
+  </div>
+
+  <!-- S2: HECHOS — CONTEXTO -->
+  <div class="slide slide-light" id="s2">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Los hechos</h3>
+    <h2>El estado del sistema antes del incidente</h2>
+    <div class="two-col-wide">
+      <div>
+        <p class="narrative">Lunes de primavera, demanda normal. Pero el sistema presentaba tres características que lo hacían especialmente vulnerable.</p>
+        <div class="stat-row">
+          <div class="stat-item">
+            <div class="big-num">70%</div>
+            <div class="stat-desc">Generación no síncrona</div>
+          </div>
+          <div class="stat-item">
+            <div class="big-num">11</div>
+            <div class="stat-desc">Grupos síncronos operativos (normal: 30-50)</div>
+          </div>
+          <div class="stat-item">
+            <div class="big-num">2,3s</div>
+            <div class="stat-desc">Inercia del sistema (mín. referencia: 2s)</div>
+          </div>
+        </div>
+        <div class="warning-callout">
+          <p>Episodios de sobretensión los días <strong>16, 22 y 24 de abril</strong>. Las plantas de Cáceres y Cuenca (739 MW combinados) se habían desconectado el día 22 por la misma causa. Volvieron a hacerlo el 28.</p>
+        </div>
+        <div style="margin-top: 14px; font-size: 13px; color: var(--on-surface); opacity: 0.55;">
+          <p>Generación convencional fuera de servicio: 7.426 MW ciclo combinado, 3.078 MW nucleares, 1.392 MW bombeo, 903 MW carbón.</p>
+        </div>
+      </div>
+      <div>
+        <h4 style="font-family: 'Work Sans', sans-serif; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 12px; color: var(--on-surface); opacity: 0.5;">Mix energético · 12:33</h4>
+        <div class="mix-bar">
+          <div class="seg" style="width: 59%; background: var(--tertiary); color: #1a1a1a;">59% FV</div>
+          <div class="seg" style="width: 11%; background: #5a9fbf;">11% Eólica</div>
+          <div class="seg" style="width: 10%; background: #888;">10% Nuclear</div>
+          <div class="seg" style="width: 3%; background: #aaa;">3% CC</div>
+          <div class="seg" style="width: 17%; background: #ccc; color: #555;">17% Otros</div>
+        </div>
+        <div class="mix-legend">
+          <div class="legend-item"><div class="legend-dot" style="background: var(--tertiary);"></div> Solar FV</div>
+          <div class="legend-item"><div class="legend-dot" style="background: #5a9fbf;"></div> Eólica</div>
+          <div class="legend-item"><div class="legend-dot" style="background: #888;"></div> Nuclear</div>
+          <div class="legend-item"><div class="legend-dot" style="background: #aaa;"></div> Ciclo combinado</div>
+        </div>
+        <div style="margin-top: 16px; font-size: 13px; color: var(--on-surface);">
+          <p><strong>+70%</strong> de generación basada en convertidores electrónicos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S3: HECHOS — OSCILACIONES -->
+  <div class="slide slide-light" id="s3">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Los hechos</h3>
+    <h2>Las oscilaciones previas al cero</h2>
+    <div class="two-col">
+      <div>
+        <p class="narrative">Treinta minutos antes del colapso, el sistema atravesó dos episodios de oscilaciones de baja frecuencia.</p>
+        <div style="margin-top: 18px; display: flex; flex-direction: column; gap: 14px;">
+          <div>
+            <div style="font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--secondary); margin-bottom: 5px;">12:03 — 12:07</div>
+            <p style="font-size: 13px; color: var(--on-surface); opacity: 0.75;">Oscilación <strong style="color: var(--on-surface-dark);">0,63 Hz</strong>. La península oscilaba desfasada respecto al resto de Europa. Amplitud: 70 mHz. Amortiguamiento: <strong style="color: var(--on-surface-dark);">4 min 42 s</strong>.</p>
+          </div>
+          <div>
+            <div style="font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--primary); margin-bottom: 5px;">12:19 — 12:22</div>
+            <p style="font-size: 13px; color: var(--on-surface); opacity: 0.75;">Oscilación <strong style="color: var(--on-surface-dark);">0,2 Hz</strong>. Modo Este-Centro-Oeste del sistema europeo. Amplitud: 200 mHz. Amortiguamiento: <strong style="color: var(--on-surface-dark);">3 min 20 s</strong>.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="narrative" style="font-size: 14px;">Durante ambas oscilaciones, las tensiones en la red de 400 kV se mantenían dentro del rango operativo pero con <strong>tendencia al alza</strong>. El operador pidió ciclos combinados para soporte de tensión en el sur, pero sus tiempos de arranque — más de <strong>90 minutos</strong> — hacían imposible desplegarlos antes del incidente.</p>
+        <div class="callout">
+          <p>El cambio de modo del enlace HVDC España-Francia (de emulación CA a potencia CC constante) <strong>pudo debilitar el acoplamiento síncrono</strong> con el continente europeo.</p>
+        </div>
+        <div style="margin-top: 14px; font-size: 12px; color: var(--on-surface); opacity: 0.55;">
+          <p>Los estabilizadores de sistema de potencia (PSS) necesitan grupos síncronos para amortiguar oscilaciones. Con solo 11 grupos operativos, la capacidad de amortiguamiento era insuficiente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S4: HECHOS — CRONOLOGÍA -->
+  <div class="slide slide-light" id="s4">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Los hechos</h3>
+    <h2>La cronología del colapso</h2>
+    <div class="two-col">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-time">12:32:57</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h4>Primera pérdida de generación</h4>
+            <p>Plantas solares de Granada, Badajoz, Cáceres, Cuenca, Sevilla y Huelva. ~355–700 MW perdidos según fuentes. Activación de protecciones de sobretensión.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-time">12:33:16</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h4>Segunda pérdida escalonada</h4>
+            <p>~730 MW adicionales en menos de dos segundos. La frecuencia cae 55 mHz sin llegar a recuperarse.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-time">12:33:20</div>
+          <div class="timeline-dot red"></div>
+          <div class="timeline-content">
+            <h4>Punto de no retorno</h4>
+            <pFrancia: 3.807 MW import → inversión → 5.587 MW export. Las protecciones de sincronismo disparan.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-time">12:33:24</div>
+          <div class="timeline-dot red"></div>
+          <div class="timeline-content">
+            <h4>Colapso total</h4>
+            <p>Pérdida de sincronismo. Portugal, Francia, Marruecos y Baleares, aisladas o desconectadas.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p style="font-size: 14px; color: var(--on-surface); margin-bottom: 16px;">En menos de <strong style="color: var(--secondary);">20 segundos</strong>, el sistema acumuló pérdidas de entre <strong style="color: var(--secondary);">1.600 y 2.200 MW</strong>.</p>
+        <div class="data-box">
+          <p>Frecuencia mínima: <strong>47,79 Hz</strong> (nominal: 50 Hz)</p>
+          <p>Sobretensión máx.: <strong>456 kV</strong> en red de 400 kV (+14%)</p>
+          <p>Flujo Francia: <strong>+3.807 MW</strong> import → <strong>−5.587 MW</strong> export</p>
+        </div>
+        <div class="callout" style="margin-top: 14px;">
+          <p>En apenas <strong>400 ms</strong> (12:33:20,180–12:33:20,520): caída simultánea de frecuencia, inversión de flujo Francia y pérdida de sincronismo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S5: HECHOS — REPOSICIÓN -->
+  <div class="slide slide-light" id="s5">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Los hechos</h3>
+    <h2>La reposición del servicio</h2>
+    <div class="two-col">
+      <div>
+        <p class="narrative">Quince horas y media en España, doce horas en Portugal. Los principales hitos:</p>
+        <div style="margin-top: 18px; display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; gap: 14px; align-items: baseline;">
+            <span style="font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--secondary); min-width: 46px;">13:04</span>
+            <span style="font-size: 12px; color: var(--on-surface);">Marruecos: <strong>100 MW</strong> de soporte inicial</span>
+          </div>
+          <div style="display: flex; gap: 14px; align-items: baseline;">
+            <span style="font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--secondary); min-width: 46px;">15:59</span>
+            <span style="font-size: 12px; color: var(--on-surface);">HVDC Francia: comienza a transmitir potencia</span>
+          </div>
+          <div style="display: flex; gap: 14px; align-items: baseline;">
+            <span style="font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--secondary); min-width: 46px;">17:49</span>
+            <span style="font-size: 12px; color: var(--on-surface);">Unificación de las islas Duero y País Vasco</span>
+          </div>
+          <div style="display: flex; gap: 14px; align-items: baseline;">
+            <span style="font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--secondary); min-width: 46px;">21:32</span>
+            <span style="font-size: 12px; color: var(--on-surface);"><strong>21 grupos térmicos</strong> sincronizados, ~<strong>50%</strong> demanda recuperada</span>
+          </div>
+          <div style="display: flex; gap: 14px; align-items: baseline;">
+            <span style="font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--primary); min-width: 46px;">~04:00</span>
+            <span style="font-size: 12px; color: var(--on-surface);">Reposición completa España (29 abr)</span>
+          </div>
+          <div style="display: flex; gap: 14px; align-items: baseline;">
+            <span style="font-family: 'Work Sans', sans-serif; font-size: 11px; font-weight: 700; color: var(--primary); min-width: 46px;">00:22</span>
+            <span style="font-size: 12px; color: var(--on-surface);">Reposición completa Portugal (29 abr)</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="check-callout">
+          <p>El plan de reposición funcionó sin incidentes operativos de segundo orden. Soporte desde Marruecos, Francia (HVDC y CA), y generación con arranque autógeno permitieron la recuperación progresiva isla a isla.</p>
+        </div>
+        <div style="margin-top: 14px; padding: 12px 14px; border-left: 3px solid var(--primary); background: rgba(139,0,0,0.03);">
+          <p style="font-size: 12px; color: var(--on-surface); margin: 0;">Declaración de normalización plena a las <strong>14:36 del 29 de abril</strong> (paso de emergencia a alerta).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S6: CAUSAS — DESENCADENANTE -->
+  <div class="slide slide-light" id="s6">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Las causas</h3>
+    <h2>Causa 1 — La pérdida en cascada de generación renovable</h2>
+    <div class="two-col">
+      <div>
+        <p class="narrative">La causa desencadenante es la <strong>desconexión sucesiva y parcialmente simultánea</strong> de instalaciones fotovoltaicas en el sur y suroeste peninsular.</p>
+        <p class="narrative" style="margin-top: 14px; font-size: 14px;">Las protecciones actuaron correctamente: estaban configuradas para desconectar cuando la tensión superaba ciertos umbrales. <strong>El problema no fue la protección, sino que la tensión cruzara esos umbrales.</strong></p>
+        <p class="narrative" style="margin-top: 14px; font-size: 14px;">Las actuaciones del operador esa mañana — como la reconexión de once líneas de transporte — tuvieron el efecto colateral de <strong>elevar aún más las tensiones</strong>, acercándolas a los umbrales de protección.</p>
+      </div>
+      <div>
+        <div class="cause-card">
+          <h4>El bucle de realimentación positiva</h4>
+          <p>Cada desconexión modificaba el balance local de reactiva, elevando las tensiones y disparando las protecciones de las plantas vecinas. Pérdida genera más tensión; más tensión genera más pérdida.</p>
+        </div>
+        <div class="data-box" style="margin-top: 12px;">
+          <p>Pérdidas: <strong>1.600–2.200 MW</strong> en ~20 segundos (~6–9% de la generación total)</p>
+          <p style="margin-top: 6px;">Las plantas de <strong>Cáceres y Cuenca</strong> (739 MW) se habían desconectado el <strong>22 de abril</strong> por la misma causa. Vulnerabilidad identificada y no corregida.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S7: CAUSAS — TENSIÓN -->
+  <div class="slide slide-light" id="s7">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Las causas</h3>
+    <h2>Causa 2 — El control de tensión y la gestión de reactiva</h2>
+    <div class="cause-2grid">
+      <div class="cause-2card">
+        <h4>Saturación de capacidad de absorción</h4>
+        <p>Capacidad de reactivas instalada: 13.300 MVAr, aprovechada al ~80%. En Andalucía — donde se iniciaron las desconexiones — la capacidad de absorción de grupos síncronos era de solo <strong>117 MVAr</strong>, frente a 1.850 MVAr de reactancias.</p>
+      </div>
+      <div class="cause-2card">
+        <h4>Renovables sin control dinámico</h4>
+        <p>El P.O. 7.4 articulaba el soporte de tensión principalmente en la generación síncrona. Las plantas FV y eólicas tenían requerimientos de factor de potencia fijo — sin capacidad de responder dinámicamente ante perturbaciones.</p>
+      </div>
+      <div class="cause-2card">
+        <h4>Visibilidad limitada del operador</h4>
+        <p>REE no disponía de visibilidad integrada en tiempo real sobre la inyección y absorción de reactiva en la red de distribución. No podía anticipar con precisión dónde estaban los desequilibrios.</p>
+      </div>
+      <div class="cause-2card">
+        <h4>Configuración del enlace HVDC</h4>
+        <p>El cambio de modo del enlace España-Francia (de emulación CA a potencia CC constante) pudo debilitar el acoplamiento síncrono con el continente durante las oscilaciones previas.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- S8: CAUSAS — OSCILACIONES Y RESERVAS -->
+  <div class="slide slide-light" id="s8">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Las causas</h3>
+    <h2>Causa 3 — Oscilaciones no amortiguadas · Causa 4 — Reservas insuficientes</h2>
+    <div class="two-col">
+      <div>
+        <div class="cause-card">
+          <h4>Causa 3 — Oscilaciones no amortiguadas</h4>
+          <p>Los estabilizadores de sistema de potencia (PSS) de los grupos síncronos amortiguan oscilaciones entre 0,1 y 1,0 Hz. Su efectividad depende del número y ubicación de los grupos operativos. Con solo <strong>11 grupos</strong>, la capacidad de amortiguamiento sistémico era muy inferior a la habitual.</p>
+          <p style="margin-top: 8px; font-size: 12px; opacity: 0.7;">Dos episodios previos: 0,63 Hz (12:03–12:07) y 0,2 Hz (12:19–12:22).</p>
+        </div>
+      </div>
+      <div>
+        <div class="cause-card">
+          <h4>Causa 4 — Programación sin reservas adecuadas</h4>
+          <p>El mercado diario cerró sin ciclos combinados despachados. El operador los forzó por Restricciones Técnicas, pero las reoptimizaciones de la mañana redujeron ese volumen progresivamente. Cuando a las 12:18 se identificó la necesidad de refuerzos, los <strong>90+ minutos</strong> de arranque hacían imposible desplegarlos a tiempo.</p>
+          <p style="margin-top: 8px; font-size: 12px; opacity: 0.7;">Error de previsión renovable: hasta <strong>36%</strong> en las horas previas. El sistema operaba con una imagen de la realidad muy alejada.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S9: FUNCIONES — ACTORES -->
+  <div class="slide slide-light" id="s9">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Las funciones</h3>
+    <h2>Los actores del sistema eléctrico</h2>
+    <div class="actor-grid">
+      <div class="actor-card" style="border-color: var(--primary);">
+        <h4>Operador del sistema (REE)</h4>
+        <p>Gestión del equilibrio generación-demanda en tiempo real, garantía de seguridad, aplicación de Restricciones Técnicas, supervisión de tensión en red de transporte, coordinación de planes de defensa y reposición.</p>
+      </div>
+      <div class="actor-card orange">
+        <h4>Regulador (CNMC)</h4>
+        <p>Aprobación y supervisión de procedimientos de operación, diseño del servicio de control de tensión (P.O. 7.4), diseño de los servicios de ajuste.</p>
+      </div>
+      <div class="actor-card gold">
+        <h4>Generadores</h4>
+        <p>Cumplimiento de requisitos técnicos de conexión, ajuste de protecciones a parámetros del operador, respuesta a órdenes de despacho.</p>
+      </div>
+      <div class="actor-card">
+        <h4>Comercializadores y consumidores</h4>
+        <p>Participación en mercados de electricidad con programas de producción y consumo.</p>
+      </div>
+      <div class="actor-card orange">
+        <h4>Enlace HVDC Francia / Marruecos</h4>
+        <p>Protocolos de funcionamiento definidos, incluyendo actuación automática ante perturbaciones del sistema.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- S10: MATRIZ CAUSA-FUNCIÓN -->
+  <div class="slide slide-light" id="s10">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Relación Causa — Función</h3>
+    <h2>El cruce entre lo que ocurrió y quién hacía qué</h2>
+    <table class="matrix-table">
+      <thead>
+        <tr>
+          <th style="width: 30%;">Causa</th>
+          <th style="width: 38%;">Función implicada</th>
+          <th style="width: 32%;">Actor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Desconexiones por sobretensión en cadena</td>
+          <td>Gestión de restricciones técnicas y control de tensión en tiempo real</td>
+          <td><span class="badge badge-orange">Operador (REE)</span></td>
+        </tr>
+        <tr>
+          <td>Diseño del P.O. 7.4 — control de tensión</td>
+          <td>Regulación del servicio de control de tensión y diseño técnico de conexión</td>
+          <td><span class="badge badge-gold">CNMC</span></td>
+        </tr>
+        <tr>
+          <td>Programación sin ciclos combinados</td>
+          <td>Garantía de seguridad del sistema y despacho económico</td>
+          <td><span class="badge badge-orange">Operador (REE)</span></td>
+        </tr>
+        <tr>
+          <td>Vulnerabilidad del 22 de abril no resuelta</td>
+          <td>Vigilancia, propuesta de mejora regulatoria y corrección de deficiencias</td>
+          <td><span class="badge badge-red">REE + CNMC</span></td>
+        </tr>
+        <tr>
+          <td>Limitaciones de renovables en control dinámico de tensión</td>
+          <td>Diseño del marco técnico de conexión a red</td>
+          <td><span class="badge badge-grey">Regulador + Operador</span></td>
+        </tr>
+        <tr>
+          <td>Oscilaciones no amortiguadas por falta de grupos síncronos</td>
+          <td>Gestión de seguridad dinámica y coordinación de reservas de control</td>
+          <td><span class="badge badge-orange">Operador (REE)</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size: 12px; color: var(--on-surface); opacity: 0.55; text-align: center; margin-top: 16px; max-width: 700px; line-height: 1.6; font-style: italic;">Este análisis no establece responsabilidad individual ni corporativa. Muestra la relación estructural entre las causas del incidente y las funciones que el marco regulatorio atribuía a cada actor ese día. Es un mapa, no un veredicto.</p>
+  </div>
+
+  <!-- S11: FUENTES -->
+  <div class="slide slide-light" id="s11">
+    <img src="logo.png" class="logo-corner" alt="Élan">
+    <h3>Fuentes y metodología</h3>
+    <h2>Sobre qué se basa este análisis</h2>
+    <div class="source-grid">
+      <div class="source-col">
+        <div class="source-heading">Informes oficiales</div>
+        <p>Informe del Comité de Análisis del Gobierno de España</p>
+        <p>Informe factual y final de <strong>ENTSO-E</strong></p>
+        <p>Informe técnico de <strong>REE</strong> (junio 2025)</p>
+        <p>Informe de la <strong>CNMC</strong></p>
+      </div>
+      <div class="source-col">
+        <div class="source-heading">Análisis técnicos</div>
+        <p><strong>NREL</strong> — Dept. de Energía EE.UU.</p>
+        <p><strong>FAU Erlangen-Nürnberg</strong> (Universidad)</p>
+        <p><strong>Compass Lexecon</strong> + <strong>INESC TEC</strong>, encargados por la asociación empresarial del sector</p>
+      </div>
+      <div class="source-col">
+        <div class="source-heading">Marco normativo</div>
+        <p>Reglamento (UE) <strong>2017/1485</strong></p>
+        <p>Procedimientos de operación del sistema español vigentes el 28 de abril de 2025</p>
+        <p style="margin-top: 10px; font-style: italic; opacity: 0.7;">Orden de prelación: informes colegiados > análisis de actores con competencia > análisis académicos > análisis de parte.</p>
+      </div>
+    </div>
+    <p class="disclaimer">Este documento no constituye investigación propia ni juicio de responsabilidad. Todos los datos proceden de fuentes oficiales citadas.</p>
+  </div>
+
+</div>
+
+<!-- NAV -->
+<div class="nav">
+  <button onclick="prevSlide()">&#8592;</button>
+  <button onclick="nextSlide()">&#8594;</button>
+</div>
+<div class="slide-counter"><span id="counter">1</span> / 11</div>
+<div class="progress-dots" id="dots"></div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+
+for (let i = 0; i < slides.length; i++) {
+  const dot = document.createElement('div');
+  dot.className = 'dot' + (i === 0 ? ' active' : '');
+  dot.onclick = () => goTo(i);
+  document.getElementById('dots').appendChild(dot);
+}
+
+function goTo(n) {
+  slides[current].classList.remove('active');
+  document.querySelectorAll('.dot')[current].classList.remove('active');
+  current = n;
+  slides[current].classList.add('active');
+  document.querySelectorAll('.dot')[current].classList.add('active');
+  document.getElementById('counter').textContent = current + 1;
+}
+
+function nextSlide() { goTo((current + 1) % slides.length); }
+function prevSlide() { goTo((current - 1 + slides.length) % slides.length); }
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') nextSlide();
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') prevSlide();
+});
+</script>
+</body>
+</html>
