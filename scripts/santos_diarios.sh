@@ -1,4 +1,9 @@
-#!/bin/bash
-# Santos Diarios - wrapper bash
-# Llama al script Python que usa Wikipedia
-python3 /home/gerion/.openclaw/workspace/scripts/santos_diarios.py
+#!/usr/bin/env bash
+# Santos Diarios — Vatican News + formatting + Telegram send
+# Sin LLM, sin timeout, directo
+
+OUTPUT=$(python3 /home/gerion/.openclaw/workspace/scripts/santos_diarios_vatican.py 2>/dev/null)
+
+if [ -n "$OUTPUT" ]; then
+    echo "$OUTPUT"
+fi
