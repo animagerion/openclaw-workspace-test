@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía de la Feria de Abril de Sevilla</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #D4380D;
+  --secondary: #7B3F00;
+  --accent: #FFD700;
+  --bg: #FFF9F0;
+  --dark: #2C1810;
+  --light: #FEF3E8;
+  --warm: #FF7A45;
+  --cream: #FFF5EB;
+  --text: #2C1810;
+  --muted: #8B6914;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.slide {
+  width: 1280px;
+  height: 720px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  page-break-after: always;
+  background: var(--bg);
+}
+
+/* DECORATIVE ELEMENTS */
+.slide::before {
+  content: '';
+  position: absolute;
+  top: -2px; left: -2px; right: -2px; bottom: -2px;
+  background:
+    radial-gradient(ellipse at 0% 0%, rgba(212,56,13,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 100% 100%, rgba(255,215,0,0.06) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* SLIDE 1: PORTADA */
+.slide-portada {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, var(--bg) 0%, var(--cream) 100%);
+}
+.slide-portada::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 80%, rgba(212,56,13,0.05) 0%, transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(255,215,0,0.08) 0%, transparent 40%);
+}
+.slide-portada .subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  color: var(--primary);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.slide-portada h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.05;
+  margin-bottom: 16px;
+}
+.slide-portada h1 span {
+  color: var(--primary);
+}
+.slide-portada .tagline {
+  font-size: 22px;
+  color: var(--muted);
+  font-weight: 300;
+  margin-bottom: 48px;
+}
+.slide-portada .dates-badge {
+  background: var(--primary);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.slide-portada .corner-deco {
+  position: absolute;
+  width: 180px; height: 180px;
+  border: 3px solid var(--accent);
+  opacity: 0.15;
+}
+.slide-portada .corner-deco.tl { top: 40px; left: 40px; border-right: none; border-bottom: none; }
+.slide-portada .corner-deco.br { bottom: 40px; right: 40px; border-left: none; border-top: none; }
+
+/* SLIDE 2: ¿QUÉ ES? */
+.slide-content { padding-top: 48px; }
+.slide-header { margin-bottom: 40px; }
+.slide-header .tag {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 4px 14px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.slide-header h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.1;
+}
+.slide-header .sub {
+  font-size: 18px;
+  color: var(--muted);
+  margin-top: 8px;
+  font-weight: 300;
+}
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  flex: 1;
+}
+.info-card {
+  background: white;
+  border-radius: 16px;
+  padding: 28px 32px;
+  box-shadow: 0 2px 12px rgba(44,24,16,0.06);
+  border-left: 4px solid var(--primary);
+}
+.info-card.accent {
+  border-left-color: var(--accent);
+}
+.info-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--dark);
+}
+.info-card p {
+  font-size: 15px;
+  color: #5a4030;
+  line-height: 1.65;
+}
+.info-card .stat {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.info-card .stat-label {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.card-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: auto;
+}
+.mini-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(44,24,16,0.05);
+}
+.mini-card .icon { font-size: 36px; margin-bottom: 8px; }
+.mini-card p { font-size: 13px; color: #5a4030; font-weight: 500; }
+.mini-card small { font-size: 11px; color: var(--muted); }
+
+/* SLIDE 3: FECHAS */
+.slide-timeline { justify-content: center; }
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+.day-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px 16px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(44,24,16,0.06);
+  position: relative;
+  overflow: hidden;
+}
+.day-card.active {
+  background: var(--primary);
+  color: white;
+}
+.day-card.highlight {
+  border: 2px solid var(--accent);
+}
+.day-card .day-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.day-card.active .day-label { color: rgba(255,255,255,0.7); }
+.day-card .date {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.day-card.active .date { color: white; }
+.day-card .desc {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.3;
+  font-weight: 400;
+}
+.day-card.active .desc { color: rgba(255,255,255,0.85); }
+.day-card .dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin: 6px auto 0;
+}
+.day-card.active .dot { background: var(--accent); }
+.day-card .highlight-badge {
+  position: absolute;
+  top: 8px; right: 8px;
+  background: var(--accent);
+  color: var(--dark);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+/* SLIDE 4: DRESS CODE */
+.slide-dresscode { }
+.col-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; height: 100%; }
+.col-left h2 { font-family: 'Playfair Display', serif; font-size: 42px; color: var(--dark); line-height: 1.15; margin-bottom: 12px; }
+.col-left h2 span { color: var(--primary); }
+.col-left .lead { font-size: 17px; color: #5a4030; margin-bottom: 28px; line-height: 1.6; }
+.rules-list { list-style: none; }
+.rules-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.rules-list .num {
+  background: var(--primary);
+  color: white;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.rules-list .text h4 { font-size: 15px; font-weight: 600; color: var(--dark); margin-bottom: 2px; }
+.rules-list .text p { font-size: 13px; color: var(--muted); }
+.dress-box {
+  background: white;
+  border-radius: 20px;
+  padding: 28px 32px;
+  box-shadow: 0 4px 20px rgba(44,24,16,0.08);
+}
+.dress-box h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: var(--dark);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--cream);
+}
+.dress-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.dress-item .emoji { font-size: 28px; }
+.dress-item h4 { font-size: 14px; font-weight: 600; color: var(--dark); margin-bottom: 2px; }
+.dress-item p { font-size: 12px; color: var(--muted); }
+
+/* SLIDE 5: MAÑANA EN EL REAL */
+.slide-dual { }
+.half {
+  flex: 1;
+  padding: 40px 36px;
+  display: flex;
+  flex-direction: column;
+}
+.half-left {
+  background: var(--dark);
+  color: white;
+  border-radius: 24px 0 0 24px;
+}
+.half-right {
+  background: var(--cream);
+  border-radius: 0 24px 24px 0;
+}
+.half h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.half .period { font-size: 13px; font-weight: 500; letter-spacing: 0.08em; opacity: 0.6; text-transform: uppercase; margin-bottom: 24px; }
+.half-left .period { color: rgba(255,255,255,0.6); }
+.half-right .period { color: var(--muted); }
+.moments-list { list-style: none; flex: 1; }
+.moments-list li {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.moments-list .time {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  min-width: 48px;
+  padding-top: 2px;
+}
+.half-left .moments-list .time { color: var(--accent); }
+.half-right .moments-list .time { color: var(--primary); }
+.moments-list .event h4 { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+.half-left .moments-list .event h4 { color: white; }
+.half-right .moments-list .event h4 { color: var(--dark); }
+.moments-list .event p { font-size: 12px; opacity: 0.7; }
+.half-left .moments-list .event p { color: rgba(255,255,255,0.7); }
+.half-right .moments-list .event p { color: var(--muted); }
+
+/* SLIDE 6: COMIDA Y BEBIDA */
+.slide-food { }
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 28px;
+}
+.icon-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(44,24,16,0.06);
+}
+.icon-card .icon { font-size: 40px; margin-bottom: 10px; }
+.icon-card h4 { font-size: 14px; font-weight: 600; color: var(--dark); margin-bottom: 4px; }
+.icon-card p { font-size: 12px; color: var(--muted); }
+.icon-card .price { display: inline-block; background: var(--cream); color: var(--primary); font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-top: 6px; }
+.tip-banner {
+  background: linear-gradient(135deg, var(--primary), #b02000);
+  border-radius: 16px;
+  padding: 24px 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.tip-banner .tip-icon { font-size: 40px; }
+.tip-banner h4 { font-size: 17px; font-weight: 600; margin-bottom: 4px; }
+.tip-banner p { font-size: 14px; opacity: 0.9; }
+
+/* SLIDE 7: CONSEJOS PAREJA */
+.slide-tips { }
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  flex: 1;
+}
+.tip-card {
+  background: white;
+  border-radius: 20px;
+  padding: 28px 24px;
+  box-shadow: 0 2px 12px rgba(44,24,16,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.tip-card .tip-icon { font-size: 36px; }
+.tip-card h3 { font-family: 'Playfair Display', serif; font-size: 19px; font-weight: 600; color: var(--dark); }
+.tip-card p { font-size: 13px; color: #5a4030; line-height: 1.6; flex: 1; }
+.tip-card .pro-tip { background: var(--cream); border-radius: 8px; padding: 10px 14px; }
+.tip-card .pro-tip strong { font-size: 11px; color: var(--primary); text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 4px; }
+.tip-card .pro-tip p { font-size: 12px; color: var(--secondary); font-weight: 500; }
+
+/* SLIDE 8: ITINERARIO */
+.slide-itinerary { }
+.route-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+.route-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  border-radius: 14px;
+  padding: 18px 24px;
+  box-shadow: 0 2px 8px rgba(44,24,16,0.05);
+  border-left: 4px solid var(--primary);
+}
+.route-item.day-break {
+  background: var(--dark);
+  color: white;
+  border-left: none;
+  justify-content: center;
+  padding: 12px 24px;
+}
+.route-item.day-break h3 { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 600; color: white; }
+.route-item .time-slot {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+  min-width: 70px;
+}
+.route-item.day-break .time-slot { color: var(--accent); font-size: 15px; }
+.route-item .content h4 { font-size: 15px; font-weight: 600; color: var(--dark); margin-bottom: 2px; }
+.route-item .content p { font-size: 12px; color: var(--muted); }
+.route-item .emoji-tag { font-size: 28px; margin-left: auto; }
+
+/* SLIDE 9: CIERRE */
+.slide-cierre {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, var(--dark) 0%, #4a2820 100%);
+  color: white;
+}
+.slide-cierre::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 30% 70%, rgba(212,56,13,0.15) 0%, transparent 40%),
+    radial-gradient(circle at 70% 30%, rgba(255,215,0,0.1) 0%, transparent 40%);
+}
+.slide-cierre h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 16px;
+  position: relative;
+}
+.slide-cierre h2 span { color: var(--accent); }
+.slide-cierre .closing-lead {
+  font-size: 20px;
+  color: rgba(255,255,255,0.75);
+  font-weight: 300;
+  margin-bottom: 48px;
+  max-width: 600px;
+}
+.quote-box {
+  background: rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 24px 40px;
+  border: 1px solid rgba(255,215,0,0.2);
+  max-width: 540px;
+}
+.quote-box p {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.6;
+}
+.quote-box .author { font-size: 13px; color: var(--accent); margin-top: 10px; font-style: normal; font-weight: 500; }
+
+/* SLIDE NUMBER */
+.slide-number {
+  position: absolute;
+  bottom: 24px;
+  right: 32px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  opacity: 0.5;
+}
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: PORTADA -->
+<div class="slide slide-portada">
+  <div class="corner-deco tl"></div>
+  <div class="corner-deco br"></div>
+  <div class="subtitle">Sevilla, 21–26 Abril 2026</div>
+  <h1>Guía de la <span>Feria de Abril</span><br>de Sevilla</h1>
+  <p class="tagline">Todo lo que necesitas saber para disfrutarla en pareja</p>
+  <div class="dates-badge">📅 Del martes 21 al domingo 26 de abril</div>
+</div>
+
+<!-- SLIDE 2: ¿QUÉ ES? -->
+<div class="slide slide-content">
+  <div class="slide-header">
+    <span class="tag">Contexto</span>
+    <h2>¿Qué es la Feria de Abril?</h2>
+    <p class="sub">Una de las fiestas más emblemáticas de España, con más de 170 años de historia</p>
+  </div>
+  <div class="content-grid">
+    <div class="info-card">
+      <h3>Origen gitano-andaluz</h3>
+      <p>Nació en 1847 como una feria de ganado cerca del actual barrio de los Remedios. Con el tiempo evolucionó hasta convertirse en la celebración que hoy conocemos: una semana de fiesta, color, música y tradición que marca el calendario social de Sevilla.</p>
+    </div>
+    <div class="info-card accent">
+      <h3>El Real de la Feria</h3>
+      <p>Un recinto ferial con más de 1.000 casetas. El horario "oficial" de la semana es de noche, pero el <strong>Miércoles de Feria</strong> (festivo local) es el día estrella para pasear a caballo y disfrutar del ambiente diurno.</p>
+    </div>
+  </div>
+  <div class="card-row">
+    <div class="mini-card">
+      <div class="icon">🎶</div>
+      <p>Sevillanas</p>
+      <small>Baile en cada caseta</small>
+    </div>
+    <div class="mini-card">
+      <div class="icon">🏇</div>
+      <p>Paseo de caballos</p>
+      <small>Tradición única</small>
+    </div>
+    <div class="mini-card">
+      <div class="icon">🕯️</div>
+      <p>Alumbrao</p>
+      <small>100.000 farolillos</small>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 3: FECHAS -->
+<div class="slide slide-timeline slide-content">
+  <div class="slide-header">
+    <span class="tag">Calendario</span>
+    <h2>Los 6 días de la Feria</h2>
+    <p class="sub">Del martes 21 al domingo 26 de abril — el Miércoles 22 es festivo local en Sevilla</p>
+  </div>
+  <div class="timeline-grid">
+    <div class="day-card">
+      <div class="day-label">Martes</div>
+      <div class="date">21</div>
+      <div class="desc">Alumbrao<br>noche grande</div>
+      <div class="dot"></div>
+    </div>
+    <div class="day-card active highlight">
+      <div class="highlight-badge">FESTIVO</div>
+      <div class="day-label">Miércoles</div>
+      <div class="date">22</div>
+      <div class="desc">Día de<br>paseo</div>
+      <div class="dot"></div>
+    </div>
+    <div class="day-card">
+      <div class="day-label">Jueves</div>
+      <div class="date">23</div>
+      <div class="desc">Corridas<br>de toros</div>
+      <div class="dot"></div>
+    </div>
+    <div class="day-card">
+      <div class="day-label">Viernes</div>
+      <div class="date">24</div>
+      <div class="desc">Noche<br>en caseta</div>
+      <div class="dot"></div>
+    </div>
+    <div class="day-card">
+      <div class="day-label">Sábado</div>
+      <div class="date">25</div>
+      <div class="desc">Verbena<br>y verbena</div>
+      <div class="dot"></div>
+    </div>
+    <div class="day-card">
+      <div class="day-label">Domingo</div>
+      <div class="date">26</div>
+      <div class="desc">Fuegos<br>finales</div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 4: DRESS CODE -->
+<div class="slide slide-content slide-dresscode">
+  <div class="col-2">
+    <div class="col-left">
+      <h2>Qué ponerse<br><span>para disfrutar al máximo</span></h2>
+      <p class="lead">La Feria tiene su código no escrito. Respetarlo es parte de la magia.</p>
+      <ul class="rules-list">
+        <li>
+          <span class="num">1</span>
+          <div class="text">
+            <h4>Ropa de calle, no de discoteca</h4>
+            <p>Los hombres van con traje corto (chaqueta y pantalón oscuro). Las mujeres con vestido de lunares o falda con blusa. Nada de高跟鞋 de discoteca.</p>
+          </div>
+        </li>
+        <li>
+          <span class="num">2</span>
+          <div class="text">
+            <h4>Comodidad ante todo</h4>
+            <p>Vas a caminar mucho, bailar y estar de pie horas. Zapatos cómodos (los hombres con betún, las mujeres que no fatiguen los pies).</p>
+          </div>
+        </li>
+        <li>
+          <span class="num">3</span>
+          <div class="text">
+            <h4>Los hombres: traje corto</h4>
+            <p>Chaqueta, pantalones oscuros, camisa y — opcional— chaleco. Pañuelo en el bolsillo y pajarita para los más elegantes.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-right">
+      <div class="dress-box">
+        <h3>👩 Ella — Guía rápida</h3>
+        <div class="dress-item"><span class="emoji">👗</span><div><h4>Vestido de lunares</h4><p>El icono de la Feria. Rojo, negro, verde o azul. Lunares grandes o pequeños, no mix.</p></div></div>
+        <div class="dress-item"><span class="emoji">🌹</span><div><h4>Flores en el pelo</h4><p>Garrapiñera o flor natural en el moño. Imprescindible.</p></div></div>
+        <div class="dress-item"><span class="emoji">👠</span><div><h4>Abalorios y pendientes largos</h4><p>Complementos que completan el look flamenco.</p></div></div>
+        <div class="dress-item"><span class="emoji">🧥</span><div><h4>Chaleco o mantilla (opcional)</h4><p>Para las noches más frescas de abril.</p></div></div>
+      </div>
+      <div class="dress-box" style="margin-top: 16px;">
+        <h3>🤵 Él — Guía rápida</h3>
+        <div class="dress-item"><span class="emoji">👔</span><div><h4>Traje corto oscuro</h4><p>Gris, azul oscuro o negro. Camisa blanca.</p></div></div>
+        <div class="dress-item"><span class="emoji">🎩</span><div><h4>Sombrero de feltro (opcional)</h4><p>El touch definitivo para los más castizos.</p></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 5: MAÑANA Y NOCHE -->
+<div class="slide slide-content slide-dual">
+  <div class="half half-left">
+    <h2>Mañanas</h2>
+    <p class="period">9:00 — 14:00 · El Real más íntimo</p>
+    <ul class="moments-list">
+      <li><span class="time">9:00</span><div class="event"><h4>Desayuno en Triana</h4><p>Churros con chocolate en el puente de Triana</p></div></li>
+      <li><span class="time">10:30</span><div class="event"><h4>Paseo por el Real (diurno)</h4><p>Farolillos encendidos y casetas vacías. Fotos mágicas.</p></div></li>
+      <li><span class="time">12:00</span><div class="event"><h4>Foto con la portada</h4><p>Sin gente. El momento perfecto.</p></div></li>
+      <li><span class="time">13:00</span><div class="event"><h4>Pescaíto frito en la caseta</h4><p>Si tienes invitación, el mejor momento.</p></div></li>
+    </ul>
+  </div>
+  <div class="half half-right">
+    <h2>Noches</h2>
+    <p class="period">20:00 — 02:00 · El corazón de la Feria</p>
+    <ul class="moments-list">
+      <li><span class="time">20:30</span><div class="event"><h4>Apertura del Alumbrao</h4><p>100.000 farolillos se encienden. Fotos desde la calle del Infierno.</p></div></li>
+      <li><span class="time">21:30</span><div class="event"><h4>Cena en la caseta</h4><p>Prueba el pescaíto frito y el salmorejo.</p></div></li>
+      <li><span class="time">22:30</span><div class="event"><h4>Primera copa de manzanilla</h4><p>La bebida de la Feria. Fresca, seca, irresistible.</p></div></li>
+      <li><span class="time">23:30</span><div class="event"><h4>Bailar sevillanas</h4><p>Pide pista en una caseta pública y sorpréndete.</p></div></li>
+      <li><span class="time">01:00</span><div class="event"><h4>Buñuelos y churros</h4><p>Calle del Infierno para cerrar la noche.</p></div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- SLIDE 6: COMIDA Y BEBIDA -->
+<div class="slide slide-content">
+  <div class="slide-header">
+    <span class="tag">Gastronomía</span>
+    <h2>Comida y bebida en la Feria</h2>
+    <p class="sub">Sabores que definen la semana — de la manzanilla al pescaíto frito</p>
+  </div>
+  <div class="icon-grid">
+    <div class="icon-card">
+      <div class="icon">🍷</div>
+      <h4>Manzanilla</h4>
+      <p>Vino fino de Sanlúcar. La bebida de la Feria. Fresca y ligera.</p>
+      <span class="price">2–4 €/copa</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon">🥘</div>
+      <h4>Pescaíto frito</h4>
+      <p>Boquerones, acedías, fritura and alioli. El plato estrella.</p>
+      <span class="price">12–18 € ración</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon">🍊</div>
+      <h4>Rebujito</h4>
+      <p>Manzanilla con Sprite o 7Up. Dulzón y peligroso.</p>
+      <span class="price">3–5 €/copa</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon">🍈</div>
+      <h4>Salmorejo</h4>
+      <p>Crema de tomate con jamón y huevo. Refrescante y contundente.</p>
+      <span class="price">6–9 €</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon">🍰</div>
+      <h4>Roscón de nata</h4>
+      <p>Tradición en el desayuno del Miércoles de Feria.</p>
+      <span class="price">3–5 €</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon">🍊</div>
+      <h4>Gazpacho</h4>
+      <p>Para las tardes calurosas. Sopa fría perfecta.</p>
+      <span class="price">5–8 €</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon">🥖</div>
+      <h4>Pr唐僧</h4>
+      <p>Prieto, el buen pan de la Feria. Para acompañar.</p>
+      <span class="price">1–2 €</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon">🍩</div>
+      <h4>Buñuelos de viento</h4>
+      <p>Calle del Infierno, de madrugada. Irrenunciables.</p>
+      <span class="price">1–2 € ud</span>
+    </div>
+  </div>
+  <div class="tip-banner">
+    <div class="tip-icon">💡</div>
+    <div>
+      <h4>Consejo para parejas: la Calle del Infierno</h4>
+      <p>La zona de atracciones (rueda, autochutes, tómbola). Perfecta para reír juntos después de la cena. Y los buñuelos de viento a las 2 de la mañana cierran la noche de forma mágica.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 7: CONSEJOS PAREJA -->
+<div class="slide slide-content">
+  <div class="slide-header">
+    <span class="tag">Para parejas</span>
+    <h2>7 consejos para disfrutarla al máximo</h2>
+    <p class="sub">Errores comunes que puedes evitar viniendo de fuera</p>
+  </div>
+  <div class="tips-grid">
+    <div class="tip-card">
+      <div class="tip-icon">🎟️</div>
+      <h3>Consigue acceso a una caseta</h3>
+      <p>El 90% son privadas. Sin invitación no puedes entrar. Pide a hoteles o restaurantes de Sevilla que te conecten con alguna.</p>
+      <div class="pro-tip"><strong>Pro tip</strong><p>El Hotel Alfonso XIII y el hotel Norton organizan eventos en sus casetas propias.</p></div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🚗</div>
+      <h3>Llegar en transporte público</h3>
+      <p>El Real está en los Remedios. Metro (línea 1, estación "Plaza de Cuba") o bus. No intentes ir en coche.</p>
+      <div class="pro-tip"><strong>Pro tip</strong><p>Descarga la app de TUSSAM para horarios de buses especiales de la Feria.</p></div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🌅</div>
+      <h3>El Miércoles es el mejor día</h3>
+      <p>Festivo local = menos gente en casetas, más ambiente en la calle. Pasear de día es precioso.</p>
+      <div class="pro-tip"><strong>Pro tip</strong><p>Reserva almuerzo en un restaurante de Triana ese día.</p></div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">📸</div>
+      <h3>Fotos a las 8am</h3>
+      <p>El Real vacío con el Alumbrao encendido (se mantiene día y noche toda la semana) es una foto irrepetible.</p>
+      <div class="pro-tip"><strong>Pro tip</strong><p>Desde el puente de Triana, a las 8am, la luz y el fondo de farolillos son perfectos.</p></div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🎶</div>
+      <h3>Aprende 3 coplas de Sevillanas</h3>
+      <p>Saber bailar cuatro cosas de Sevillanas abre puertas. En las casetas públicas la gente te invita a bailar.</p>
+      <div class="pro-tip"><strong>Pro tip</strong><p>Busca "Sevillanas para torpes" en YouTube una semana antes. Con dos o tres pasos survives.</p></div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🛌</div>
+      <h3>Descansa: la semana es maratón</h3>
+      <p>La gente vuelve a la caseta cada noche hasta las 5am. No intentes hacer las 6 noches seguidas: haz 3 o 4 e incluye descansos.</p>
+      <div class="pro-tip"><strong>Pro tip</strong><p>Planifica al menos una tarde de relax junto al río Guadalquivir (la Giraldilla).</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 8: ITINERARIO RECOMENDADO -->
+<div class="slide slide-content">
+  <div class="slide-header">
+    <span class="tag">Itinerario</span>
+    <h2>Plan recomendado para 3 días</h2>
+    <p class="sub">Día 1 (martes), Día 2 (miércoles), Día 3 (viernes o sábado)</p>
+  </div>
+  <div class="route-timeline">
+    <div class="route-item day-break"><span class="time-slot">DÍA 1 · MARTES</span><div class="content" style="margin-left:12px"><h3>Llegada — La Noche del Alumbrao</h3></div></div>
+    <div class="route-item"><span class="time-slot">18:00</span><div class="content"><h4>Check-in hotel y merienda</h4><p>Almuerzo temprano en Triana o el Arenal</p></div><span class="emoji-tag">🏨</span></div>
+    <div class="route-item"><span class="time-slot">20:00</span><div class="content"><h4>Paseo hacia el Real</h4><p>Cruzar el puente de Triana dirección portada</p></div><span class="emoji-tag">🌉</span></div>
+    <div class="route-item"><span class="time-slot">21:00</span><div class="content"><h4>Presenciar el Alumbrao</h4><p>El momento donde se encienden los 100.000 farolillos</p></div><span class="emoji-tag">🕯️</span></div>
+    <div class="route-item"><span class="time-slot">22:00</span><div class="content"><h4>Caseta pública + cena + Sevillanas</h4><p>Primera toma de contacto con el ambiente</p></div><span class="emoji-tag">💃</span></div>
+    <div class="route-item"><span class="time-slot">00:30</span><div class="content"><h4>Buñuelos en la Calle del Infierno</h4><p>Cierre de la noche mágica</p></div><span class="emoji-tag">🍩</span></div>
+  </div>
+</div>
+
+<!-- SLIDE 9: CIERRE -->
+<div class="slide slide-cierre">
+  <h2>Disfruten la <span>Feria</span><br>como locales</h2>
+  <p class="closing-lead">Sevilla hace magia cada abril. Solo hay que dejarse llevar por el ritmo de las Sevillanas, el sabor de la manzanilla y la luz de los farolillos.</p>
+  <div class="quote-box">
+    <p>"La Feria es la memoria de Sevilla, el lugar donde la ciudad se viste de fiesta y se reconoce a sí misma."</p>
+    <div class="author">— Antonio Machado (adaptado)</div>
+  </div>
+</div>
+
+</body>
+</html>
