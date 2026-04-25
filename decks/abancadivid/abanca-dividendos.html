@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABANCA Dividendos</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ab-blue: #003366;
+  --ab-blue-dark: #001f3f;
+  --ab-blue-light: #0066cc;
+  --ab-sky: #4da6ff;
+  --white: #ffffff;
+  --gray-100: #f4f7fb;
+  --gray-200: #e8eef5;
+  --gray-300: #ccd9e6;
+  --gray-500: #7a8fa3;
+  --gray-700: #3d5a73;
+  --green: #2e8b57;
+  --gold: #c8a84b;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', -apple-system, sans-serif;
+  background: var(--white);
+  color: var(--ab-blue-dark);
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--white);
+}
+
+/* ── HEADER ── */
+.header {
+  background: var(--ab-blue);
+  padding: 32px 48px 28px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.logo-area { display: flex; flex-direction: column; gap: 6px; }
+.ab-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: -1px;
+}
+.ab-logo span { color: var(--ab-sky); }
+.logo-tagline {
+  font-size: 10px;
+  color: rgba(255,255,255,0.7);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.header-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-slogan {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--white);
+  text-align: right;
+  line-height: 1.35;
+  max-width: 480px;
+  letter-spacing: 0.01em;
+}
+
+/* ── PILLARS BAND ── */
+.pillars {
+  background: var(--gray-100);
+  padding: 24px 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  border-bottom: 2px solid var(--gray-300);
+}
+
+.pillar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pillar-icon {
+  width: 40px; height: 40px;
+  background: var(--ab-blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pillar-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--ab-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pillar-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ab-blue-dark);
+  line-height: 1.3;
+}
+
+.pillar-desc {
+  font-size: 11px;
+  color: var(--gray-500);
+  line-height: 1.5;
+}
+
+/* ── MAIN CONTENT ── */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+/* LEFT — Brand block */
+.brand-block {
+  background: var(--ab-blue);
+  padding: 48px 40px;
+  position: relative;
+  overflow: hidden;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.brand-bg {
+  position: absolute;
+  inset: 0;
+  background: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80') center/cover no-repeat;
+  opacity: 0.25;
+}
+
+.brand-content { position: relative; z-index: 1; }
+
+.brand-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 10px;
+}
+
+.brand-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 0.95;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+}
+
+.brand-title span { color: var(--ab-sky); }
+
+.brand-desc {
+  font-size: 12px;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.65;
+  max-width: 340px;
+}
+
+/* RIGHT — Fund info */
+.fund-info {
+  padding: 40px 36px;
+  border-left: 1px solid var(--gray-300);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.info-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ab-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--ab-blue);
+}
+
+.info-table { display: flex; flex-direction: column; gap: 0; }
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--gray-200);
+  gap: 12px;
+}
+.info-row:last-child { border-bottom: none; }
+.info-row .label {
+  font-size: 11px;
+  color: var(--gray-500);
+  font-weight: 400;
+  flex-shrink: 0;
+}
+.info-row .value {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ab-blue-dark);
+  text-align: right;
+}
+.info-row.highlight { background: var(--gray-100); margin: 4px -8px; padding: 8px 8px; border-radius: 4px; border-bottom: none; }
+.info-row.highlight .value { color: var(--green); font-size: 13px; font-weight: 700; }
+
+/* ── RETURNS SECTION ── */
+.returns-section {
+  padding: 32px 48px;
+  background: var(--gray-100);
+  border-top: 1px solid var(--gray-300);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ab-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.section-subtitle {
+  font-size: 11px;
+  color: var(--gray-500);
+}
+
+.returns-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+/* Bar chart */
+.bar-chart-wrap { }
+.bar-chart-title {
+  font-size: 12px;
+  color: var(--gray-700);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.bar-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ab-blue-dark);
+  min-width: 50px;
+  text-align: right;
+}
+.bar-track {
+  flex: 1;
+  height: 28px;
+  background: var(--gray-300);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.bar-fill.blue { background: var(--ab-blue); }
+.bar-fill.green { background: var(--green); }
+.bar-fill.sky { background: var(--ab-sky); }
+.bar-value {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.total-badge {
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--white);
+  border: 2px solid var(--ab-blue);
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+.total-badge .label {
+  font-size: 11px;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.total-badge .value {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--ab-blue);
+}
+
+/* YTD sidebar */
+.yield-sidebar { }
+.yield-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0,51,102,0.08);
+  border-top: 4px solid var(--ab-blue);
+}
+.yield-card h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ab-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+}
+.yield-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+.yield-row:last-child { border-bottom: none; }
+.yield-row .year {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-700);
+}
+.yield-row .pct {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--green);
+}
+
+.strategy-note {
+  margin-top: 16px;
+  background: var(--ab-blue);
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+.strategy-note p {
+  font-size: 11px;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.6;
+}
+
+/* ── BOTTOM GRID ── */
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--gray-300);
+}
+
+/* Investment policy */
+.policy-section {
+  padding: 36px 40px;
+  border-right: 1px solid var(--gray-300);
+}
+
+.badge-new {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--ab-blue);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+}
+
+.policy-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ab-blue-dark);
+  margin-bottom: 16px;
+}
+
+.policy-list { list-style: none; }
+.policy-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: var(--gray-700);
+  line-height: 1.5;
+}
+.policy-list .dot {
+  width: 6px; height: 6px;
+  background: var(--ab-blue);
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+/* Why section */
+.why-section {
+  padding: 36px 40px;
+  background: var(--gray-100);
+}
+
+.why-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ab-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.why-card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 18px 16px;
+  box-shadow: 0 1px 4px rgba(0,51,102,0.06);
+}
+.why-icon { font-size: 28px; margin-bottom: 8px; }
+.why-card h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ab-blue-dark);
+  margin-bottom: 6px;
+}
+.why-card p { font-size: 11px; color: var(--gray-500); line-height: 1.5; }
+
+/* ── FOOTER ── */
+.footer {
+  background: var(--ab-blue-dark);
+  padding: 20px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--white);
+}
+.footer-logo span { color: var(--ab-sky); }
+
+.footer-disclaimer {
+  font-size: 8px;
+  color: rgba(255,255,255,0.45);
+  line-height: 1.6;
+  max-width: 700px;
+  text-align: right;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo-area">
+      <div class="ab-logo">ABANCA <span>Gestión de Activos</span></div>
+      <div class="logo-tagline">Invertimos hoy en empresas sólidas para generar valor y dividendos sostenibles mañana</div>
+    </div>
+    <div class="header-right">
+      <div class="header-slogan">INVERTIMOS HOY EN EMPRESAS SÓLIDAS PARA GENERAR VALOR Y DIVIDENDOS SOSTENIBLES MAÑANA</div>
+    </div>
+  </header>
+
+  <!-- PILLARS -->
+  <section class="pillars">
+    <div class="pillar">
+      <div class="pillar-icon">🌍</div>
+      <div class="pillar-label">Renta Variable Global</div>
+      <div class="pillar-title">Más del 90% en renta variable internacional</div>
+      <div class="pillar-desc">Mercados OCDE principalmente, con hasta un 10% en emergentes</div>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon">💰</div>
+      <div class="pillar-label">Enfoque en Dividendos</div>
+      <div class="pillar-title">Empresas de media/alta capitalización con dividendos atractivos</div>
+      <div class="pillar-desc">Empresas con políticas de dividendo estables y sostenibles</div>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon">🛡️</div>
+      <div class="pillar-label">Gestión Activa y Responsable</div>
+      <div class="pillar-title">Integración de criterios ESG — Fondo Artículo 8 SFDR</div>
+      <div class="pillar-desc">Análisis fundamental y selección de activos responsable</div>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon">👥</div>
+      <div class="pillar-label">Para Inversores</div>
+      <div class="pillar-title">Horizonte a largo plazo con ingresos recurrentes y crecimiento</div>
+      <div class="pillar-desc">Ideal para quien busca rentabilidad y un dividendo sostenible a largo plazo</div>
+    </div>
+  </section>
+
+  <!-- MAIN GRID -->
+  <div class="main-grid">
+    <!-- Brand block -->
+    <div class="brand-block">
+      <div class="brand-bg"></div>
+      <div class="brand-content">
+        <div class="brand-label">Fondo de Inversión</div>
+        <h1 class="brand-title">ABANCA<br><span>DIVIDENDOS</span></h1>
+        <p class="brand-desc">Fondo de renta variable global que invierte en empresas con dividendos atractivos y sostenibles, combinando el potencial de los mercados internacionales con la atracción de los ingresos por dividendo.</p>
+      </div>
+    </div>
+
+    <!-- Fund info -->
+    <div class="fund-info">
+      <div class="info-title">Información general</div>
+      <div class="info-table">
+        <div class="info-row"><span class="label">Gestora</span><span class="value">ABANCA Gestión de Activos SGIIC, S.A.</span></div>
+        <div class="info-row"><span class="label">ISIN</span><span class="value">ES0162948006</span></div>
+        <div class="info-row"><span class="label">CNMV Categoría</span><span class="value">Renta Variable Internacional</span></div>
+        <div class="info-row"><span class="label">Benchmark</span><span class="value">MSCI World High Dividend Yield Net Return EUR</span></div>
+        <div class="info-row"><span class="label">Fecha de lanza</span><span class="value">Octubre 2014</span></div>
+        <div class="info-row highlight"><span class="label">Última actualización normativa</span><span class="value">6 de marzo de 2024</span></div>
+        <div class="info-row"><span class="label">Divisa</span><span class="value">Euro (€)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RETURNS SECTION -->
+  <section class="returns-section">
+    <div class="section-header">
+      <div>
+        <div class="section-title">Rentabilidad desde el cambio de política</div>
+        <div class="section-subtitle">Marzo 2024 — Abril 2026</div>
+      </div>
+    </div>
+    <div class="returns-layout">
+      <!-- Bar chart -->
+      <div class="bar-chart-wrap">
+        <div class="bar-chart-title">Rentabilidad por año (%)</div>
+        <div class="bar-row">
+          <span class="bar-label">2024</span>
+          <div class="bar-track"><div class="bar-fill blue" style="width:75%"><span class="bar-value">15,33%</span></div></div>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">2025</span>
+          <div class="bar-track"><div class="bar-fill green" style="width:66%"><span class="bar-value">13,34%</span></div></div>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">2026 YTD</span>
+          <div class="bar-track"><div class="bar-fill sky" style="width:45%"><span class="bar-value">~9%</span></div></div>
+        </div>
+        <div class="total-badge">
+          <div>
+            <div class="label">Rentabilidad acumulada</div>
+            <div class="value">~23%</div>
+          </div>
+          <span style="font-size:28px">📈</span>
+        </div>
+      </div>
+
+      <!-- Yield sidebar -->
+      <div class="yield-sidebar">
+        <div class="yield-card">
+          <h4>Rentabilidad reciente</h4>
+          <div class="yield-row">
+            <span class="year">2025</span>
+            <span class="pct">+13,34%</span>
+          </div>
+          <div class="yield-row">
+            <span class="year">2026 YTD (abr)</span>
+            <span class="pct">~+9%</span>
+          </div>
+        </div>
+        <div class="strategy-note">
+          <p>Estrategia centrada en empresas generadoras de caja con dividendos sostenibles y potencial de crecimiento a largo plazo, bajo un enfoque de inversión responsable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM GRID -->
+  <div class="bottom-grid">
+    <!-- Investment policy -->
+    <div class="policy-section">
+      <div class="badge-new">🆕 NUEVA ETAPA — 8 de marzo de 2024</div>
+      <div class="policy-title">Política de inversión</div>
+      <ul class="policy-list">
+        <li><span class="dot"></span>Invertimos más del 90% en renta variable global</li>
+        <li><span class="dot"></span>Centramos en empresas de media y alta capitalización con políticas de dividendo satisfactorias</li>
+        <li><span class="dot"></span>Mercados principalmente OCDE; hasta un 10% en emergentes</li>
+        <li><span class="dot"></span>La parte no invertida puede estar en liquidez o deuda pública a corto plazo</li>
+        <li><span class="dot"></span>Exposición cambiaria entre 0% y 100%</li>
+        <li><span class="dot"></span>Gestión activa basada en análisis fundamental</li>
+      </ul>
+    </div>
+
+    <!-- Why ABANCA -->
+    <div class="why-section">
+      <div class="why-title">¿Por qué ABANCA Dividendos?</div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">💵</div>
+          <h4>Ingresos recurrentes</h4>
+          <p>Empresas con dividendos atractivos para generar ingresos periódicos</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🏆</div>
+          <h4>Calidad y experiencia</h4>
+          <p>Gestión activa de un equipo experto con dilatada trayectoria</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌍</div>
+          <h4>Diversificación global</h4>
+          <p>Exposición internacional diversificada por sectores y regiones</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🔭</div>
+          <h4>Visión a largo plazo</h4>
+          <p>Invertimos en empresas sólidas comprometidas con la sostenibilidad</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">ABANCA</div>
+    <div class="footer-disclaimer">
+      advertising. La rentabilidad registrada en el pasado no es indicativa de resultados futuros. Antecedentes completos del fondo, incluido el folleto, están disponibles en la web de la CNMV (www.cnmv.es) y en abanca.es. Este documento es informativo y no constituye oferta ni solicitud de compra o venta de participaciones.
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
