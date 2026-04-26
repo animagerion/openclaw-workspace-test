@@ -84,3 +84,32 @@ Esto se aplica a cualquier modelo: HMM, ML, regresión, etc.
   1. Ejecutar el script con el ticker indicado (o sin especificar para 2 años por defecto)
   2. Generar gráfico con: Bollinger Bands, Fibonacci, SMA90, SMA200, MACD, RSI, Volumen
   3. Enviar siempre por Telegram usando la ruta `/tmp/<TICKER>_chart.png`
+
+## Vocabulario Arquitectura Código (Matt Pocock)
+
+De: https://github.com/mattpocock/skills/blob/main/improve-codebase-architecture/LANGUAGE.md
+
+### Conceptos clave
+- **Module**: cualquier cosa con interface + implementation. Escala-agnóstico (función, clase, package, o slice). No decir "unit" ni "component".
+- **Interface**: TODO lo que un caller necesita saber para usar el módulo correctamente — no solo el tipo, también invariants, constraints de orden, modos de error, config necesaria, performance.
+- **Implementation**: lo que hay dentro del módulo. Diferente de Adapter: puede haber adapter pequeño con implementación grande (Postgres repo) o adapter grande con implementación pequeña (in-memory fake).
+- **Seam**: lugar donde puedes alterar comportamiento sin editar ahí. Es donde vive la interface. No decir "boundary" (overloaded con DDD).
+- **Adapter**: cosa concreta que satisface una interface en un seam. Describe rol, no sustancia.
+- **Depth (leverage)**: lo que los callers ganan con módulos profundos. Mucha capacidad tras poca interface. Módulo shallow = interface casi tan compleja como la implementación.
+- **Locality**: lo que los maintainers ganan con depth. Cambios, bugs, conocimiento y verificación se concentran en un lugar.
+
+### Principios operativos
+- Depth es propiedad de la interface, no de la implementación
+- **Deletion test**: si borras el módulo y la complejidad desaparece → no ocultaba nada. Si la complejidad reaparece en N callers → ganaba su sitio
+- La interface es la superficie de test. Callers y tests cruzan el mismo seam
+- **"One adapter = hypothetical seam. Two adapters = real seam"** → no crear seams prematuras
+- No introducir seam a menos que algo realmente varie entre adaptadores
+
+### Para qué nos sirve a nosotros
+- **Depth como leverage**: cuando Paduel me pide algo, dar solución completa (con herramientas, contexto) > dar solo lo que pide (shallow)
+- **Deletion test** analog: cuando creo algo (script, cron, deck), pensar si realmente oculta complejidad o solo la mueve
+- Para evaluar si una automatización merece existir como módulo o es demasiado thin
+
+### Lo que NO nos sirve
+- Es vocabulario para revisión de arquitectura de código, no para nuestro workflow
+- No lo necesitamos formalizar
