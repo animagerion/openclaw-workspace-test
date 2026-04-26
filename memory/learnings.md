@@ -11,3 +11,5 @@
 
 <!-- Las lecciones significativas se mueven a MEMORY.md tras la revisión semanal -->=== Weekly Review 2026-04-19 ===
 Revisión completada: 2026-04-19
+=== Weekly Review 2026-04-26 ===
+Revisión completada: 2026-04-26
