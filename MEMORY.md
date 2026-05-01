@@ -85,6 +85,72 @@ Esto se aplica a cualquier modelo: HMM, ML, regresión, etc.
   2. Generar gráfico con: Bollinger Bands, Fibonacci, SMA90, SMA200, MACD, RSI, Volumen
   3. Enviar siempre por Telegram usando la ruta `/tmp/<TICKER>_chart.png`
 
+## Camofox Browser (Stealth Headless)
+
+Navegador headless stealth para scraping y automatización web. Funciona como servidor REST en Docker.
+
+### Acceso
+- **URL:** http://localhost:9377
+- **Docker:** Contenedor `camofox` corriendo (verificado 2026-05-01)
+- **Binario:** Camoufox (Firefox fork con anti-detección a nivel C++)
+- **Path proyecto:** `/home/gerion/.openclaw/workspace/camofox-browser`
+
+### Endpoints principales
+- `POST /tabs` — Crear tab (requires userId + sessionKey + url)
+- `GET /tabs/{tabId}/snapshot` — Accessibility tree (requires query param userId)
+- `POST /tabs/{tabId}/navigate` — Navegar a URL
+- `POST /tabs/{tabId}/click` — Click elemento (ref o selector CSS)
+- `POST /tabs/{tabId}/type` — Escribir texto
+- `POST /tabs/{tabId}/screenshot` — Captura visual
+- `GET /openapi.json` — Docs completas
+
+### Cuándo usarlo
+- **Webs con Cloudflare / anti-bot** que blokear curl o requests
+- **SPAs con JavaScript** (Windy, sitios con WebGL/Canvas)
+- **E-commerce** con contenido dinámico (Amazon, etc.)
+- **Scraping con login** — cookie import en formato Netscape
+- **Webs que requieren fingerprint de navegador real**
+
+### Cuándo NO usarlo
+- APIs con JSON responses → usar curl/requests directamente (más rápido)
+- Páginas simples sin JS → curl_cffi o web_fetch
+- Información que Tavily pueda buscar directamente
+
+### Ejemplo de uso
+```bash
+# Crear tab y navegar
+curl -s http://localhost:9377/tabs -X POST -H 'Content-Type: application/json' \
+  -d '{"userId":"gerion","sessionKey":"sesion1","url":"https://example.com"}'
+
+# Obtener snapshot (añadir ?userId=gerion al GET)
+curl -s "http://localhost:9377/tabs/{tabId}/snapshot?userId=gerion&format=text"
+
+# Navegar a otra URL
+curl -s "http://localhost:9377/tabs/{tabId}/navigate" -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{"userId":"gerion","url":"https://otra.com"}'
+```
+
+### Limitaciones
+- Docker requiere grupo `docker` (gerion ya añadido, necesita re-login para aplicar)
+- Disco lleno era el problema principal — mantener >20% libre
+- Acceso sin cookies → contenido limitado (ej: X.com sin login no muestra posts recientes)
+- Cookie import: formato Netscape, requiere API key (CAMOFOX_API_KEY) para proteger endpoint
+
+### Macros disponibles
+`@google_search`, `@youtube_search`, `@amazon_search`, `@reddit_subreddit` + 10 más
+
+### Si hay problemas de disco
+**Opción de emergencia:** Eliminar imagen Docker y hacer instalación nativa
+- Instalación nativa ocupa ~1GB vs ~3.78GB del Docker
+- Requiere `libgtk-3-0` y deps (necesita sudo en el VPS)
+- Cmd: `node server.js` directamente (sin Docker)
+- Para instalar deps: `sudo apt-get install libgtk-3-0 libdbus-glib-1-2 libxt6 libasound2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libxrender1 libxi6 libxss1 libxtst6 libegl1-mesa libgl1-mesa-dri libgbm1 xvfb fonts-liberation fontconfig`
+
+### Recursos
+- Docs API: http://localhost:9377/docs
+- Spec OpenAPI: http://localhost:9377/openapi.json
+
 ## Vocabulario Arquitectura Código (Matt Pocock)
 
 De: https://github.com/mattpocock/skills/blob/main/improve-codebase-architecture/LANGUAGE.md

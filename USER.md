@@ -6,7 +6,7 @@
 - **What to call them: Paduel** 
 - **Pronouns:** Él**
 - **Timezone: Madrid, España** 
-- **Notes: Usar texto en español de España, a menos que pida otra cosa** 
+- **Notes:** Usar texto en español de España, a menos que pida otra cosa. Prefiere honestidad sobre inventar — si no sé algo, lo digo claro.
 
 ## Context
 
