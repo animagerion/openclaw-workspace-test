@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-23T08:00:11.312Z",
+  "updatedAt": "2026-05-03T18:05:59.450Z",
   "entries": {
     "memory:memory/2026-04-15.md:1:20": {
       "key": "memory:memory/2026-04-15.md:1:20",
@@ -9,19 +9,21 @@
       "endLine": 20,
       "source": "memory",
       "snippet": "# 2026-04-15 ## Resumen del día - Mañana enviada a Paduel: agenda del día (Salir para Rota 17:00, Dentista 19:00) - Paduel pidió resumen de noticias a las 10:40 UTC - Resumen enviado: Oriente Medio/alto el fuego, Papa León XIV vs Trump, India Bihar, ataque Sam Altman, Stanford AI Index 2026, Google Vids con Veo 3.1 - Recordatorio pre-salida para Rota: programado para ~16:00 UTC ## Notas de memoria - Los crons de gmail cada 30 min siguen funcionando (sin emails nuevos durante la noche) - OpenClaw sigue en 2026.4.8, no hay update nuevo ## Tareas pendientes - [ ] Recordatorio pre-salida Rota (~16:00 UTC) - [ ] Recordatorio dentista (~18:00 UTC) - [ ] AI News Digest昨晚 test — pendiente resu",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.9269052475690841,
+      "totalScore": 1.4075259774923323,
       "maxScore": 0.48174360692501067,
       "firstRecalledAt": "2026-04-23T08:00:03.633Z",
-      "lastRecalledAt": "2026-04-23T08:00:11.312Z",
+      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
       "queryHashes": [
         "d7953501dbf9",
-        "8f06fffee327"
+        "8f06fffee327",
+        "d5eee2f31df4"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-05-03"
       ],
       "conceptTags": [
         "medio/alto",
@@ -41,18 +43,20 @@
       "endLine": 41,
       "source": "memory",
       "snippet": "## Sesión晚 - 22 de Marzo 2026 (mañana) ### Agendacron activa - **08:00** - Agenda diaria (hoy + mañana) → Telegram.jobId: fdf24669-b011-4520-a5c1-734b60d53f24 - **09:00** - Santos diarios - **Cada 30 min** - Check Gmail - **Cada 6h** - Auto-commit workspace - **Clima Utrera 07:30** - Deshabilitada (timeout) ### Catastro - Nuevo CLI completo - Creado `catastro_full.py` que combina API + web scraping de sedecatastro.gob.es - Descubre la superficie de la parcela (dato que la API no devuelve en producción) - Ubicación: `/home/gerion/.local/bin/catastro_full` - Skills: `skills/catastro/SKILL.md` - Commits: dd34f74, 8fd02c8 ### Consultas catastro hechas hoy - Calle Gorri 14 Utrera → Ref 399100",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4783841967582702,
-      "maxScore": 0.4783841967582702,
+      "totalScore": 0.9744733840227127,
+      "maxScore": 0.4960891872644424,
       "firstRecalledAt": "2026-04-23T08:00:03.633Z",
-      "lastRecalledAt": "2026-04-23T08:00:03.633Z",
+      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
       "queryHashes": [
-        "d7953501dbf9"
+        "d7953501dbf9",
+        "d5eee2f31df4"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-05-03"
       ],
       "conceptTags": [
         "telegram.jobid",
@@ -63,6 +67,192 @@
         "local/bin/catastro-full",
         "skills/catastro/skill.md",
         "sesión"
+      ]
+    },
+    "memory:memory/2026-03-22.md:32:58": {
+      "key": "memory:memory/2026-03-22.md:32:58",
+      "path": "memory/2026-03-22.md",
+      "startLine": 32,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "- Santos: solo si hay resultados - Agenda 8h: siempre envía (es su función) ### Misceláneo - Idealista: no hay librería Python oficial para búsqueda, solo para publicar. API oficial requiere registro en developers.idealista.com - InShot: explicado cómo añadir fotos con audio en iPhone ## Sesión晚 (10:30-10:51 UTC) ### catastro CLI - `catastro` ahora es alias de `catastro_full` con `--plano` por defecto - `catastro X Y Z --basic` → solo API rápida sin web/plano - Commits: fe36516 ### Córdoba/Montilla Catastro - Provincia Córdoba tiene bug en ConsultaMunicipio (devuelve 500) - El API acepta \"CORDOBA\" (sin acento) para ConsultaVia pero NO para Consulta_DNPLOC - Province code \"14\" no existe p",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4953806638717651,
+      "maxScore": 0.4953806638717651,
+      "firstRecalledAt": "2026-05-03T18:05:59.450Z",
+      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
+      "queryHashes": [
+        "d5eee2f31df4"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "developers.idealista.com",
+        "30-10",
+        "catastro-full",
+        "web/plano",
+        "córdoba/montilla",
+        "consulta-dnploc",
+        "santos",
+        "solo"
+      ]
+    },
+    "memory:memory/2026-04-23.md:26:41": {
+      "key": "memory:memory/2026-04-23.md:26:41",
+      "path": "memory/2026-04-23.md",
+      "startLine": 26,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "- 4 features multifeature empeoró resultados → volver a solo returns ## Auto-commit - Cron: session=main, delivery=not-requested - Prompt minimalista: solo `cd ~/.openclaw/workspace && git add -A && git commit -m \"auto-commit\"` (sin LLM) ## Pinball v5 - gravity 0.28, flipper impulse 80px, min vertical speed 2 - Bug: a veces la bola se queda flotando ## Crons activos - Santos Diarios: cada 30 min (session=main, delivery=announce, systemEvent=SANTOS_TRIGGER) - Auto-commit: cada 6h (session=main, delivery=not-requested) - Check Gmail: cada 30 min (solo notifica si nuevos) - Agenda 08:00: Telegram",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.491174042224884,
+      "maxScore": 0.491174042224884,
+      "firstRecalledAt": "2026-05-03T18:05:59.450Z",
+      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
+      "queryHashes": [
+        "d5eee2f31df4"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "auto-commit",
+        "not-requested",
+        "openclaw/workspace",
+        "0.28",
+        "santos-trigger",
+        "features",
+        "multifeature",
+        "empeoró"
+      ]
+    },
+    "memory:memory/2026-04-23.md:1:36": {
+      "key": "memory:memory/2026-04-23.md:1:36",
+      "path": "memory/2026-04-23.md",
+      "startLine": 1,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "# 2026-04-23 ## Santos Diarios — solución final ### Problema El cron de Santos Diarios llevaba semanas sin funcionar. Causa: `aciprensa.com` tiene protección Cloudflare que bloquea curl. Timeout en isolated session. ### Solución - HEARTBEAT.md como trigger: systemEvent \"SANTOS_TRIGGER\" ejecuta `bash /home/gerion/.openclaw/workspace/scripts/santos_diarios.sh` y envía output a Telegram si no está vacío. - Cron configurado con session=main, delivery=announce, cada 30 min. Así funciona el heartbeat. ### Cambio clave - Cron: session=main (no isolated) + delivery=announce + systemEvent=SANTOS_TRIGGER - HEARTBEAT.md: detecta SANTOS_TRIGGER, ejecuta script, envía a Telegram 257331761 - Script: W",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.48924592733383176,
+      "maxScore": 0.48924592733383176,
+      "firstRecalledAt": "2026-05-03T18:05:59.450Z",
+      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
+      "queryHashes": [
+        "d5eee2f31df4"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "aciprensa.com",
+        "heartbeat.md",
+        "santos-trigger",
+        "home/gerion",
+        "santos",
+        "diarios",
+        "solución",
+        "final"
+      ]
+    },
+    "memory:memory/2026-04-13.md:1:32": {
+      "key": "memory:memory/2026-04-13.md:1:32",
+      "path": "memory/2026-04-13.md",
+      "startLine": 1,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "## Session notes — tarde 13/04/2026 ### Artículo LinkedIn sobre IA en gestoras de fondos - Paduel pidió crear un artículo propio para su perfil LinkedIn (científico de datos senior en gestora española) - Publicamos en articulos/ia_gestoras_fondos.md (9231 bytes) - Diferenciación: contexto europeo (MiFID II, ESG regulatorio), datos reales (JPMorgan 2025, AIMA), capas profundas (datos, integración, talento), honesto sobre fracasos - No tuvo más feedback — probablemente satisfecho pero sin confirmar публикацию - Auto-commit: e9ce080 ### Recordatorio llamada gestoría - Creado evento ayer: Lunes 13/04 11:00-11:30h — Llamar Gestoría Pensión Clases Pasivas - Recordé a las 10:36 UTC con retraso",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4853840440511703,
+      "maxScore": 0.4853840440511703,
+      "firstRecalledAt": "2026-05-03T18:05:59.450Z",
+      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
+      "queryHashes": [
+        "d5eee2f31df4"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "13/04/2026",
+        "articulos/ia-gestoras-fondos.md",
+        "auto-commit",
+        "13/04",
+        "00-11",
+        "tarde",
+        "artículo",
+        "linkedin"
+      ]
+    },
+    "memory:memory/2026-04-12.md:1:31": {
+      "key": "memory:memory/2026-04-12.md:1:31",
+      "path": "memory/2026-04-12.md",
+      "startLine": 1,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "## Session notes — afternoon 12/04/2026 ### OpenClaw updates - Paduel preguntó por nueva versión 2026.4.11 vs actual 2026.4.8 - Recomendé actualizar (Telegram deadlock fix + MiniMax auth fix Bearer) - No получил respuesta aún sobre si actualizar ### Plan nutricional - Paduel tiene un \"PLAN DE TRANSFORMACIÓN INTEGRAL Y RECOMPOSICIÓN CORPORAL\" en su Drive - Peso actual: 87kg, objetivo: 68kg, historial lumbar (tumor neuronal extirpado hace 18 años) - Me pidió que lo analizara — mi valoración: buen plan, bien adaptado a limitaciones físicas - Le dije que la Fase 1 es algo estricto (sin fruta innecesario), que debería incluir analítica completa y que 19kg/6 meses es ambicioso pero posible - P",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4826389670372009,
+      "maxScore": 0.4826389670372009,
+      "firstRecalledAt": "2026-05-03T18:05:59.450Z",
+      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
+      "queryHashes": [
+        "d5eee2f31df4"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "12/04/2026",
+        "2026.4.11",
+        "2026.4.8",
+        "19kg/6",
+        "afternoon",
+        "openclaw",
+        "updates",
+        "paduel"
+      ]
+    },
+    "memory:memory/2026-03-19.md:1:35": {
+      "key": "memory:memory/2026-03-19.md:1:35",
+      "path": "memory/2026-03-19.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "# Memoria del 19 de marzo de 2026 ## Modelo actual - **MiniMax M2.7** ya está disponible y está activo en esta sesión - Confirmado en web oficial de Minimax: \"开启模型的自我进化，相比 M2.5 在实战能力上有显著的提升\" - Verificado con acceso a minimaxi.com ## Tema principal de la conversación - El usuario (Paduel) preguntó sobre las mejoras del M2.7 vs M2.5 - Se usó el modelo M2.7 durante toda la conversación - Mañana se probará la API key de producción ## Notas adicionales - Búsqueda web no funciona porque no hay Brave API key configurada - Web fetch a minimaxi.com funciona correctamente - No se han recibido responses de Santos Diarios ni Weather (crons siguen caídos por falta de credits) ## Actualización de Open",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.478187221288681,
+      "maxScore": 0.478187221288681,
+      "firstRecalledAt": "2026-05-03T18:05:59.450Z",
+      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
+      "queryHashes": [
+        "d5eee2f31df4"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "m2.7",
+        "m2.5",
+        "minimaxi.com",
+        "memoria",
+        "marzo",
+        "modelo",
+        "actual",
+        "minimax"
       ]
     }
   }
