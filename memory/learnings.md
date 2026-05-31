@@ -21,3 +21,5 @@ Revisión completada: 2026-05-10
 Revisión completada: 2026-05-17
 === Weekly Review 2026-05-24 ===
 Revisión completada: 2026-05-24
+=== Weekly Review 2026-05-31 ===
+Revisión completada: 2026-05-31
