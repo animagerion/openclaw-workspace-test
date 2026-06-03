@@ -40,11 +40,25 @@ Esto se aplica a cualquier modelo: HMM, ML, regresión, etc.
 
 ## MiniMax
 
-- **Modelo actual:** MiniMax M2.7
+- **Modelo actual:** MiniMax M3 (default) — M2.7, M2.5, M2.1 disponibles como fallback
+- **M3 lanzado:** 1 junio 2026 — salto generacional (MSA sparse attention, 1M context, multimodal nativo)
 - **Plan:** 1.500 llamadas por ventana de 5h (rolling), semanal ilimitado
 - **API endpoint:** `https://platform.minimax.io/v1/api/openplatform/coding_plan/remains`
 - **API key:** en `auth-profiles.json` → `profiles.minimax:default.key`
 - **Skill:** `skills/minimax-usage/check_usage.sh`
+
+### M3 vs M2.7 — Qué cambia
+- **Arquitectura:** MSA (MiniMax Sparse Attention) — full attention → sub-quadrática
+- **Context window:** 200K → **1M tokens** (5x)
+- **Modalidades:** text-only → **nativo text + image + video input**
+- **Velocidad:** 15.6x más rápido decoding a 1M, 9.7x más rápido prefill
+- **Benchmarks:** SWE-Bench Pro 56.2% → 59.0%, BrowseComp 83.5, MCP-Atlas 74.2%, Terminal-Bench 2.1 66%
+- **Pricing:** ~2x más caro output ($2.40/M vs $1.20/M). M2.7 sigue siendo más coste-eficiente para text-only <200K
+- **Drop-in:** M3 ya está activo en el token plan. M2.7 disponible vía alias `Minimax27` o `model=minimax/MiniMax-M2.7`
+
+### Cuándo usar M3 vs M2.7
+- **M3 (default):** sesiones largas, multimodal (análisis de charts/images), coding/agentic complejo, contextos grandes
+- **M2.7:** tareas cortas repetitivas, text-only, donde coste-eficiencia importa más que capacidades
 
 ## Búsqueda Web (Tavily)
 
