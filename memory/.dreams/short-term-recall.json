@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-03T18:05:59.450Z",
+  "updatedAt": "2026-06-12T02:29:30.645Z",
   "entries": {
     "memory:memory/2026-04-15.md:1:20": {
       "key": "memory:memory/2026-04-15.md:1:20",
@@ -43,20 +43,22 @@
       "endLine": 41,
       "source": "memory",
       "snippet": "## Sesión晚 - 22 de Marzo 2026 (mañana) ### Agendacron activa - **08:00** - Agenda diaria (hoy + mañana) → Telegram.jobId: fdf24669-b011-4520-a5c1-734b60d53f24 - **09:00** - Santos diarios - **Cada 30 min** - Check Gmail - **Cada 6h** - Auto-commit workspace - **Clima Utrera 07:30** - Deshabilitada (timeout) ### Catastro - Nuevo CLI completo - Creado `catastro_full.py` que combina API + web scraping de sedecatastro.gob.es - Descubre la superficie de la parcela (dato que la API no devuelve en producción) - Ubicación: `/home/gerion/.local/bin/catastro_full` - Skills: `skills/catastro/SKILL.md` - Commits: dd34f74, 8fd02c8 ### Consultas catastro hechas hoy - Calle Gorri 14 Utrera → Ref 399100",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.9744733840227127,
+      "totalScore": 1.4324256628751755,
       "maxScore": 0.4960891872644424,
       "firstRecalledAt": "2026-04-23T08:00:03.633Z",
-      "lastRecalledAt": "2026-05-03T18:05:59.450Z",
+      "lastRecalledAt": "2026-06-12T02:29:30.645Z",
       "queryHashes": [
         "d7953501dbf9",
-        "d5eee2f31df4"
+        "d5eee2f31df4",
+        "cfb039e5bf7e"
       ],
       "recallDays": [
         "2026-04-23",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-06-12"
       ],
       "conceptTags": [
         "telegram.jobid",
@@ -253,6 +255,68 @@
         "modelo",
         "actual",
         "minimax"
+      ]
+    },
+    "memory:memory/2026-04-23.md:26:58": {
+      "key": "memory:memory/2026-04-23.md:26:58",
+      "path": "memory/2026-04-23.md",
+      "startLine": 26,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "- 4 features multifeature empeoró resultados → volver a solo returns ## Auto-commit - Cron: session=main, delivery=not-requested - Prompt minimalista: solo `cd ~/.openclaw/workspace && git add -A && git commit -m \"auto-commit\"` (sin LLM) ## Pinball v5 - gravity 0.28, flipper impulse 80px, min vertical speed 2 - Bug: a veces la bola se queda flotando ## Crons activos - Santos Diarios: cada 30 min (session=main, delivery=announce, systemEvent=SANTOS_TRIGGER) - Auto-commit: cada 6h (session=main, delivery=not-requested) - Check Gmail: cada 30 min (solo notifica si nuevos) - Agenda 08:00: Telegram ## Élan Forensic — Deck Cero Energético Ibérico v2 ### Archivos creados - Deck HTML: `/home/ger",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4754511564970016,
+      "maxScore": 0.4754511564970016,
+      "firstRecalledAt": "2026-06-12T02:29:30.645Z",
+      "lastRecalledAt": "2026-06-12T02:29:30.645Z",
+      "queryHashes": [
+        "cfb039e5bf7e"
+      ],
+      "recallDays": [
+        "2026-06-12"
+      ],
+      "conceptTags": [
+        "auto-commit",
+        "not-requested",
+        "openclaw/workspace",
+        "0.28",
+        "santos-trigger",
+        "home/ger",
+        "features",
+        "multifeature"
+      ]
+    },
+    "memory:memory/2025-02-16.md:1:15": {
+      "key": "memory:memory/2025-02-16.md:1:15",
+      "path": "memory/2025-02-16.md",
+      "startLine": 1,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "# 2025-02-16 ## GitHub Push - Archivo grande (>100MB) - **Problema:** El archivo `skills/notebooklm-skill/.venv/lib/python3.10/site-packages/patchright/driver/node` (114 MB) exceedía el límite de GitHub - **Solución:** Usé `git filter-branch` para eliminar todo el directorio `.venv` del historial de Git - **Resultado:** Push forzado completado con éxito ## Estado actual - GitHub push resuelto - NotebookLM CLI instalado en `/home/gerion/.nvm/versions/node/v24.13.0/bin/notebooklm` - Playwright instalado en `/home/gerion/.cache/ms-playwright/` - Autenticación de NotebookLM bloqueada (falta servidor X para login visual)",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.46108335852622984,
+      "maxScore": 0.46108335852622984,
+      "firstRecalledAt": "2026-06-12T02:29:30.645Z",
+      "lastRecalledAt": "2026-06-12T02:29:30.645Z",
+      "queryHashes": [
+        "cfb039e5bf7e"
+      ],
+      "recallDays": [
+        "2026-06-12"
+      ],
+      "conceptTags": [
+        "skills/notebooklm-skill",
+        "filter-branch",
+        "home/gerion",
+        "cache/ms-playwright",
+        "github",
+        "push",
+        "archivo",
+        "grande"
       ]
     }
   }
