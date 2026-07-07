@@ -174,6 +174,33 @@ curl -s "http://localhost:9377/tabs/{tabId}/navigate" -X POST \
 - Docs API: http://localhost:9377/docs
 - Spec OpenAPI: http://localhost:9377/openapi.json
 
+## Agent Loops (Filosofía "Getting started with loops")
+
+**Skill:** `skills/agent-loops/SKILL.md` — usarla SIEMPRE que Paduel pida automatizar algo recurrente o convertir un flujo manual en loop.
+
+**Idea nuclear:** No prompt-and-pray. Diseña un loop con 3 cosas claras:
+1. **Trigger** (qué lo dispara)
+2. **Verificación** (cómo sabe que el trabajo quedó bien — gate automático, no fe)
+3. **Stop condition** (cuándo para — sin esto, iterará hasta reventar)
+
+**Reglas críticas:**
+- Si no puedes definir las 3 → no es loop, sigue manual
+- Primer loop: pequeño, un solo propósito, muy supervisado
+- Loop sin budget (max iteraciones/tiempo) = bomba de tokens
+- Loop creativo (copy, decisiones, hablar con gente) → NO loop
+- Conectar dos loops sin gate humano = debugging nightmare
+
+**Loop primitives en OpenClaw:**
+- `cron` con `sessionTarget=isolated` (sesión fresca por iteración)
+- `failureAlert` (escala al humano si falla N veces)
+- Skills específicas como herramientas del loop
+- MEMORY.md como estado entre iteraciones (no pasar entero, solo lo necesario)
+
+**Loops buenos actuales:** santos 09:00, agenda 08:00, auto-commit 6h.
+**Loops tontos a mejorar:** check Gmail (sin verificación real, puede duplicar).
+
+**Referencias:** @ClaudeDevs "Getting started with loops" (7 jul 2026), Eric Tech "Loop engineering" (jun 2026).
+
 ## Vocabulario Arquitectura Código (Matt Pocock)
 
 De: https://github.com/mattpocock/skills/blob/main/improve-codebase-architecture/LANGUAGE.md

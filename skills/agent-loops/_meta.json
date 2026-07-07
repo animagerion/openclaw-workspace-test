@@ -1,0 +1,6 @@
+{
+  "created": "2026-07-07",
+  "source": "@ClaudeDevs 'Getting started with loops' (7 julio 2026) + Eric Tech 'Loop engineering'",
+  "purpose": "Skill para diseñar y montar loops agentic con verificación y stop conditions claras",
+  "related": ["MEMORY.md (sección Agent Loops)"]
+}
